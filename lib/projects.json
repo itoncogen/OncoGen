@@ -1,0 +1,542 @@
+{
+    "projects": [
+        {
+            "slug": "mountadapt",
+            "title": "MountAdapt — Soluții de adaptare la schimbările climatice în regiuni montane",
+            "shortTitle": "MOUNTADAPT",
+            "description": "MOUNTADAPT testează și livrează soluții operaționale pentru reziliența comunităților montane, combinând monitorizare ambientală, prognoze și instrumente pentru răspunsul în sănătate publică",
+            "category": "HORIZON Programme",
+            "duration": "36 luni",
+            "budget": "5.851.011,88 EUR",
+            "coordinator": "Universitatea din Salzburg",
+            "call": "HORIZON-MISS-2023-CLIMA-01",
+            "overview": "Proiectul MOUNTADAPT reunește autorități regionale, soluții tehnologice și parteneri din sănătate pentru a proiecta, testa și replica măsuri de adaptare la schimbările climatice în regiunile montane din Europa. Activitățile acoperă: monitorizare pe termen lung, integrarea prognozelor pentru avertizare timpurie, instrumente de management al urgențelor în sistemele de sănătate și pachete de replicare pentru autorități.",
+            "role": "Centrul OncoGen-SCJUT Timișoara coordonează WP4 (Upscaling & Replication) și contribuie cu expertiză în analiza datelor de mediu și legătura cu sănătatea publică, sprijin pentru replicare locală și dezvoltare de materiale de training pentru profesioniști.",
+            "objectives": [
+                "Dezvoltarea de instrumente pentru monitorizare și avertizare",
+                "Pilotare în regiuni montane din România, Austria, Slovenia și Franța",
+                "Ghiduri de replicare și cursuri pentru profesioniști în sănătate"
+            ],
+            "results": [
+                "Platformă de management al riscului și alocare de resurse",
+                "Set de bune practici pentru autorități locale",
+                "Materiale de training și campanii pentru comunități"
+            ],
+            "keywords": [
+                "Adaptare la schimbări climatice",
+                "Sănătate publică",
+                "Monitorizare ambientală",
+                "Reziliență regională",
+                "Management de urgență"
+            ],
+            "relatedProjects": [
+                "rosecan"
+            ]
+        },
+        {
+            "slug": "car-nk",
+            "title": "PROIECTUL CAR-NK",
+            "shortTitle": "CAR-NK",
+            "description": "Primul proiect românesc care avansează ingineria genetică a celulelor sistemului imun pentru tratamentul cancerului, prin dezvoltarea terapiei bazate pe celule CAR-NK.",
+            "category": "Cercetare Fundamentală și Translațională",
+            "duration": "51 de luni",
+            "coordinator": "OncoGen – Spitalul Clinic Județean de Urgență “Pius Brânzeu” Timișoara",
+            "coordinatorLabel": "Partener",
+            "call": "Contract de finanțare nr. 32 din data de 01.09.2016",
+            "callLabel": "Contract de finanțare",
+            "overview": "CAR-NK dezvoltă și validează imunoterapii personalizate bazate pe celule Natural Killer modificate genetic cu receptori de antigen chimeric (CAR), capabile să recunoască ținte specifice de pe celulele maligne. Proiectul consolidează în România infrastructura și expertiza pentru cercetare avansată în onco-imunologie.",
+            "role": "Echipa OncoGen coordonează dezvoltarea fluxurilor de inginerie celulară, transducție virală și validare funcțională pentru celule CAR-NK, cu focus pe transferul rezultatelor către aplicații terapeutice.",
+            "objectives": [
+                "Dezvoltarea activității de cercetare și inovare în onco-imunologie folosind expertiză locală și internațională",
+                "Dezvoltarea de imunoterapii avansate și personalizate pentru tipuri variate de cancer, bazate pe celule CAR-NK",
+                "Crearea primei bănci de celule umane CAR-NK “off the shelf” (disponibile la raft)"
+            ],
+            "results": [
+                "Generarea populațiilor de celule NK efectoare din celule sanguine mononucleare periferice de la donatori sănătoși",
+                "Dezvoltarea unei proceduri de creștere a ratei de proliferare a celulelor NK activate",
+                "Transducția celulelor NK activate cu vectori anti-EGFR-CAR",
+                "Creșterea capacității citotoxice împotriva liniilor celulare EGFR+ (MDA-MB468 și SK-BR-3)"
+            ],
+            "keywords": [
+                "Imunoterapie",
+                "CAR-NK",
+                "Oncologie",
+                "Celule Natural Killer",
+                "Terapii Avansate"
+            ],
+            "externalLinks": [
+                {
+                    "label": "At a glance",
+                    "url": "https://carnk.oncogen.ro/en/at-a-glance/"
+                },
+                {
+                    "label": "Detalii proiect (PDF)",
+                    "url": "https://oncogen.ro/wp-content/uploads/2023/08/DETALII-PROIECT-CAR-NK.pdf"
+                },
+                {
+                    "label": "Anunț finalizare proiect (PDF)",
+                    "url": "https://oncogen.ro/wp-content/uploads/2023/08/ANUNT-FINALIZARE-PROIECT-CAR-NK.pdf"
+                }
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "rosecan",
+            "title": "PROIECTUL ROSECAN",
+            "shortTitle": "ROSECAN",
+            "description": "Inițiativa comună România–Serbia pentru îmbunătățirea diagnosticului și tratamentului tumorilor maligne în regiunea transfrontalieră.",
+            "category": "Interreg-IPA CBC România–Serbia",
+            "duration": "42 luni (+ prelungire 10 luni)",
+            "budget": "12.000.000 EUR (3.000.000 EUR alocați OncoGen)",
+            "coordinator": "Spitalul General Požarevac (lider proiect)",
+            "coordinatorLabel": "Coordonator",
+            "call": "93360/28.07.2017",
+            "callLabel": "Contract",
+            "overview": "ROSECAN dezvoltă infrastructura oncologică regională și colaborarea medicală dintre România și Serbia pentru diagnostic și tratament oncologic de înaltă calitate, prin modernizare tehnologică și integrare de date clinice.",
+            "role": "OncoGen (SCJUT “Pius Brînzeu” Timișoara) implementează componenta de diagnostic molecular avansat, inclusiv tehnologie NGS și platformă software pentru schimb rapid de date medicale între parteneri.",
+            "objectives": [
+                "Creșterea accesului pacienților la servicii oncologice moderne în regiunea transfrontalieră",
+                "Implementarea diagnosticului molecular de precizie și orientare terapeutică în cancer",
+                "Dezvoltarea cooperării clinice România–Serbia prin platforme digitale și fluxuri integrate"
+            ],
+            "results": [
+                "Echipamente medicale și IT achiziționate la OncoGen (aprox. 2,3 milioane EUR)",
+                "Platformă software specializată pentru schimbul de informații oncologice între parteneri",
+                "Capacitate extinsă pentru screening, prevenție și decizii terapeutice prin NGS"
+            ],
+            "keywords": [
+                "Oncologie transfrontalieră",
+                "Diagnostic molecular",
+                "NGS",
+                "Interreg",
+                "Cooperare România–Serbia"
+            ],
+            "externalLinks": [
+                {
+                    "label": "Site proiect ROSECAN",
+                    "url": "http://www.rosecan.rs/home.html"
+                },
+                {
+                    "label": "Detalii proiect (PDF)",
+                    "url": "https://oncogen.ro/wp-content/uploads/2023/08/DETALII-PROIECT-ROSECAN.pdf"
+                }
+            ],
+            "relatedProjects": [
+                "mountadapt"
+            ]
+        },
+        {
+            "slug": "nanocel",
+            "title": "PROIECTUL NANOCEL",
+            "shortTitle": "NANOCEL",
+            "description": "Evaluarea nanoparticulelor de magnetită (Fe3O4) ca instrument pentru investigarea mecanismelor de moarte celulară și a comportamentului tumoral.",
+            "category": "Nanomedicină",
+            "duration": "2016 – 2017",
+            "budget": "135.000 RON",
+            "coordinator": "Universitatea de Medicină și Farmacie “Victor Babeș” Timișoara",
+            "call": "PIII-C4-PCFI-2016/2017-03",
+            "callLabel": "Nr. proiect",
+            "overview": "Proiectul NANOCEL investighează efectele nanoparticulelor magnetice Fe3O4 asupra celulelor tumorale și a micromediului tumoral, atât in vitro, cât și in vivo, pentru a identifica mecanisme noi de moarte celulară și noi direcții terapeutice.",
+            "objectives": [
+                "Caracterizarea morfologică, fenotipică, genotipică și funcțională a celulelor tumorale în prezența Fe3O4",
+                "Evaluarea mecanismelor de moarte celulară induse de nanoparticule",
+                "Identificarea markerilor rezultați din interacțiunea celulelor tumorale cu micromediul",
+                "Validarea in vivo a capacității celulelor expuse la nanoparticule de a forma tumori"
+            ],
+            "results": [
+                "Metode SEM, TEM, flowcitometrice și imunocitochimice validate pentru evaluarea efectului MNP",
+                "Protocoale de co-cultură tumorală și panel de markeri pentru celule tratate cu MNP",
+                "Protocoale pentru marcare GFP și formare tumorală la șoareci CD1 Nu/Nu"
+            ],
+            "keywords": [
+                "Nanomedicină",
+                "Nanoparticule Fe3O4",
+                "Oncologie",
+                "Moarte celulară tumorală",
+                "Modele in vivo"
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "delimit",
+            "title": "PROIECTUL DELIMIT",
+            "shortTitle": "DELIMIT",
+            "description": "Dezvoltarea și validarea modelelor tumorale 3D bioprintate care mimează micromediul tumoral pentru testare preclinică.",
+            "category": "PED – Bioimprimare 3D",
+            "duration": "18 luni",
+            "coordinator": "Spitalul Clinic Județean de Urgență “Pius Brînzeu” Timișoara – OncoGen",
+            "call": "100PED/03.01.2017",
+            "callLabel": "Contract de finanțare",
+            "overview": "DELIMIT urmărește realizarea de constructe tisulare tridimensionale care reproduc structura și funcția micromediului tumoral, utilizând biotipărire 3D și modele multicelulare pentru aplicații în cercetarea oncologică.",
+            "role": "OncoGen coordonează implementarea proiectului împreună cu partenerul UMF “Victor Babeș” Timișoara, de la dezvoltare modele in vitro până la validare in vivo și simulare computațională.",
+            "objectives": [
+                "Generarea de sferoizi tumorali de cancer mamar și colon și modele multicelulare bioprintate",
+                "Caracterizarea in vitro morfologică, fenotipică, genotipică și funcțională a modelelor",
+                "Validarea in vivo a modelului tumoral optim bioprintat 3D",
+                "Modelarea computațională a rearanjării celulare după biotipărire"
+            ],
+            "results": [
+                "Metodologie validată pentru bioprintare 3D a modelelor tumorale toroidale și triplu-stratificate",
+                "Model tumoral triplu-stratificat validat in vivo pe șoareci CD1 Nu/Nu",
+                "Modele computaționale și programe G-code pentru simularea și fabricarea structurilor tisulare"
+            ],
+            "keywords": [
+                "Bioprintare 3D",
+                "Micromediu tumoral",
+                "Biologie Tumorală",
+                "Modelare computațională",
+                "Validare in vivo"
+            ],
+            "externalLinks": [
+                {
+                    "label": "Detalii proiect (PDF)",
+                    "url": "https://oncogen.ro/wp-content/uploads/2023/09/DETALII-PROIECT-DeLIMIT.pdf"
+                }
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "adipogeneza",
+            "title": "Diferențierea in Vitro a Celulelor Stem Mezenchimale",
+            "shortTitle": "ADIPOGENEZA",
+            "description": "Studii privind diferențierea in vitro a celulelor stem mezenchimale spre linia adipocitară și validarea factorilor moleculari implicați în adipogeneză.",
+            "category": "Cercetare fundamentală și biologie celulară",
+            "duration": "2009 – 2011",
+            "budget": "1.000.000 RON",
+            "coordinator": "Universitatea de Medicină și Farmacie “Victor Babeș” din Timișoara",
+            "call": "ID 1748/2008",
+            "callLabel": "Nr. proiect",
+            "overview": "Proiectul a analizat sistematic factorii moleculari implicați în adipogeneză, de la izolarea MSC și optimizarea diferențierii adipocitare până la identificarea markerilor cheie prin microarray și validare funcțională.",
+            "objectives": [
+                "Determinarea condițiilor optime pentru diferențierea MSC spre linia adipocitară",
+                "Validarea mecanismelor moleculare și a controlului transcripțional implicate în adipogeneză",
+                "Evaluarea și corelarea markerilor adipocitari în contextul obezității",
+                "Optimizarea protocoalelor de transfecție și inhibiție a adipogenezei"
+            ],
+            "results": [
+                "Model conceptual pentru identificarea grupelor de gene implicate în adipogeneză",
+                "Protocol de identificare genică prin tehnica microarray",
+                "Protocol de obținere a miARN și protocoale de transfecție",
+                "Hartă genică a principalelor gene adipocitare"
+            ],
+            "keywords": [
+                "Celule Stem",
+                "Adipogeneza",
+                "MSC",
+                "Microarray",
+                "Biologie moleculară"
+            ],
+            "externalLinks": [
+                {
+                    "label": "TAF Research",
+                    "url": "http://www.taf-research.ro/"
+                }
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "healthy-pregnancy",
+            "title": "HEALTHY-PREGNANCY RO-HU",
+            "shortTitle": "HEALTHY-PREGNANCY",
+            "description": "Proiect transfrontalier România–Ungaria pentru screening, diagnostic și prevenție în infertilitate, sănătatea sarcinii și îngrijirea nou-născutului.",
+            "category": "Interreg V-A România–Ungaria",
+            "duration": "30 de luni (01.05.2021 – 31.10.2023)",
+            "budget": "2.492.080,65 EUR",
+            "coordinator": "Universitatea din Szeged",
+            "coordinatorLabel": "Lider parteneriat",
+            "call": "90312/27.07.2021",
+            "callLabel": "Contract de finanțare",
+            "overview": "HEALTHY-PREGNANCY RO-HU modernizează serviciile medicale preventive și curative în zona transfrontalieră, cu accent pe infertilitate, diagnostic pre-concepție/prenatal/postnatal și reducerea inechităților în sănătate.",
+            "role": "Partenerii proiectului sunt Universitatea din Szeged, Biroul Guvernamental al județului Csongrád-Csanád și SCJUT “Pius Brînzeu” Timișoara, prin investiții în infrastructură, modernizare de laboratoare și transfer de know-how.",
+            "objectives": [
+                "Îmbunătățirea serviciilor de screening, diagnostic și prevenție în microbiologie și genetică",
+                "Dezvoltarea infrastructurii de diagnostic prin reconstrucție de laboratoare și echipamente moderne",
+                "Implementarea de metode noi și schimburi de experiență între partenerii RO-HU"
+            ],
+            "results": [
+                "Platformă transfrontalieră consolidată pentru servicii medicale materno-fetale",
+                "Capacitate crescută pentru diagnostic preconcepțional, prenatal și postnatal",
+                "Fluxuri de cooperare clinică și transfer de cunoștințe între parteneri"
+            ],
+            "keywords": [
+                "Obstetrie",
+                "Diagnostic Prenatal",
+                "Sănătate Maternală",
+                "Cooperare Transfrontalieră",
+                "Biomarkeri"
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "fibroblastele",
+            "title": "Fibroblastele Peri-Tumorale",
+            "shortTitle": "FIBROBLASTELE",
+            "description": "Fibroblastele peri-tumorale ca țintă nouă în terapia anti-tumorală: identificarea originii, rolului și markerilor moleculari caracteristici.",
+            "category": "Oncologie fundamentală",
+            "duration": "2011 – 2016",
+            "coordinator": "Universitatea de Medicină și Farmacie “Victor Babeș” din Timișoara",
+            "call": "ID 319/2011",
+            "callLabel": "Nr. proiect",
+            "overview": "Proiectul investighează rolul fibroblastelor asociate tumoral (TAF) în progresia cancerului și în evaziunea imună, cu scopul de a identifica markeri specifici și strategii terapeutice complementare anti-tumorale.",
+            "objectives": [
+                "Optimizarea izolării și cultivării TAF din tumori solide",
+                "Identificarea markerilor morfologici și funcționali specifici TAF",
+                "Compararea caracteristicilor genetice dintre MSC și TAF",
+                "Dezvoltarea metodelor de izolare a limfocitelor T citotoxice active anti-TAF"
+            ],
+            "results": [
+                "Identificarea expresiei markerilor MSC-like și CD26 la nivelul TAF",
+                "Izolarea limfocitelor T CD8+ active anti-FAP și evaluarea efectului asupra TAF",
+                "Dovezi experimentale pentru efect citotoxic limfocitar direcționat împotriva TAF"
+            ],
+            "keywords": [
+                "Micromediul Tumoral",
+                "Fibroblaste",
+                "TAF",
+                "Imunoterapie celulară",
+                "Crosstalk Tumor-Stromal"
+            ],
+            "externalLinks": [
+                {
+                    "label": "TAF Research",
+                    "url": "http://www.taf-research.ro/"
+                }
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "decode",
+            "title": "DECODE - Vaccin COVID-19 Peptidic",
+            "shortTitle": "DECODE",
+            "description": "Dezvoltarea unui vaccin peptidic profilactic pentru COVID-19 cu aplicabilitate la om",
+            "category": "Finanțare Națională",
+            "duration": "18 luni",
+            "budget": "Program SOLUȚII 2020",
+            "coordinator": "Spitalul Clinic Județean de Urgență “Pius Brînzeu” Timișoara – Centrul OncoGen",
+            "call": "Nr. 11Sol/2020",
+            "callLabel": "Contract de finanțare",
+            "overview": "DECODE dezvoltă un vaccin peptidic profilactic anti-SARS-CoV-2 bazat pe peptide sintetice lungi (SLP), selectate pe imunofenotip populațional, cu validare preclinică și pregătire pentru studii clinice.",
+            "role": "Proiect derulat în parteneriat cu Institutul Național de Cercetare-Dezvoltare Medico-Militară “Cantacuzino”, cu focus pe studii in vitro/in vivo și documentație pentru faza clinică I/II.",
+            "objectives": [
+                "Dezvoltarea unui candidat vaccinal eficient împotriva SARS-CoV-2 și a unor adjuvanți siguri",
+                "Realizarea studiilor in vivo pe modele animale pentru elucidarea mecanismelor etiopatogenice",
+                "Elaborarea documentației pentru studii clinice de faza I/II",
+                "Utilizarea unei strategii vaccinale SLP capabile să activeze limfocite T helper, T citotoxice și limfocite B"
+            ],
+            "results": [
+                "Set de peptide sintetice lungi (SLP) derivate din proteina S pentru platforma vaccinală",
+                "Flux de validare preclinică in vitro/in vivo pentru candidat vaccinal",
+                "Bază de date și documentație tehnică pentru continuarea dezvoltării clinice"
+            ],
+            "keywords": [
+                "Vaccin COVID-19",
+                "Peptide",
+                "Imunoterapie",
+                "Virusologie",
+                "Sănătate Publică"
+            ],
+            "externalLinks": [
+                {
+                    "label": "Detalii proiect (PDF)",
+                    "url": "https://oncogen.ro/wp-content/uploads/2023/08/DETALII-PROIECT-DECODE.pdf"
+                }
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "biovea",
+            "title": "PROIECTUL BIOVEA",
+            "shortTitle": "BIOVEA",
+            "description": "Dezvoltarea de bionanotehnologii bazate pe vezicule extracelulare pentru diagnosticul precoce, prognostic și terapii în boala aterosclerotică.",
+            "category": "PCCDI – Bionanotehnologii biomedicale",
+            "duration": "42 de luni",
+            "budget": "5.287.500 RON",
+            "coordinator": "Institutul de Biologie și Patologie Celulară “Nicolae Simionescu”",
+            "coordinatorLabel": "Coordonator consorțiu",
+            "call": "83PPCCDI/2018",
+            "callLabel": "Contract de finanțare",
+            "overview": "BIOVEA urmărește dezvoltarea și validarea unor aplicații diagnostice și terapeutice bazate pe vezicule extracelulare circulante, pentru boala aterosclerotică coronariană.",
+            "role": "OncoGen participă în consorțiul național alături de institute și universități medicale pentru dezvoltarea de tehnologii transferabile în practica clinică.",
+            "objectives": [
+                "Identificarea veziculelor extracelulare circulante ca biomarkeri pentru boala aterosclerotică",
+                "Validarea VEC pentru diagnostic precoce și prognostic la om",
+                "Stabilirea sursei celulare optime pentru generarea in vitro de VEC cu potențial terapeutic",
+                "Explorarea potențialului terapeutic al VEC în modele experimentale de hipertrofie cardiacă și ateroscleroză"
+            ],
+            "results": [
+                "Obținerea și caracterizarea ADSC și BM-MSC pentru definirea sursei optime de exozomi/microparticule",
+                "Procedeu de obținere a veziculelor extracelulare modificate genetic",
+                "Proceduri in vivo pentru urmărirea biodistribuției și validarea terapeutică a VEC"
+            ],
+            "keywords": [
+                "Vezicule Extracelulare",
+                "Ateroscleroză",
+                "Biomarkeri",
+                "Bionanotehnologii",
+                "Diagnostic precoce"
+            ],
+            "externalLinks": [
+                {
+                    "label": "Detalii proiect (PDF)",
+                    "url": "https://oncogen.ro/wp-content/uploads/2023/08/DETALII-PROIECT-BIOVEA.pdf"
+                }
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "bioprintare",
+            "title": "PROIECT BIOPRINTARE",
+            "shortTitle": "BIOPRINTARE",
+            "description": "Dezvoltarea și validarea experimentală a software-ului pentru bioimprimare 3D de modele tisulare tumorale",
+            "category": "Postdoc – Biofabrication",
+            "duration": "2020 – 2022",
+            "budget": "45.300 EUR",
+            "coordinator": "Universitatea de Medicină și Farmacie “Victor Babeș” Timișoara",
+            "call": "1POSTDOC/1310/31.01.2020",
+            "callLabel": "Nr. proiect",
+            "overview": "Proiectul dezvoltă pachete software Python pentru generarea automată de G-code și optimizarea bioimprimării 3D a modelelor tumorale toroidale și triplu-stratificate.",
+            "role": "Partener în proiect: SCJUT “Pius Brînzeu” Timișoara. Activitățile includ validare experimentală a procesului de bioimprimare și caracterizare in vitro a modelelor tumorale.",
+            "objectives": [
+                "Adaptarea codurilor G-code de la Cellink Inkredible la Cellink Bio X",
+                "Dezvoltarea programelor Python pentru geometrii flexibile toroidale și triplu-stratificate",
+                "Optimizarea procesului de biotipărire 3D pe Bio X",
+                "Optimizarea programelor open-source pentru utilizare în biotipărire",
+                "Biotipărirea și caracterizarea modelelor tumorale"
+            ],
+            "results": [
+                "Pachete software pentru generare G-code și tipărire reproductibilă a structurilor",
+                "Validare dimensională și morfologică a constructelor toroidale și triplu-stratificate",
+                "Metodologie pentru tipărire pe plăci multi-well și monitorizare evoluție in vitro"
+            ],
+            "keywords": [
+                "Bioprintare 3D",
+                "Inginerie Tisulară",
+                "Modele Tumorale",
+                "Python",
+                "G-code"
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "biomarkeri",
+            "title": "Biomarkeri și Strategii Terapeutice",
+            "shortTitle": "BIOMARKERI",
+            "description": "Noi biomarkeri și strategii terapeutice în imunosenescență și imunosenescența asociată bolii Alzheimer.",
+            "category": "Cercetare biomedicală translatională",
+            "duration": "2011 – 2016",
+            "budget": "1.500.000 RON",
+            "coordinator": "Universitatea de Medicină și Farmacie “Victor Babeș” din Timișoara",
+            "call": "ID 259/2011",
+            "callLabel": "Nr. proiect",
+            "overview": "Proiectul vizează dezvoltarea de biomarkeri celulari și serologici pentru definirea imunosenescenței și a formelor asociate bolii Alzheimer, cu impact direct în diagnostic și strategii terapeutice imunomodulatoare.",
+            "objectives": [
+                "Definirea statusului de imunosenescență prin biomarkeri celulari și serologici noi",
+                "Caracterizarea proliferării, apoptozei și stresului oxidativ în subpopulații limfocitare",
+                "Definirea imunosenescenței asociate bolii Alzheimer în stadii clinice și prodromale",
+                "Explorarea strategiilor terapeutice imunomodulatoare"
+            ],
+            "results": [
+                "Metodă flowcitometrică pentru măsurarea lungimii telomerelor",
+                "Metode de analiză a subpopulațiilor limfocitare la subiecți control și pacienți Alzheimer",
+                "Protocol de inhibare hTERT cu siRNA și secvențiere hTERT/hTERC"
+            ],
+            "keywords": [
+                "Biomarkeri",
+                "Imunosenescență",
+                "Alzheimer",
+                "Telomeri",
+                "Imunomodulare"
+            ],
+            "externalLinks": [
+                {
+                    "label": "BioThera",
+                    "url": "http://www.biothera.ro/"
+                }
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "inspired",
+            "title": "INSPIRED - Alergeni Recombinate",
+            "shortTitle": "INSPIRED",
+            "description": "Strategii inovative pentru prevenția, diagnosticul și terapia afecțiunilor respiratorii induse de polenul de ambrozie.",
+            "category": "Alergologie și imunologie",
+            "duration": "48 de luni",
+            "coordinator": "OncoGen – Spitalul Clinic Județean de Urgență “Pius Brânzeu” Timișoara",
+            "coordinatorLabel": "Partener",
+            "call": "Contract 92 din data de 09.09.2016",
+            "callLabel": "Contract de finanțare",
+            "overview": "INSPIRED dezvoltă alergene recombinate pentru diagnostic molecular precis și personalizarea imunoterapiei la pacienții alergici la ambrozie, inclusiv evaluarea vaccinurilor comerciale existente.",
+            "objectives": [
+                "Dezvoltarea unui kit de diagnostic bazat pe alergene recombinate pentru alergia la ambrozie",
+                "Personalizarea terapiilor prin profilare alergologică la nivel de componentă",
+                "Evaluarea vaccinurilor comerciale cu alergene de ambrozie pentru predicția răspunsului clinic"
+            ],
+            "results": [
+                "Panel de 9 alergene recombinate produse și validate în proiect",
+                "Profiluri IgE diferențiale demonstrate prin ELISA și ImmunoCAP",
+                "Bază tehnologică pentru integrarea alergenelor pe chip de diagnostic"
+            ],
+            "keywords": [
+                "Alergeni",
+                "Imunoterapie",
+                "Alergologie",
+                "Proteină Recombinantă",
+                "Hipersensibilitate"
+            ],
+            "externalLinks": [
+                {
+                    "label": "Site proiect INSPIRED",
+                    "url": "http://inspired.oncogen.ro/"
+                },
+                {
+                    "label": "Detalii proiect (PDF)",
+                    "url": "https://oncogen.ro/wp-content/uploads/2023/08/DETALII-PROIECT-INSPIRED.pdf"
+                },
+                {
+                    "label": "Anunț finalizare proiect (PDF)",
+                    "url": "https://oncogen.ro/wp-content/uploads/2023/08/ANUNT-FINALIZARE-PROIECT-INSPIRED.pdf"
+                }
+            ],
+            "relatedProjects": []
+        },
+        {
+            "slug": "bio-amr",
+            "title": "BIO-AMR - Rezistența Antimicrobiene",
+            "shortTitle": "BIO-AMR",
+            "description": "Abordarea bioeconomică a agenților antimicrobieni – utilizare și rezistență (BIO-AMR).",
+            "category": "Proiecte complexe în consorții RDI – Bioeconomie",
+            "duration": "42 de luni",
+            "coordinator": "USAMVB Timișoara",
+            "coordinatorLabel": "Coordonator consorțiu",
+            "call": "7 PCDDI/2018",
+            "callLabel": "Contract de finanțare",
+            "overview": "BIO-AMR abordează integrat rezistența antimicrobiană prin colaborare între instituții medicale, universitare și veterinare, pentru reducerea riscului de apariție și răspândire a rezistenței și creșterea siguranței pacienților.",
+            "role": "Parteneriatul include USAMVB Timișoara, SCJUT “Pius Brînzeu” – OncoGen, UVT, UBB și ICDP Brașov, cu activități comune de laborator, analiză moleculară și dezvoltare de modele experimentale.",
+            "objectives": [
+                "Analiza transversală a rezistenței antimicrobiene în medii clinice și veterinare",
+                "Reducerea riscului de apariție și răspândire a fenomenului de rezistență",
+                "Îmbunătățirea siguranței pacienților prin instrumente moderne de monitorizare și intervenție"
+            ],
+            "results": [
+                "Fluxuri validate de izolare, cultivare și identificare a germenilor de interes",
+                "Analize metabolice și moleculare pentru profilarea rezistenței antimicrobiene",
+                "Modele experimentale in vitro și in vivo pentru evaluarea agenților antimicrobieni"
+            ],
+            "keywords": [
+                "Rezistență Antimicrobiană",
+                "Microbiologie",
+                "Infecțiologie",
+                "Antibiotice",
+                "Bioeconomie"
+            ],
+            "externalLinks": [
+                {
+                    "label": "Detalii proiect (PDF)",
+                    "url": "https://oncogen.ro/wp-content/uploads/2023/08/DETALII-PROIECT-BIO-AMR.pdf"
+                }
+            ],
+            "relatedProjects": []
+        }
+    ]
+}
