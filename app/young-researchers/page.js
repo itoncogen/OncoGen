@@ -128,9 +128,9 @@ export default function YoungResearchersPage() {
                         </div>
                     </div>
                     <div className="section-cta">
-                        <a href="https://oncogen.ro/ro/young-researchers/" target="_blank" rel="noreferrer" className="btn btn-secondary">
+                        <Link href="/young-researchers" className="btn btn-secondary">
                             Sursa originală a informațiilor
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>

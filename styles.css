@@ -1652,11 +1652,24 @@ body {
 }
 
 .map-placeholder {
-    background-color: #e0e0e0;
+    background-color: var(--white);
     border-radius: 8px;
-    padding: 100px;
-    text-align: center;
+    padding: 0;
+    text-align: left;
     color: var(--dark-gray);
+    overflow: hidden;
+}
+
+.map-placeholder iframe {
+    display: block;
+    width: 100%;
+    min-height: 420px;
+}
+
+.map-address {
+    margin: 0;
+    padding: 14px 20px;
+    font-size: 14px;
 }
 
 /* ========================================

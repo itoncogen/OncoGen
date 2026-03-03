@@ -1,5 +1,13 @@
 import Link from 'next/link';
+import projects from '../lib/projects.json';
+
+const featuredProjectOrder = ['car-nk', 'decode', 'inspired', 'rosecan', 'delimit', 'nanocel'];
+
 export default function Home() {
+    const featuredProjects = featuredProjectOrder
+        .map((slug) => projects.projects.find((project) => project.slug === slug))
+        .filter(Boolean);
+
     return (
         <>
 
@@ -29,7 +37,7 @@ export default function Home() {
                     <div className="videos-grid">
                         <div className="video-card" >
                             <div className="video-thumbnail">
-                                <img src="/images/slide01_v6_A2.jpg" alt="Video 1" />
+                                <img src="/images/poza-sequence-galerie-video-oncogen.jpg" alt="Video 1" />
                                 <div className="video-overlay">
                                     <div className="play-button">▶</div>
                                 </div>
@@ -41,7 +49,7 @@ export default function Home() {
                         <div className="video-card"
                         >
                             <div className="video-thumbnail">
-                                <img src="/images/slide01_v6_A2.jpg" alt="Video 2" />
+                                <img src="/images/heart-decellularization-oncogen.jpg" alt="Video 2" />
                                 <div className="video-overlay">
                                     <div className="play-button">▶</div>
                                 </div>
@@ -51,7 +59,7 @@ export default function Home() {
 
                         <div className="video-card" >
                             <div className="video-thumbnail">
-                                <img src="/images/slide01_v6_A2.jpg" alt="Video 3" />
+                                <img src="/images/3D-printing-blood-vessel.jpg" alt="Video 3" />
                                 <div className="video-overlay">
                                     <div className="play-button">▶</div>
                                 </div>
@@ -61,7 +69,7 @@ export default function Home() {
 
                         <div className="video-card" >
                             <div className="video-thumbnail">
-                                <img src="/images/slide01_v6_A2.jpg" alt="Video 4" />
+                                <img src="/images/3D-printing-tumors-oncogen.jpg" alt="Video 4" />
                                 <div className="video-overlay">
                                     <div className="play-button">▶</div>
                                 </div>
@@ -71,7 +79,7 @@ export default function Home() {
 
                         <div className="video-card" >
                             <div className="video-thumbnail">
-                                <img src="/images/slide01_v6_A2.jpg" alt="Video 5" />
+                                <img src="/images/s-a-terminat-pandemia.jpg" alt="Video 5" />
                                 <div className="video-overlay">
                                     <div className="play-button">▶</div>
                                 </div>
@@ -98,68 +106,21 @@ export default function Home() {
                         internaționale</p>
 
                     <div className="projects-grid">
-
-                        <article className="project-card">
-                            <div className="project-header">
-                                <span className="project-tag">Horizon Europa</span>
-                                <span className="project-year">2023-2026</span>
-                            </div>
-                            <h3>MOUNTADAPT - Proiectul de Adaptare Climatic</h3>
-                            <p>Soluții inovatoare pentru adaptarea schimbărilor climatice în regiunile montane din Austria,
-                                Slovenia, Franța și România. Demonstrarea unor soluții de ultimă generație în diverse zone
-                                biogeografice montane.</p>
-                            <div className="project-meta">
-                                <span>👥 Parteneri: 12 Instituții</span>
-                                <span>💰 Budget: €5.85M</span>
-                            </div>
-                            <Link href="/proiecte/mountadapt" className="read-more">Vezi detalii →</Link>
-                        </article>
-
-
-                        <article className="project-card">
-                            <div className="project-header">
-                                <span className="project-tag">Finanțare Națională</span>
-                                <span className="project-year">2020-2022</span>
-                            </div>
-                            <h3>PROIECT BIOPRINTARE</h3>
-                            <p>Dezvoltarea și validarea experimentală a software-ului pentru bioimprimare 3D de modele tisulare
-                                tumorale.</p>
-                            <div className="project-meta">
-                                <span>👥 Parteneri: 2 Instituții</span>
-                                <span>💰 Budget: 45.300 EUR</span>
-                            </div>
-                            <Link href="/proiecte/bioprintare" className="read-more">Vezi detalii →</Link>
-                        </article>
-
-
-                        <article className="project-card">
-                            <div className="project-header">
-                                <span className="project-tag">Interreg</span>
-                                <span className="project-year">2021-2023</span>
-                            </div>
-                            <h3>HEALTHY-PREGNANCY RO-HU</h3>
-                            <p>Proiect transfrontalier România – Ungaria pentru diagnosticul și sănătatea în sarcină.</p>
-                            <div className="project-meta">
-                                <span>👥 Parteneri: 3 Instituții</span>
-                                <span>💰 Budget: 2.49 M EUR</span>
-                            </div>
-                            <Link href="/proiecte/healthy-pregnancy" className="read-more">Vezi detalii →</Link>
-                        </article>
-
-
-                        <article className="project-card">
-                            <div className="project-header">
-                                <span className="project-tag">Finanțare Națională</span>
-                                <span className="project-year">2020-2021</span>
-                            </div>
-                            <h3>PROIECTUL DECODE</h3>
-                            <p>Dezvoltarea unui vaccin peptidic profilactic pentru COVID-19 cu aplicabilitate la om.</p>
-                            <div className="project-meta">
-                                <span>👥 Parteneri: 2 Instituții</span>
-                                <span>💰 Budget: Program SOLUȚII</span>
-                            </div>
-                            <Link href="/proiecte/decode" className="read-more">Vezi detalii →</Link>
-                        </article>
+                        {featuredProjects.map((project) => (
+                            <article key={project.slug} className="project-card">
+                                <div className="project-header">
+                                    <span className="project-tag">{project.category}</span>
+                                    <span className="project-year">{project.duration || '-'}</span>
+                                </div>
+                                <h3>{project.shortTitle}</h3>
+                                <p>{project.description}</p>
+                                <div className="project-meta">
+                                    {project.duration && <span>⏱️ Durată: {project.duration}</span>}
+                                    {project.budget && <span>💰 Buget: {project.budget}</span>}
+                                </div>
+                                <Link href={`/proiecte/${project.slug}`} className="read-more">Vezi detalii →</Link>
+                            </article>
+                        ))}
                     </div>
 
                     <div className="section-cta">

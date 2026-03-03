@@ -145,6 +145,9 @@ npm run start
 4. Setează variabilele de mediu:
    - `CONTENTFUL_SPACE_ID`
    - `CONTENTFUL_ACCESS_TOKEN`
+  - `RESEND_API_KEY`
+  - `CONTACT_FROM_EMAIL`
+  - `CONTACT_TO_EMAIL`
 5. Deploy! 🚀
 
 ### Deploy pe Alt Hosting
@@ -187,6 +190,9 @@ Fiecare are:
 ```
 CONTENTFUL_SPACE_ID=your_space_id_here
 CONTENTFUL_ACCESS_TOKEN=your_delivery_token_here
+RESEND_API_KEY=your_resend_api_key_here
+CONTACT_FROM_EMAIL=OncoGen Contact <onboarding@resend.dev>
+CONTACT_TO_EMAIL=office@oncogen.ro
 ```
 
 ⚠️ **IMPORTANT:**
