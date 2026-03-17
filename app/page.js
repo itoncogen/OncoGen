@@ -2,6 +2,14 @@ import Link from 'next/link';
 import projects from '../lib/projects.json';
 
 const featuredProjectOrder = ['car-nk', 'decode', 'inspired', 'rosecan', 'delimit', 'nanocel'];
+const featuredProjectImages = {
+    'car-nk': '/images/imagini-proiecte/proiect-car-nk.jpg',
+    decode: '/images/imagini-proiecte/proiect-decode.jpg',
+    inspired: '/images/imagini-proiecte/proiect-inspired.jpg',
+    rosecan: '/images/imagini-proiecte/proiect-rosecan.png',
+    delimit: '/images/imagini-proiecte/proiect-delimit.png',
+    nanocel: '/images/imagini-proiecte/proiect-nanocel.jpg'
+};
 
 export default function Home() {
     const featuredProjects = featuredProjectOrder
@@ -106,21 +114,26 @@ export default function Home() {
                         internaționale</p>
 
                     <div className="projects-grid">
-                        {featuredProjects.map((project) => (
-                            <article key={project.slug} className="project-card">
+                        {featuredProjects.map((project) => {
+                            const imagePath = featuredProjectImages[project.slug];
+                            const hasImage = Boolean(imagePath);
+
+                            return (
+                            <article
+                                key={project.slug}
+                                className={`project-card featured-project-card${hasImage ? ' project-card-with-image' : ''}`}
+                                style={hasImage ? { backgroundImage: `url(${imagePath})` } : undefined}
+                            >
                                 <div className="project-header">
                                     <span className="project-tag">{project.category}</span>
                                     <span className="project-year">{project.duration || '-'}</span>
                                 </div>
                                 <h3>{project.shortTitle}</h3>
-                                <p>{project.description}</p>
-                                <div className="project-meta">
-                                    {project.duration && <span>⏱️ Durată: {project.duration}</span>}
-                                    {project.budget && <span>💰 Buget: {project.budget}</span>}
-                                </div>
+                                {project.slug !== 'nanocel' && <p>{project.description}</p>}
                                 <Link href={`/proiecte/${project.slug}`} className="read-more">Vezi detalii →</Link>
                             </article>
-                        ))}
+                            );
+                        })}
                     </div>
 
                     <div className="section-cta">

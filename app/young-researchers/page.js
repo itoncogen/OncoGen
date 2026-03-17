@@ -28,20 +28,28 @@ export default function YoungResearchersPage() {
             <section className="content-section">
                 <div className="container">
                     <h2>Descriere</h2>
-                    <p>
-                        Departamentul OncoGen Young Researchers constituie un context educațional în care elevii de
-                        liceu și studenții au posibilitatea de a se forma în domeniul cercetării biomedicale și de a
-                        beneficia de sprijinul cercetătorilor cu experiență din cadrul Centrului de Terapii Genice și
-                        Celulare în Tratamentul Cancerului – Centrul de excelență OncoGen, pentru dezvoltarea de
-                        proiecte de cercetare care se pot concluziona prin redactarea și publicarea de articole
-                        științifice și participarea la congrese și competiții.
+                    <p className="section-intro">
+                        Programul Young Researchers aduce informația esențială într-un format mai clar, orientat pe beneficii și direcții concrete de dezvoltare.
                     </p>
-                    <p>
-                        Centrul OncoGen își dorește să stimuleze capacitatea creativă a tinerilor și să îi îndrume
-                        spre a face cele mai bune alegeri în privința formării lor ulterioare. Colectivul OncoGen
-                        susține participanții inclusiv în realizarea dosarelor de admitere la universități și programe
-                        de master în străinătate.
-                    </p>
+                    <div className="content-card description-card">
+                        <ul>
+                            <li>
+                                La OncoGen, tinerii cercetători reprezintă viitorul inovației medicale, într-un mediu stimulativ și conectat la tehnologii de ultimă generație.
+                            </li>
+                            <li>
+                                Elevii de liceu, studenții, doctoranzii și postdoctoranzii își pot dezvolta abilitățile și pot contribui activ la proiecte de cercetare de nivel internațional.
+                            </li>
+                            <li>
+                                Programul promovează creativitatea, gândirea critică și spiritul de echipă, încurajând colaborarea dintre specialiști consacrați și noua generație de cercetători.
+                            </li>
+                            <li>
+                                Prin mentorat, training-uri avansate și implicare în proiecte inovatoare, participanții dobândesc experiență practică și expunere la standarde internaționale în terapii genice și celulare.
+                            </li>
+                            <li>
+                                OncoGen își propune să fie un catalizator pentru cariere științifice de succes, transformând pasiunea tinerilor cercetători în descoperiri concrete și soluții medicale cu impact real asupra pacienților.
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </section>
 
@@ -52,29 +60,30 @@ export default function YoungResearchersPage() {
                         <div className="content-card">
                             <h3>2011+ · Începuturile</h3>
                             <p>
-                                Activitățile de voluntariat și mentorat în cercetare au continuat eforturile
-                                cercetătorilor centrului începute încă din 2011, sub forma unui cerc științific în
-                                cadrul disciplinei de Imunologie-Fiziologie a UMFT.
+                                Activitățile de voluntariat și mentorat în cercetare au continuat eforturile cercetătorilor centrului sub forma unui cerc 
+                                științific orgnizat în cadrul Disciplinelor de Imunologie și Fiziologie a UMFT începând din anul 2011.
+
                             </p>
                             <p>
-                                Centrul OncoGen a sprijinit continuu educația în cercetarea fundamentală a studenților,
-                                inclusiv prin integrarea acestora în programul VADA la disciplinele de Imunologie și
-                                alergologie, Biologie și Fiziologie din cadrul Universității de Medicină și Farmacie
-                                „Victor Babeș” din Timișoara.
+                                Centrul OncoGen a sprijinit continuu educația în cercetarea fundamentală a studenților, inclusiv prin integrarea acestora în 
+                                programul VADA la Catedrele de Alergologie și Imunologie clinică, Biologie și Fiziologie din cadrul Universității de Medicină 
+                                și Farmacie „Victor Babeș” din Timișoara.
                             </p>
                         </div>
 
                         <div className="content-card">
-                            <h3>2017 · Extindere către liceeni</h3>
+                            <h3>2017 · Promovarea cercetării biomedicale în rândul liceenilor</h3>
                             <p>
-                                Asociația OncoGen a început promovarea cercetării biomedicale în rândul elevilor de
-                                liceu. Prin Inspectoratul Școlar Județean Timiș au fost invitați elevi și cadre
-                                didactice de la licee din Timișoara pentru vizite în Centrul OncoGen.
+                                Asociația OncoGen a inițiat programe dedicate stimulării interesului pentru cercetarea biomedicală în rândul elevilor 
+                                de liceu. În colaborare cu Inspectoratul Școlar Județean Timiș, elevi și cadre didactice din liceele din Timișoara au 
+                                fost invitați să viziteze Centrul OncoGen, descoperind astfel activitatea de cercetare de nivel internațional și tehnologiile 
+                                de ultimă generație.
+
                             </p>
                             <p>
-                                Printre rezultate notabile este participarea la ICCET 2019 – International Conference on
-                                Computing in Engineering and Technology (finala la Moscova), pe teme de biologie
-                                moleculară și inginerie genetică, inclusiv tema CRISPR.
+                                Printre realizările remarcabile ale acestor programe se numără participarea la ICCET 2019 – International Conference on Computing in Engineering 
+                                and Technology, a cărei finală s-a desfășurat la Moscova, cu proiecte pe teme de biologie moleculară, inginerie genetică și tehnologia CRISPR. 
+                                Această implicare oferă elevilor oportunitatea de a-și dezvolta competențe științifice și de a experimenta cercetarea la cel mai înalt nivel.
                             </p>
                         </div>
 

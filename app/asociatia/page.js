@@ -32,12 +32,12 @@ export default function AsociatiaPage() {
                         <div className="association-text">
                             <p>
                                 Asociația OncoGen sprijină cercetarea științifică românească și susține echipa OncoGen,
-                                ale cărei proiecte au contribuit la plasarea cercetării medicale românești alături de cea
+                                ale cărui proiecte au contribuit la plasarea cercetării medicale românești alături de cea
                                 realizată de importante institute de cercetare și universități din Europa și din întreaga lume.
                             </p>
 
                             <p>
-                                Datorăm o mare parte din ceea ce am realizat la dedicarea continuă a celor care au susținut
+                                Datorăm o mare parte din ceea ce am realizat dedicării continue a celor care au susținut
                                 echipa OncoGen.
                             </p>
 
@@ -54,7 +54,7 @@ export default function AsociatiaPage() {
                         </div>
 
                         <div className="association-donation">
-                            <h3>Cum Poti Contribui</h3>
+                            <h3>Cum poti contribui:</h3>
                             <div className="donation-accounts">
                                 <div className="account">
                                     <h4>Cont în RON:</h4>

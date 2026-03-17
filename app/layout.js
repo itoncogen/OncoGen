@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
                                 <ul>
                                     <li><Link href="/">Acasă</Link></li>
                                     <li><Link href="/despre">Despre</Link></li>
-                                    <li><Link href="/stiri">Știri și evenimente</Link></li>
+                                    <li><Link href="/stiri">Știri și Evenimente</Link></li>
                                     <li><Link href="/proiecte">Proiecte</Link></li>
                                     <li><Link href="/cercetare">Cercetare</Link></li>
                                     <li><Link href="/hub-biotech">Hub Biotehnologii</Link></li>

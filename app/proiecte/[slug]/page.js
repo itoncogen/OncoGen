@@ -23,6 +23,8 @@ export default function ProjectDetail({ params }) {
     }
 
     const { title, shortTitle, description, category, duration, budget, coordinator, coordinatorLabel, call, callLabel, overview, role, objectives, results, keywords, externalLinks, relatedProjects } = project;
+    const displayTitle = ['rosecan', 'nanocel', 'mountadapt', 'car-nk', 'adipogeneza', 'delimit', 'healthy-pregnancy', 'fibroblastele', 'decode', 'biovea', 'bioprintare', 'biomarkeri', 'inspired', 'bio-amr'].includes(project.slug) ? shortTitle : title;
+    const showHeroDescription = project.slug !== 'nanocel';
 
     const redesignedSlugs = new Set(projects.projects.map((item) => item.slug));
 
@@ -38,8 +40,8 @@ export default function ProjectDetail({ params }) {
                 <section className="mountadapt-hero">
                     <div className="container">
                         <span className="mountadapt-badge">{category}</span>
-                        <h1>{title}</h1>
-                        <p>{description}</p>
+                        <h1>{displayTitle}</h1>
+                        {showHeroDescription && <p>{description}</p>}
                     </div>
                 </section>
 
@@ -79,12 +81,12 @@ export default function ProjectDetail({ params }) {
                         <article className="mountadapt-content">
                             {overview && (
                                 <section className="mountadapt-panel">
-                                    <h2>Prezentare Generală</h2>
+                                    <h2>Prezentare generală</h2>
                                     <p>{overview}</p>
                                 </section>
                             )}
 
-                            {role && (
+                            {role && project.slug !== 'mountadapt' && (
                                 <section className="mountadapt-panel">
                                     <h2>Rolul OncoGen</h2>
                                     <p>{role}</p>
@@ -104,7 +106,7 @@ export default function ProjectDetail({ params }) {
 
                             {results && results.length > 0 && (
                                 <section className="mountadapt-panel">
-                                    <h2>Rezultate Anticipate</h2>
+                                    <h2>Rezultate</h2>
                                     <ul>
                                         {results.map((res, idx) => (
                                             <li key={idx}>{res}</li>
@@ -126,7 +128,7 @@ export default function ProjectDetail({ params }) {
                         <aside className="mountadapt-sidebar">
                             <div className="mountadapt-sidecard">
                                 <h4>Informații proiect</h4>
-                                <p><strong>Titlu complet:</strong><br />{title}</p>
+                                <p><strong>Titlul complet:</strong><br />{title}</p>
                                 <p><strong>Tip finanțare:</strong><br />{category}</p>
                                 {duration && <p><strong>Perioadă:</strong><br />{duration}</p>}
                                 {budget && <p><strong>Buget total:</strong><br />{budget}</p>}
@@ -194,8 +196,8 @@ export default function ProjectDetail({ params }) {
 
             <section className="hero-secondary">
                 <div className="container">
-                    <h1>{title}</h1>
-                    <p>{description}</p>
+                    <h1>{displayTitle}</h1>
+                    {showHeroDescription && <p>{description}</p>}
                 </div>
             </section>
 
@@ -280,7 +282,7 @@ export default function ProjectDetail({ params }) {
                     <aside className="sidebar">
                         <h4>📋 Informații Proiect</h4>
                         <p>
-                            <strong>Titlu Complet:</strong>
+                            <strong>Titlul proiectului:</strong>
                             <br />
                             {title}
                         </p>

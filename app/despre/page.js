@@ -41,33 +41,38 @@ export default function DesprePage() {
 
             <section id="misiune" className="content-section">
                 <div className="container">
-                    <h2>Misiune &amp; Viziune</h2>
+                    <h2>Misiune, Viziune și Direcții Strategice</h2>
                     <div className="content-grid">
                         <div className="content-card">
-                            <h3>Misiunea Noastră</h3>
-                            <p>
-                                Misiunea centrului de excelență în cercetare OncoGen este dezvoltarea de metode avansate de
-                                diagnostic și terapie a cancerului și a bolilor cronice degenerative cu morbiditate crescută și
-                                cu opțiuni terapeutice limitate. Echipa de cercetători va îndeplini această misiune atât
-                                printr-o abordare interdisciplinară a activităților de cercetare fundamentală, translațională și
-                                clinică, cât și prin susținerea de programe educaționale și parteneriate cu mediul academic și
-                                cel industrial.
-                            </p>
-                            <p>
-                                Prin promovarea calității, responsabilității, inovării și valorii, se urmărește îmbunătățirea
-                                performanței sistemului de sănătate, cu scopul de a oferi pacienților noi opțiuni terapeutice.
-                            </p>
+                            <h3>Misiune </h3>
+                            <ul>
+                                <li>
+                                    Misiunea OncoGen Timișoara este să devină un centru de excelență în cercetarea și dezvoltarea terapiilor genice și celulare,
+                                    dedicat transformării cunoștințelor științifice de vârf în soluții clinice concrete. Centrul urmărește să redefinească standardele
+                                    tratamentelor personalizate, printr-o abordare interdisciplinară, integrând cercetarea fundamentală, translatională și aplicativă.
+                                </li>
+                                <li>
+                                    OncoGen iși dorește să ofere pacienților opțiuni terapeutice inovatoare, precise și sigure, sprijinind progresul medical prin colaborări
+                                    cu instituții academice de prestigiu, centre internaționale de cercetare și parteneri industriali. Prin excelență științifică, inovare tehnologică
+                                    și dedicare față de pacient, centrul aspiră să fie un reper în domeniul terapiilor avansate, transformând descoperirile științifice în beneficii reale
+                                    pentru sănătatea pacienților.
+                                </li>
+                            </ul>
                         </div>
                         <div className="content-card">
-                            <h3>Viziunea Noastră</h3>
-                            <p>
-                                Institutul OncoGen visează să devină leader în cele patru domenii de cercetare din sfera de
-                                interes, domenii care se încadrează în temele prioritare ale programului european Horizon 2020.
-                                Obiectivul final al Centrului OncoGen este dezvoltarea unui pol de competență științifică și
-                                tehnologică la standarde europene pentru diagnostic, tratament și prevenție, cu o echipă de
-                                cercetare multidisciplinară, activitatea de cercetare fiind orientată spre translatarea
-                                rezultatelor cercetării în terapii avansate.
-                            </p>
+                            <h3>Viziune </h3>
+                            <ul>
+                                <li>
+                                    OncoGen Timisoara își dorește să devină un lider recunoscut la nivel internațional
+                                    în dezvoltarea terapiilor genice și celulare, unde cercetarea științifică de excelență se transformă în soluții medicale
+                                    tangibile. Ne dorim ca inovația și expertiza noastră să contribuie la schimbarea paradigmei în tratamentul cancerului și al bolilor
+                                    cronice degenerative cu morbiditate crescută și opțiuni terapeutice limitate, oferind pacienților acces la cele mai avansate și eficiente terapii.
+                                </li>
+                                <li>
+                                    Centrul aspiră să fie un punct de referință pentru colaborări științifice și clinice,
+                                    un loc în care excelența, etica și inovația se întâlnesc pentru a aduce beneficii reale pentru sănătatea pacienților.
+                                </li>
+                            </ul>
                         </div>
                         <div className="content-card">
                             <h3>Direcții Strategice</h3>
@@ -122,7 +127,8 @@ export default function DesprePage() {
                         Centrul dispune de un total de 40+ cercetători, biologi, bioingineeri și personal administrativ,
                         inclusiv 10+ doctoranzi și stagiari internaționali.
                     </p>
-                    <div className="section-cta">
+                    <div className="section-cta cta-buttons">
+                        <Link href="/echipa" className="btn btn-secondary">Vezi echipa completă</Link>
                         <Link href="/contact" className="btn btn-secondary">Contactează echipa</Link>
                     </div>
                 </div>
@@ -195,27 +201,36 @@ export default function DesprePage() {
                         <div className="about-text">
                             <h2>DESPRE NOI</h2>
                             <p>
-                                Primul centru de cercetare din România și Europa de Est dotat cu echipamente de ultimă generație
-                                pentru cercetarea de bază și aplicativă în domeniul terapiilor genice. Cu o suprafață totală de
-                                3000 m², centrul are facilități de cercetare fundamentală și aplicativă, inclusiv 15
-                                compartimente și laboratoare dotate cu echipamente de înaltă performanță.
+                                OncoGen Timișoara este un centru de excelență în cercetarea biomedicală și terapiile 
+                                genice și celulare avansate. Reprezentând prima instituție de acest tip din România, 
+                                OncoGen se distinge prin infrastructura sa ultramodernă constituită din laboratoare de cercetare 
+                                și facilități de producție GMP.
+                                
                             </p>
 
                             <p>
-                                Construcția și dotarea Centrului de Terapii Genice și Celulare în Tratamentul Cancerului –
-                                OncoGen a avut loc în perioada 2010 – 2015, pe baza finanțării prin Programul Operațional
-                                Sectorial „Creșterea Competitivității Economice", Axa prioritară 2: Competitivitate prin
-                                cercetare, dezvoltare economică și inovare, Operațiunea 2.2.1. Proiectul a fost coordonat de
-                                Prof. Dr. Virgil Păunescu. Valoarea totală a proiectului a fost de 54.389.610 RON, din care
-                                costuri eligibile 44.000.000 lei, respectiv 38.909.200 lei din Fondul European de Dezvoltare
-                                Regională și 5.090.800 lei de la bugetul național.
+                                Cu o suprafață de 3000 m², centrul reunește cercetători, echipamente de ultimă generație 
+                                și tehnologii inovatoare, promovând o abordare integrată, 
+                                de la cercetarea fundamentală la aplicabilitatea clinică. 
+                                Infrastructura OncoGen include facilități specializate pentru cercetare avansată 
+                                și dezvoltare biotehnologică, precum o unitate GMP pentru producția de biomolecule și vectori terapeutici, 
+                                clean rooms, facilități BSL-2, precum și o bancă de celule și țesuturi și o biobază pentru studii preclinice.
+                                
                             </p>
 
                             <p>
-                                Centrul a fost prevăzut cu toate facilitățile și fluxurile tehnologice pentru cercetarea de vârf,
-                                având facilități de cercetare fundamentală și aplicativă pentru medicina translațională,
-                                inclusiv o unitate GMP (cu 2 camere albe și o cameră BSL2), o bancă de celule și țesuturi și o
-                                biobază.
+                                Construcția și dotarea centrului au avut loc între 2010 și 2015, 
+                                printr-un proiect de anvergură finanțat din Programul Operațional Sectorial „Creșterea Competitivității Economice”, 
+                                Axa prioritară 2: Competitivitate prin cercetare, dezvoltare economică și inovare, 
+                                Operațiunea 2.2.1. Proiectul a fost coordonat de Prof. Dr. Virgil Păunescu, având o valoare totală de 54.389.610 RON, 
+                                din care 38.909.200 RON provenind din Fondul European de Dezvoltare Regională și 5.090.800 RON de la bugetul național.
+                                
+                            </p>
+
+                            <p>
+                                Prin colaborări cu instituții academice de prestigiu, centre internaționale de cercetare și parteneri industriali de top, 
+                                OncoGen Timișoara se dorește a fi un reper de inovare și progres medical, dedicat nu doar descoperirilor științifice, 
+                                ci și transformării acestora în beneficii reale pentru sănătatea pacienților.
                             </p>
                         </div>
                         <div className="about-images">

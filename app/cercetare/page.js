@@ -89,7 +89,7 @@ export default function CercetarePage() {
                             <p>Cercetare pe mecanismele și optimizarea anticoropilor anti-PD-1 și anti-CTLA-4.</p>
                         </div>
                         <div className="content-card">
-                            <h3>Kombinații Terapeutice</h3>
+                            <h3>Combinații Terapeutice</h3>
                             <p>Studii preclinice și clinice pe combinații de imunoterapii pentru maximizarea eficacității.</p>
                         </div>
                     </div>
