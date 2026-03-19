@@ -34,13 +34,13 @@
         },
         {
             "slug": "car-nk",
-            "title": "Oncoimunoterapii cu celule Natural Killer purtătoare de receptori chimerici de antigen",
+            "title": "Oncoimunoterapii cu celule Natural Killer purtătoare de receptori himerici de antigen",
             "shortTitle": "CAR-NK",
             "category": "Cercetare Fundamentală și Translațională",
-            "duration": "2020-2026+",
+            "duration": "2016-2020",
             "coordinator": "OncoGen – Spitalul Clinic Județean de Urgență “Pius Brînzeu” Timișoara",
             "coordinatorLabel": "Partener",
-            "call": "Contract de finanțare nr. 32/01.09.2016",
+            "call": "Contract de finanțare nr. P_37_786/01.09.2016",
             "callLabel": "Contract de finanțare",
             "overview": "CAR-NK este primul proiect românesc care avansează ingineria genetică a celulelor sistemului imun pentru tratamentul cancerului, prin dezvoltarea terapiei bazate pe celule CAR-NK. Proiectul dezvoltă și validează imunoterapii personalizate bazate pe celule Natural Killer modificate genetic cu receptori de antigen chimeric (CAR), capabile să recunoască ținte specifice de pe celulele maligne. Proiectul consolidează în România infrastructura și expertiza pentru cercetare avansată în onco-imunologie. Echipa OncoGen coordonează dezvoltarea fluxurilor de inginerie celulară, transducție virală și validare funcțională pentru celule CAR-NK, cu focus pe transferul rezultatelor către aplicații terapeutice.",
             "objectives": [
@@ -79,7 +79,7 @@
         },
         {
             "slug": "rosecan",
-            "title": "Inițiativa comună România–Serbia pentru îmbunătățirea diagnosticului și tratamentului tumorilor maligne în regiunea transfrontalieră.",
+            "title": "Romania-Serbia Joint Initiative against Cancer in Cross-Border Region: Improved Diagnosis and Treatment of Malignant Tumors",
             "shortTitle": "ROSECAN",
             "category": "Interreg-IPA CBC România–Serbia",
             "duration": "28 iulie 2017 - 9 iunie 2022",
@@ -154,15 +154,14 @@
         },
         {
             "slug": "delimit",
-            "title": "Dezvoltarea și validarea modelelor tumorale 3D bioprintate care mimează micromediul tumoral pentru testare preclinică.",
-            "shortTitle": "DELIMIT",
+            "title": "Tehnici de bioimprimare 3D pentru obținerea de constructe tisulare care mimează micromediul tumoral.",
+            "shortTitle": "DeLIMIT",
             "category": "PED – Bioimprimare 3D",
-            "duration": "18 luni",
+            "duration": "2017-2018",
             "coordinator": "Spitalul Clinic Județean de Urgență “Pius Brînzeu” Timișoara – OncoGen",
             "call": "100PED/03.01.2017",
             "callLabel": "Contract de finanțare",
-            "overview": "DELIMIT urmărește realizarea de constructe tisulare tridimensionale care reproduc structura și funcția micromediului tumoral, utilizând biotipărire 3D și modele multicelulare pentru aplicații în cercetarea oncologică.",
-            "role": "OncoGen coordonează implementarea proiectului împreună cu partenerul UMF “Victor Babeș” Timișoara, de la dezvoltare modele in vitro până la validare in vivo și simulare computațională.",
+            "overview": "DeLIMIT urmărește realizarea de constructe tisulare tridimensionale care reproduc structura și funcția micromediului tumoral, utilizând biotipărirea 3D și modele multicelulare pentru aplicații în cercetarea oncologică.OncoGen a coordonat implementarea proiectului împreună cu partenerul UMF “Victor Babeș” Timișoara, de la dezvoltarea modelelor in vitro până la validarea in vivo și simularea computațională.",
             "objectives": [
                 "Generarea de sferoizi tumorali de cancer mamar și colon și modele multicelulare bioprintate",
                 "Caracterizarea in vitro morfologică, fenotipică, genotipică și funcțională a modelelor",
@@ -229,8 +228,8 @@
         },
         {
             "slug": "healthy-pregnancy",
-            "title": "Proiect transfrontalier România–Ungaria pentru screening, diagnostic și prevenție în infertilitate, sănătatea sarcinii și îngrijirea nou-născutului.",
-            "shortTitle": "HEALTHY-PREGNANCY",
+            "title": "Romanian-Hungarian cross-border project with a wider focus on diagnostics related to infertility,healthy pregnancy and newborn care",
+            "shortTitle": "HEALTHY-PREGNANCY RO-HU",
             "category": "Interreg V-A România–Ungaria",
             "duration": "01.05.2021 – 31.10.2023",
             "budget": "2.492.080,65 EUR",
@@ -296,7 +295,7 @@
         },
         {
             "slug": "decode",
-            "title": "Dezvoltarea unui vaccin peptidic profilactic pentru COVID-19 cu aplicabilitate la om",
+            "title": "Dezvoltarea unui vaccin peptidic profilactic pentru COVID-19 bazat pe epitopi recunoscuți de sistemul imun",
             "shortTitle": "DECODE",
             "category": "Finanțare Națională",
             "duration": "2020 - 2021",
@@ -304,8 +303,7 @@
             "coordinator": "Spitalul Clinic Județean de Urgență “Pius Brînzeu” Timișoara – Centrul OncoGen",
             "call": "Nr. 11Sol/2020",
             "callLabel": "Contract de finanțare",
-            "overview": "DECODE dezvoltă un vaccin peptidic profilactic anti-SARS-CoV-2 bazat pe peptide sintetice lungi (SLP), selectate pe imunofenotip populațional, cu validare preclinică și pregătire pentru studii clinice.",
-            "role": "Proiect derulat în parteneriat cu Institutul Național de Cercetare-Dezvoltare Medico-Militară “Cantacuzino”, cu focus pe studii in vitro/in vivo și documentație pentru faza clinică I/II.",
+            "overview": "DECODE a dezvoltat un vaccin peptidic profilactic anti-SARS-CoV-2 bazat pe peptide sintetice lungi (SLP), selectate pe imunofenotip populațional, cu validare preclinică și pregătire pentru studii clinice. Proiectul a fost derulat în parteneriat cu Institutul Național de Cercetare-Dezvoltare Medico-Militară “Cantacuzino”, cu focus pe studii in vitro/in vivo și documentație pentru faza clinică I/II.",
             "objectives": [
                 "Dezvoltarea unui candidat vaccinal eficient împotriva SARS-CoV-2 și a unor adjuvanți siguri",
                 "Realizarea studiilor in vivo pe modele animale pentru elucidarea mecanismelor etiopatogenice",
@@ -334,7 +332,7 @@
         },
         {
             "slug": "biovea",
-            "title": "Dezvoltarea de bionanotehnologii bazate pe vezicule extracelulare pentru diagnosticul precoce, prognostic și terapii în boala aterosclerotică",
+            "title": "Dezvoltarea de BIOnanotehnologii bazate pe Vezicule Extracelulare, aplicabile în diagnosticul precoce, prognosticul și terapia bolii Aterosclerotice",
             "shortTitle": "BIOVEA",
             "category": "PCCDI – Bionanotehnologii biomedicale",
             "duration": "30 martie 2018 – 31 decembrie 2020",
@@ -343,7 +341,7 @@
             "coordinatorLabel": "Coordonator consorțiu",
             "call": "83PPCCDI/2018",
             "callLabel": "Contract de finanțare",
-            "overview": "BIOVEA urmărește dezvoltarea și validarea unor aplicații diagnostice și terapeutice bazate pe vezicule extracelulare circulante, pentru boala aterosclerotică coronariană.",
+            "overview": "Proiectul BIOVEA a urmărit dezvoltarea și validarea unor aplicații diagnostice și terapeutice bazate pe vezicule extracelulare circulante, pentru boala aterosclerotică coronariană.",
             "objectives": [
                 "Identificarea veziculelor extracelulare circulante ca biomarkeri pentru boala aterosclerotică",
                 "Validarea VEC pentru diagnostic precoce și prognostic la om",

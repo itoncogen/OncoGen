@@ -1536,6 +1536,16 @@ transform: translateY(-5px);
     font-size: 14px;
 }
 
+.committee-member-herbert {
+    grid-column: 2;
+}
+
+@media (max-width: 768px) {
+    .committee-member-herbert {
+        grid-column: auto;
+    }
+}
+
 /* ========================================
    INFRASTRUCTURE CARDS
    ======================================== */

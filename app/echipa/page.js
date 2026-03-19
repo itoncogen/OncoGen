@@ -27,151 +27,151 @@ const fullTeam = [
     },
     {
         name: 'Prof. Dr. Tănasie Gabriela',
-        role: '',
+        role: 'Cercetător Științific I',
         details: '',
         avatar: '👩‍🔬'
     },
     {
-        name: 'Prof. Dr. Țațu Carmen',
-        role: '',
+        name: 'Prof. Dr. Tatu Carmen',
+        role: 'Cercetător Științific I',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'S.L. Dr. Nistor Daciana',
-        role: '',
+        role: 'Cercetător Științific II',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'As. Univ. Dr. Calma Crenguța',
-        role: '',
+        role: 'Cercetător Științific',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'As. Univ. Dr. Crîsnic Daniela',
-        role: '',
+        role: 'Cercetător Științific III',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'C.S. Dr. Ing. Bioteh. Ivan Alexandra',
-        role: '',
+        role: 'Cercetător Științific III',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'C.S. Dr. Ing. Bioteh. Telea Ada',
-        role: '',
+        role: 'Biotehnolog',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'C.S. Biochim. Zbîrcea Lauriana',
-        role: '',
+        role: 'Biochimist',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'C.S. Biochim. Stanciu Claudia',
-        role: '',
+        role: 'Biochimist',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'C.S. Med.Vet. Dr. Zambori Csilla',
-        role: '',
+        role: 'Medic Veterinar',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'As. C.S. Biolog Buzan Roxana',
-        role: '',
+        role: 'Biolog',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'As. C.S. Fiz. Furdui Marieta',
-        role: '',
+        role: 'Fizician Medical',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'As. C.S. Fiz. Jucos Gianina',
-        role: '',
+        role: 'Fizician Medical',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'As. C.S. Chim. Pricop Alexandra',
-        role: '',
+        role: 'Chimist',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'As. C.S. Ing. Bioteh. Simina Alina',
-        role: '',
+        role: 'Biotehnolog',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'As.C.S. Dr. Farm. Oprean Camelia',
-        role: '',
+        role: 'Farmacist',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'As. C.S. Biolog Grijincu Manuela',
-        role: '',
+        role: 'Biolog Principal',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'Biolog Pp. Dr. Gai Elena',
-        role: '',
+        role: 'Biolog',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'Dr. Istodor Loredana',
-        role: '',
+        role: 'Medic Specialist',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'Biol. Pp. Degan Lorena',
-        role: '',
+        role: 'Biolog',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'Biol. Sp. Tănăsescu Teodora',
-        role: '',
-        details: '',
-        avatar: '👩‍🔬'
-    },
-    {
-        name: 'Reg. Med. Pitic Carmen',
-        role: '',
+        role: 'Biolog',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'C.S. Dr. Biol. Pp. Anghel Simona',
-        role: '',
+        role: 'Biolog Principal',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'C.S. Dr. Biol. Pp. Cristea Mirabela',
-        role: '',
+        role: 'Biolog Principal',
         details: '',
         avatar: '👩‍🔬'
     },
     {
         name: 'C.S. Dr. Chim.Pp. Lukinich-Gruia Alexandra',
-        role: '',
+        role: 'Chimist Principal',
+        details: '',
+        avatar: '👩‍🔬'
+    },
+    {
+        name: 'Reg. Med. Pitic Carmen',
+        role: 'Reglator Medical',
         details: '',
         avatar: '👩‍🔬'
     }

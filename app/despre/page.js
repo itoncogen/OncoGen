@@ -155,7 +155,7 @@ export default function DesprePage() {
                             <h4>Prof. Dr. Tudor Ionel Oprea, MD</h4>
                             <p>Division of Translational Informatics, Department of Internal Medicine, UNM School of Medicine, Albuquerque, NM, USA</p>
                         </div>
-                        <div className="committee-member">
+                        <div className="committee-member committee-member-herbert">
                             <h4>Dr. Herbert Stadler</h4>
                             <p>Head of the Advisory Board – IBA GmbH, Göttingen, Germany</p>
                         </div>
@@ -172,12 +172,12 @@ export default function DesprePage() {
                             <p>Certificare EMA pentru producția de biomolecule și vectori terapeutici conform standardelor internaționale.</p>
                         </div>
                         <div className="infra-card">
-                            <h3>🧬 BSL-2 Laboratory</h3>
+                            <h3>🧬 Laborator BSL-2 </h3>
                             <p>Laborator de biosiguranță nivel 2 pentru lucrul cu agenți patogeni și materiale biologice.</p>
                         </div>
                         <div className="infra-card">
                             <h3>🔬 Echipamente Avansate</h3>
-                            <p>Sequencer ADN, citometru flux, microscoape confocale, PCR în timp real și altele.</p>
+                            <p>Secvențializator ADN, citometru de flux, microscoape confocale, PCR în timp real și altele.</p>
                         </div>
                         <div className="infra-card">
                             <h3>💻 Bioinformatică</h3>
