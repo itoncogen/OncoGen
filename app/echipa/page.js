@@ -20,7 +20,7 @@ const fullTeam = [
         role: 'Cercetător Științific I',
         details: 'Specialist în biologie celulară și imunoterapii',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Bojin_Florina.pdf'
     },
     {
         name: 'Conf. Dr. Țațu Călin',
@@ -55,14 +55,14 @@ const fullTeam = [
         role: 'Cercetător Științific',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Calma_Crenguța.pdf'
     },
     {
         name: 'As. Univ. Dr. Crîsnic Daniela',
         role: 'Cercetător Științific III',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Crisnic_Daniela.pdf'
     },
     {
         name: 'C.S. Dr. Ing. Bioteh. Ivan Alexandra',
@@ -104,7 +104,7 @@ const fullTeam = [
         role: 'Biolog',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Buzan_Roxana.pdf'
     },
     {
         name: 'As. C.S. Fiz. Furdui Marieta',
@@ -167,7 +167,7 @@ const fullTeam = [
         role: 'Biolog',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Degan_Lorena.pdf'
     },
     {
         name: 'Biol. Sp. Tănăsescu Teodora',
@@ -181,14 +181,14 @@ const fullTeam = [
         role: 'Biolog Principal',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Anghel_Simona.pdf'
     },
     {
         name: 'C.S. Dr. Biol. Pp. Cristea Mirabela',
         role: 'Biolog Principal',
         details: '',
         avatar: '👩‍🔬',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Cristea_Mirabela.pdf'
     },
     {
         name: 'C.S. Dr. Chim.Pp. Lukinich-Gruia Alexandra',
