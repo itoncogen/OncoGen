@@ -5,175 +5,204 @@ const fullTeam = [
         name: 'Prof. Dr. Păunescu Virgil',
         role: 'Coordonator OncoGen',
         details: 'Director științific și fondator al centrului',
-        avatar: '👨‍🔬'
+        avatar: '👨‍🔬',
+        cvFile: null
     },
     {
         name: 'Prof. Dr. Panaitescu Carmen',
         role: 'Cercetător Științific I',
         details: 'Specialist în cercetare fundamentală',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'Conf. Dr. Bojin Florina',
         role: 'Cercetător Științific I',
         details: 'Specialist în biologie celulară și imunoterapii',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'Conf. Dr. Țațu Călin',
         role: 'Cercetător Științific I',
         details: 'Specialist în biologie moleculară și genetică',
-        avatar: '👨‍🔬'
+        avatar: '👨‍🔬',
+        cvFile: null
     },
     {
         name: 'Prof. Dr. Tănasie Gabriela',
         role: 'Cercetător Științific I',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'Prof. Dr. Tatu Carmen',
         role: 'Cercetător Științific I',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'S.L. Dr. Nistor Daciana',
         role: 'Cercetător Științific II',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'As. Univ. Dr. Calma Crenguța',
         role: 'Cercetător Științific',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'As. Univ. Dr. Crîsnic Daniela',
         role: 'Cercetător Științific III',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'C.S. Dr. Ing. Bioteh. Ivan Alexandra',
         role: 'Cercetător Științific III',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'C.S. Dr. Ing. Bioteh. Telea Ada',
         role: 'Biotehnolog',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'C.S. Biochim. Zbîrcea Lauriana',
         role: 'Biochimist',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'C.S. Biochim. Stanciu Claudia',
         role: 'Biochimist',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'C.S. Med.Vet. Dr. Zambori Csilla',
         role: 'Medic Veterinar',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'As. C.S. Biolog Buzan Roxana',
         role: 'Biolog',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'As. C.S. Fiz. Furdui Marieta',
         role: 'Fizician Medical',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'As. C.S. Fiz. Jucos Gianina',
         role: 'Fizician Medical',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'As. C.S. Chim. Pricop Alexandra',
         role: 'Chimist',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'As. C.S. Ing. Bioteh. Simina Alina',
         role: 'Biotehnolog',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'As.C.S. Dr. Farm. Oprean Camelia',
         role: 'Farmacist',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'As. C.S. Biolog Grijincu Manuela',
         role: 'Biolog Principal',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'Biolog Pp. Dr. Gai Elena',
         role: 'Biolog',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'Dr. Istodor Loredana',
         role: 'Medic Specialist',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'Biol. Pp. Degan Lorena',
         role: 'Biolog',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'Biol. Sp. Tănăsescu Teodora',
         role: 'Biolog',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'C.S. Dr. Biol. Pp. Anghel Simona',
         role: 'Biolog Principal',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'C.S. Dr. Biol. Pp. Cristea Mirabela',
         role: 'Biolog Principal',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'C.S. Dr. Chim.Pp. Lukinich-Gruia Alexandra',
         role: 'Chimist Principal',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     },
     {
         name: 'Reg. Med. Pitic Carmen',
         role: 'Reglator Medical',
         details: '',
-        avatar: '👩‍🔬'
+        avatar: '👩‍🔬',
+        cvFile: null
     }
     // Add all remaining organization members here
 ];
@@ -203,6 +232,18 @@ export default function EchipaCompletaPage() {
                                 <h3>{member.name}</h3>
                                 <p><strong>{member.role}</strong></p>
                                 <p>{member.details}</p>
+                                {member.cvFile ? (
+                                    <a
+                                        href={member.cvFile}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="cv-button"
+                                    >
+                                        Vezi CV
+                                    </a>
+                                ) : (
+                                    <span className="cv-unavailable">CV indisponibil</span>
+                                )}
                             </div>
                         ))}
                     </div>
