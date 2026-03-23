@@ -1,4 +1,5 @@
 import '../app/globals.css';
+import '../styles.css';
 import Link from 'next/link';
 import NavCercetareDropdown from './components/NavCercetareDropdown';
 
