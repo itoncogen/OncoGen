@@ -21,16 +21,16 @@ export default function AsociatiaPage() {
             <section className="content-section">
                 <div className="container">
                     <div className="content-card description-card">
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '20px', marginBottom: '30px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '30px', marginBottom: '40px', flexWrap: 'wrap' }}>
                             <Image 
-                                src="/images/logo-asociatia-oncogen.jpg" 
+                                src="/images/logo-asociatia-oncogen.png" 
                                 alt="Logo Asociația OncoGen" 
-                                width={200}
-                                height={80}
+                                width={400}
+                                height={160}
                                 style={{ objectFit: 'contain', flexShrink: 0 }}
                             />
                             <div>
-                                <p style={{ margin: 0, color: 'var(--magenta)', fontWeight: '600', fontSize: '16px' }}>FII ALĂTURI DE NOI!</p>
+                                <p style={{ margin: 0, color: 'var(--magenta)', fontWeight: '700', fontSize: '24px' }}>FII ALĂTURI DE NOI!</p>
                             </div>
                         </div>
 
