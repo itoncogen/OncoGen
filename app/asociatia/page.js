@@ -54,7 +54,7 @@ export default function AsociatiaPage() {
                         </div>
 
                         <div className="association-donation">
-                            <h3>Cum poti contribui</h3>
+                            <h3>CUM POTI CONTRIBUI</h3>
                             <div className="donation-accounts">
                                 <div className="account">
                                     <h4>Cont în RON:</h4>
