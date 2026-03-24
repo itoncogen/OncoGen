@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function CompartimentHlaPage() {
   return (
@@ -13,6 +14,20 @@ export default function CompartimentHlaPage() {
         <div className="container">
           <h1>Compartiment HLA</h1>
           <p>Imunologie și compatibilități imunologice pentru transplant de organe, măduvă și celule stem.</p>
+        </div>
+      </section>
+
+      <section className="content-section">
+        <div className="container">
+          <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9', borderRadius: '8px', overflow: 'hidden', marginBottom: '20px' }}>
+            <Image 
+              src="/images/compartiment-hla.jpg" 
+              alt="Compartiment HLA - Laborator de Imunologie" 
+              fill
+              priority
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
         </div>
       </section>
 
