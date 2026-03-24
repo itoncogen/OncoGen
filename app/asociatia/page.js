@@ -22,16 +22,16 @@ export default function AsociatiaPage() {
                 <div className="container">
                     <div className="content-card description-card">
                         <div style={{ display: 'flex', alignItems: 'center', gap: '30px', marginBottom: '40px', flexWrap: 'wrap' }}>
-                            <Image 
-                                src="/images/logo-asociatia-oncogen.png" 
-                                alt="Logo Asociația OncoGen" 
+                            <div>
+                                <p style={{ margin: 0, color: 'var(--magenta)', fontWeight: '700', fontSize: '24px' }}>FII ALĂTURI DE NOI!</p>
+                            </div>
+                            <Image
+                                src="/images/logo-asociatia-oncogen.png"
+                                alt="Logo Asociația OncoGen"
                                 width={400}
                                 height={160}
                                 style={{ objectFit: 'contain', flexShrink: 0 }}
                             />
-                            <div>
-                                <p style={{ margin: 0, color: 'var(--magenta)', fontWeight: '700', fontSize: '24px' }}>FII ALĂTURI DE NOI!</p>
-                            </div>
                         </div>
 
                         <p style={{ marginBottom: '15px', lineHeight: '1.8' }}>
@@ -64,7 +64,7 @@ export default function AsociatiaPage() {
                 <div className="container">
                     <div className="content-card description-card">
                         <h3 style={{ color: 'var(--magenta)', fontSize: '20px', marginBottom: '25px', fontWeight: '700' }}>CUM POȚI CONTRIBUI</h3>
-                        
+
                         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px', marginBottom: '25px' }}>
                             <div style={{ backgroundColor: 'var(--light-gray)', padding: '20px', borderRadius: '8px' }}>
                                 <h4 style={{ color: 'var(--black)', marginBottom: '10px', fontSize: '16px' }}>Cont în RON:</h4>
