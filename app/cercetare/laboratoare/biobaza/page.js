@@ -48,8 +48,8 @@ export default function BiobazaPage() {
       <section className="content-section lab-detail-section">
         <div className="container">
           <h2>Echipamente</h2>
-          <div style={{ display: 'flex', gap: '30px', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-            <div className="content-card description-card lab-list-card" style={{ flex: '1 1 400px' }}>
+          <div style={{ display: 'flex', gap: '30px', alignItems: 'stretch', flexWrap: 'wrap' }}>
+            <div className="content-card description-card lab-list-card" style={{ flex: '1 1 calc(50% - 15px)', minWidth: '300px' }}>
               <ul className="lab-equipment-list">
                 <li>Aparat pentru studii pe fibra musculară izolată</li>
                 <li>Sistem Langendorff pentru inimi izolate (Radnoti, ADInstruments)</li>
@@ -66,13 +66,13 @@ export default function BiobazaPage() {
                 <li>Analizor complex cu electrozi Apollo 4000</li>
               </ul>
             </div>
-            <div style={{ flex: '0 1 350px', borderRadius: '8px', overflow: 'hidden' }}>
+            <div style={{ flex: '1 1 calc(50% - 15px)', minWidth: '300px', borderRadius: '8px', overflow: 'hidden' }}>
               <Image 
                 src="/images/biobaza-lab.jpg" 
                 alt="Biobaza - Laborator de Medicină Experimentală" 
-                width={350}
-                height={500}
-                style={{ objectFit: 'cover', borderRadius: '8px', width: '100%', height: 'auto' }}
+                width={600}
+                height={700}
+                style={{ objectFit: 'cover', borderRadius: '8px', width: '100%', height: '100%' }}
               />
             </div>
           </div>
