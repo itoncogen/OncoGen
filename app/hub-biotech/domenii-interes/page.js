@@ -24,21 +24,6 @@ const domenii = [
     },
 ];
 
-const stiri = [
-    {
-        id: 4,
-        title: 'COMUNICAT DE PRESĂ: Centrul OncoGen participă în proiectul TheraFast',
-        content:
-            'Centrul OncoGen participă în proiectul TheraFast – Centru de Excelență pentru descoperirea accelerată de medicamente, evaluat cu cel mai mare punctaj din domeniul Sănătate. Centrul de Terapii Genice și Celulare OncoGen, din cadrul Spitalului Clinic Județean de Urgență, este implicat activ în acest proiect de excelență.',
-    },
-    {
-        id: 5,
-        title: 'Centrul de Terapii Genice și Celulare OncoGen anunță începerea proiectului DECODEX',
-        content:
-            'Centrul de Terapii Genice și Celulare OncoGen, din cadrul Spitalului Clinic Județean de Urgență „Pius Brînzeu" Timișoara, participă în calitate de partener în proiectul „Dezvoltarea de materiale inovatoare pentru terapiile celulare personalizate și medicina translațională" – DECODEX.',
-    },
-];
-
 export default function DomeniiInteresPage() {
     const [expandedId, setExpandedId] = useState(null);
 
