@@ -43,10 +43,6 @@ export default function DomeniiInteresPage() {
             <section className="hero-secondary">
                 <div className="container">
                     <h1>Domenii de Interes / Nișe Potențiale</h1>
-                    <p>
-                        Hub-ul pentru Biotehnologii medicale avansate și Medicină translațională OncoGen —
-                        nișe potențiale de cercetare și inovare.
-                    </p>
                 </div>
             </section>
 
