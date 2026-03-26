@@ -36,10 +36,10 @@ export default function NavNoutatiDropdown() {
 
   return (
     <li className={`nav-dropdown-parent${isOpen ? ' nav-dropdown-open' : ''}`} ref={wrapperRef}>
-      <div className="nav-noutati-trigger">
+      <div className="nav-cercetare-trigger">
         <button
           type="button"
-          className="nav-noutati-label"
+          className="nav-cercetare-label"
           aria-expanded={isOpen}
           aria-label="Deschide meniul Noutăți"
           onClick={() => setIsOpen((prev) => !prev)}
