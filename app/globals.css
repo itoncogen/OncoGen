@@ -1420,6 +1420,51 @@ transform: translateY(-5px);
     margin: 6px;
 }
 
+/* ========================================
+   DOCTORAL RESEARCH PAGE
+   ======================================== */
+.doctoral-grid {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.doctoral-card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.doctoral-card h3 {
+    font-size: 16px;
+    color: var(--black);
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.doctoral-email {
+    color: var(--magenta);
+    text-decoration: none;
+    font-size: 14px;
+    word-break: break-all;
+    transition: color 0.2s ease;
+}
+
+.doctoral-email:hover {
+    color: var(--dark-gray);
+    text-decoration: underline;
+}
+
+.doctoral-teza {
+    font-size: 13px;
+    color: var(--gray);
+    line-height: 1.5;
+    margin-top: 6px;
+    font-style: italic;
+}
+
+.doctoral-card-absolventi {
+    border-top: 4px solid var(--magenta);
+}
+
 .section-cta-transfer {
     display: flex;
     flex-direction: column;
