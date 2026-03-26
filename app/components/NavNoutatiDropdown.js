@@ -44,7 +44,7 @@ export default function NavNoutatiDropdown() {
           aria-label="Deschide meniul Noutăți"
           onClick={() => setIsOpen((prev) => !prev)}
         >
-          Cercetare
+          Noutăți
         </button>
         <button
           type="button"
