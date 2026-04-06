@@ -39,15 +39,33 @@ export default function ContactForm() {
             <h2>Trimite-ne un mesaj</h2>
 
             {isSent && (
-                <p className="form-success" role="status">
-                    Mesajul a fost trimis cu succes. Îți mulțumim!
-                </p>
+                <div className="form-popup-overlay" role="dialog" aria-modal="true" aria-label="Mesaj trimis cu succes">
+                    <div className="form-popup form-popup--success">
+                        <button
+                            className="form-popup-close"
+                            onClick={() => setIsSent(false)}
+                            aria-label="Inchide"
+                        >
+                            &#x2715;
+                        </button>
+                        <p>Mesajul a fost trimis cu succes. Îți mulțumim!</p>
+                    </div>
+                </div>
             )}
 
             {errorMessage && (
-                <p className="form-error" role="alert">
-                    {errorMessage}
-                </p>
+                <div className="form-popup-overlay" role="dialog" aria-modal="true" aria-label="Eroare trimitere mesaj">
+                    <div className="form-popup form-popup--error">
+                        <button
+                            className="form-popup-close"
+                            onClick={() => setErrorMessage('')}
+                            aria-label="Inchide"
+                        >
+                            &#x2715;
+                        </button>
+                        <p>{errorMessage}</p>
+                    </div>
+                </div>
             )}
 
             <form className="contact-form" onSubmit={handleSubmit}>
