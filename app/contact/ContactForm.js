@@ -53,32 +53,32 @@ export default function ContactForm() {
             <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="name">Nume Complet *</label>
-                    <input type="text" id="name" name="name" required />
+                    <input type="text" id="name" name="Nume" required />
                 </div>
 
                 <div className="form-group">
                     <label htmlFor="email">Email *</label>
-                    <input type="email" id="email" name="email" required />
+                    <input type="email" id="email" name="Email" required />
                 </div>
 
                 <div className="form-group">
                     <label htmlFor="telefon">Telefon</label>
-                    <input type="tel" id="telefon" name="telefon" />
+                    <input type="tel" id="telefon" name="Telefon" />
                 </div>
 
                 <div className="form-group">
                     <label htmlFor="organizatie">Organizație</label>
-                    <input type="text" id="organizatie" name="organizatie" />
+                    <input type="text" id="organizatie" name="Organizatie" />
                 </div>
 
                 <div className="form-group">
                     <label htmlFor="subiect">Subiect *</label>
-                    <input type="text" id="subiect" name="subiect" required />
+                    <input type="text" id="subiect" name="Subiect" required />
                 </div>
 
                 <div className="form-group">
                     <label htmlFor="mesaj">Mesaj *</label>
-                    <textarea id="mesaj" name="mesaj" rows={5} required />
+                    <textarea id="mesaj" name="Mesaj" rows={5} required />
                 </div>
 
                 <button type="submit" disabled={isSubmitting}>
