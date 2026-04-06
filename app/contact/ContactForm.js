@@ -2,28 +2,55 @@
 
 import { useState } from 'react';
 
-export default function ContactForm({ isSent, errorMessage }) {
+export default function ContactForm() {
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [isSent, setIsSent] = useState(false);
+    const [errorMessage, setErrorMessage] = useState('');
 
-    function handleSubmit() {
+    async function handleSubmit(e) {
+        e.preventDefault();
         setIsSubmitting(true);
+        setErrorMessage('');
+
+        const formData = new FormData(e.target);
+
+        try {
+            const response = await fetch('https://formspree.io/f/xeepvlpk', {
+                method: 'POST',
+                body: formData,
+                headers: { Accept: 'application/json' },
+            });
+
+            if (response.ok) {
+                setIsSent(true);
+                e.target.reset();
+            } else {
+                setErrorMessage('A apărut o eroare. Te rugăm să încerci din nou.');
+            }
+        } catch {
+            setErrorMessage('A apărut o eroare de rețea. Te rugăm să încerci din nou.');
+        } finally {
+            setIsSubmitting(false);
+        }
     }
 
     return (
         <div className="contact-form-container">
             <h2>Trimite-ne un mesaj</h2>
+
             {isSent && (
                 <p className="form-success" role="status">
                     Mesajul a fost trimis cu succes. Îți mulțumim!
                 </p>
             )}
-            {errorMessage && !isSent && (
+
+            {errorMessage && (
                 <p className="form-error" role="alert">
                     {errorMessage}
                 </p>
             )}
 
-            <form className="contact-form" method="POST" action="/api/contact" onSubmit={handleSubmit}>
+            <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="name">Nume Complet *</label>
                     <input type="text" id="name" name="name" required />
@@ -35,55 +62,27 @@ export default function ContactForm({ isSent, errorMessage }) {
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="phone">Telefon</label>
-                    <input type="tel" id="phone" name="phone" />
+                    <label htmlFor="telefon">Telefon</label>
+                    <input type="tel" id="telefon" name="telefon" />
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="organization">Organizație</label>
-                    <input type="text" id="organization" name="organization" />
+                    <label htmlFor="organizatie">Organizație</label>
+                    <input type="text" id="organizatie" name="organizatie" />
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="subject">Subiect *</label>
-                    <select id="subject" name="subject" required>
-                        <option value="">-- Selectează subiectul --</option>
-                        <option value="general">Informații Generale</option>
-                        <option value="research">Colaborare în Cercetare</option>
-                        <option value="services">Servicii GMP</option>
-                        <option value="partnership">Partneriat Biotech</option>
-                        <option value="media">Interogări Media</option>
-                        <option value="recruitment">Cariere</option>
-                        <option value="other">Altele</option>
-                    </select>
+                    <label htmlFor="subiect">Subiect *</label>
+                    <input type="text" id="subiect" name="subiect" required />
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="message">Mesaj *</label>
-                    <textarea id="message" name="message" rows="6" required></textarea>
+                    <label htmlFor="mesaj">Mesaj *</label>
+                    <textarea id="mesaj" name="mesaj" rows={5} required />
                 </div>
 
-                <div className="form-group checkbox">
-                    <input type="checkbox" id="privacy" name="privacy" required />
-                    <label htmlFor="privacy">Sunt de acord cu <a href="#">politica de confidențialitate</a> și <a href="#">termenii de utilizare</a></label>
-                </div>
-
-                <input
-                    type="text"
-                    name="website"
-                    tabIndex={-1}
-                    autoComplete="off"
-                    aria-hidden="true"
-                    style={{ display: 'none' }}
-                />
-
-                <button
-                    type="submit"
-                    className="btn btn-primary btn-large"
-                    disabled={isSubmitting}
-                    aria-busy={isSubmitting}
-                >
-                    {isSubmitting ? 'Se trimite...' : 'Trimite Mesaj'}
+                <button type="submit" disabled={isSubmitting}>
+                    {isSubmitting ? 'Se trimite...' : 'Trimite mesajul'}
                 </button>
             </form>
         </div>
