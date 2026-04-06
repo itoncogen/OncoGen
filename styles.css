@@ -1696,6 +1696,57 @@ body {
     margin-bottom: 30px;
 }
 
+.form-popup-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.form-popup {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 50px;
+    max-width: 460px;
+    width: 90%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+
+.form-popup--success {
+    border-top: 5px solid var(--magenta);
+    color: var(--black);
+}
+
+.form-popup--error {
+    border-top: 5px solid #cc0000;
+    color: var(--black);
+}
+
+.form-popup-close {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: var(--gray);
+    line-height: 1;
+    padding: 4px 8px;
+    transition: color 0.2s ease;
+}
+
+.form-popup-close:hover {
+    color: var(--black);
+}
+
 .contact-form {
     background-color: var(--light-gray);
     padding: 30px;
@@ -1761,6 +1812,28 @@ body {
 
 .btn-large {
     width: 100%;
+}
+
+.contact-submit-btn {
+    width: 100%;
+    padding: 16px;
+    background-color: var(--magenta);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.contact-submit-btn:hover {
+    background-color: #c0006e;
+}
+
+.contact-submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
 }
 
 /* ========================================

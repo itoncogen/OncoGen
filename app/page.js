@@ -102,7 +102,7 @@ export default function Home() {
             <div id="videoModal" className="video-modal">
                 <div className="modal-content">
                     <span className="close" >&times;</span>
-                    <iframe id="videoFrame" width="100%" height="600" src="" frameborder="0" allowfullscreen></iframe>
+                    <iframe id="videoFrame" width="100%" height="600" src="" frameBorder="0" allowFullScreen></iframe>
                 </div>
             </div>
 
