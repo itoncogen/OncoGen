@@ -119,17 +119,17 @@ export default function ContactPage({ searchParams }) {
                     <h2>Link-uri Rapide</h2>
                     <div className="quick-links-grid">
                         <div className="quick-link-card">
-                            <h3>🤝 Colaborare în Cercetare</h3>
+                            <h3>Colaborare în Cercetare</h3>
                             <p>Dorești să colaborezi în proiecte de cercetare cu OncoGen?</p>
                             <Link href="/cercetare" className="btn btn-secondary">Explorează domeniile</Link>
                         </div>
                         <div className="quick-link-card">
-                            <h3>🏭 Servicii GMP</h3>
+                            <h3>Servicii GMP</h3>
                             <p>Ai nevoie de servicii de producție GMP sau consultanță?</p>
                             <Link href="/hub-biotech" className="btn btn-secondary">Descoperi serviciile</Link>
                         </div>
                         <div className="quick-link-card">
-                            <h3>📈 Cariere</h3>
+                            <h3>Cariere</h3>
                             <p>Interesat să te alături echipei OncoGen?</p>
                             <a href="#" className="btn btn-secondary">Vezi ofertele de muncă</a>
                         </div>
