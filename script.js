@@ -111,7 +111,6 @@ function openVideoModal(videoUrl) {
 
         if (embedUrl) {
             videoFrame.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
-            videoFrame.setAttribute('allowfullscreen', '');
             videoFrame.src = embedUrl;
             modal.style.display = 'block';
             document.body.style.overflow = 'hidden';
