@@ -91,7 +91,16 @@ export default function ContactForm() {
 
                 <div className="form-group">
                     <label htmlFor="subiect">Subiect *</label>
-                    <input type="text" id="subiect" name="Subiect" required />
+                    <select id="subiect" name="Subiect" required defaultValue="">
+                        <option value="" disabled>-- Selectează subiectul --</option>
+                        <option value="Informații Generale">Informații Generale</option>
+                        <option value="Colaborare în Cercetare">Colaborare în Cercetare</option>
+                        <option value="Servicii GMP">Servicii GMP</option>
+                        <option value="Parteneriat Biotech">Parteneriat Biotech</option>
+                        <option value="Interogări Media">Interogări Media</option>
+                        <option value="Cariere">Cariere</option>
+                        <option value="Altele">Altele</option>
+                    </select>
                 </div>
 
                 <div className="form-group">
@@ -99,8 +108,15 @@ export default function ContactForm() {
                     <textarea id="mesaj" name="Mesaj" rows={5} required />
                 </div>
 
+                <div className="form-group form-checkbox">
+                    <input type="checkbox" id="gdpr" name="GDPR" required />
+                    <label htmlFor="gdpr">
+                        Sunt de acord cu <a href="/politica-confidentialitate">politica de confidențialitate</a> și <a href="/termeni-utilizare">termenii de utilizare</a>
+                    </label>
+                </div>
+
                 <button type="submit" disabled={isSubmitting}>
-                    {isSubmitting ? 'Se trimite...' : 'Trimite mesajul'}
+                    {isSubmitting ? 'Se trimite...' : 'Trimite Mesaj'}
                 </button>
             </form>
         </div>
