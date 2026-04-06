@@ -108,14 +108,14 @@ export default function ContactForm() {
                     <textarea id="mesaj" name="Mesaj" rows={5} required />
                 </div>
 
-                <div className="form-group form-checkbox">
+                <div className="form-group checkbox">
                     <input type="checkbox" id="gdpr" name="GDPR" required />
                     <label htmlFor="gdpr">
                         Sunt de acord cu <a href="/politica-confidentialitate">politica de confidențialitate</a> și <a href="/termeni-utilizare">termenii de utilizare</a>
                     </label>
                 </div>
 
-                <button type="submit" disabled={isSubmitting}>
+                <button type="submit" className="contact-submit-btn" disabled={isSubmitting}>
                     {isSubmitting ? 'Se trimite...' : 'Trimite Mesaj'}
                 </button>
             </form>
