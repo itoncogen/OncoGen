@@ -35,9 +35,7 @@ export default function ProiectePage() {
             .trim();
     const filteredProjects = useMemo(() => {
         const query = normalizeText(searchTerm);
-        if (!query) return projects.projects;
-
-        return projects.projects.filter((project) => {
+        let result = query ? projects.projects.filter((project) => {
             const searchable = [
                 project.shortTitle,
                 project.title,
@@ -48,17 +46,16 @@ export default function ProiectePage() {
                 .map(normalizeText)
                 .join(' ');
 
-            // Sortare cronologică: extrage anul de start și sortează descrescător
-            const sortedProjects = filteredProjects.sort((a, b) => {
-                const getStartYear = (duration) => {
-                    const match = duration?.match(/(\d{4})/); // extrage primul an găsit
-                    return match ? parseInt(match[1]) : 0;
-                };
-                return getStartYear(b.duration) - getStartYear(a.duration); // descrescător (de la mai nou la mai vechi)
-            });
-
             return searchable.includes(query);
-        });
+        }) : projects.projects;
+
+        // Sortare cronologică: extrage anul de start și sortează descrescător
+        const getStartYear = (duration) => {
+            const match = duration?.match(/(\d{4})/);
+            return match ? parseInt(match[1]) : 0;
+        };
+
+        return result.sort((a, b) => getStartYear(b.duration) - getStartYear(a.duration));
     }, [searchTerm]);
     return (
         <>
@@ -91,7 +88,7 @@ export default function ProiectePage() {
             <section className="news-section">
                 <div className="container">
                     <div className="news-grid">
-                        {sortedProjects.map((project) => {
+                        {filteredProjects.map((project) => {
                             const imagePath = projectCardImages[project.slug];
                             const hasImage = Boolean(imagePath);
                             const slugClassName = hasImage ? ` project-card-${project.slug}` : '';
