@@ -13,7 +13,7 @@ const projectCardImages = {
     fibroblastele: '/images/imagini-proiecte/proiect-fibroblastele.jpg',
     decode: '/images/imagini-proiecte/proiect-decode.jpg',
     biovea: '/images/imagini-proiecte/proiect-biovea.jpg',
-    bioprintare: '/images/imagini-proiecte/proiect-bioprintare.jpg',
+    crosscare: '/images/imagini-proiecte/proiect-bioprintare.jpg',
     biomarkeri: '/images/imagini-proiecte/proiect-biomarkeri.png',
     inspired: '/images/imagini-proiecte/proiect-inspired.jpg',
     'bio-amr': '/images/imagini-proiecte/proiect-bio-amr.jpg',
@@ -27,12 +27,12 @@ const projectCardImages = {
 export default function ProiectePage() {
     const [searchTerm, setSearchTerm] = useState('');
     const normalizeText = (value) =>
-    (value || '')
-        .toString()
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .trim();
+        (value || '')
+            .toString()
+            .toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .trim();
     const filteredProjects = useMemo(() => {
         const query = normalizeText(searchTerm);
         if (!query) return projects.projects;

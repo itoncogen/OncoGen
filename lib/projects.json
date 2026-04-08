@@ -375,16 +375,29 @@
             "relatedProjects": []
         },
         {
-            "slug": "bioprintare",
+            "slug": "crosscare",
             "title": "Cross-border cooperation to foster the resilience of clinical management in cancer patients by establishing best practices in personalized molecular-based diagnostics, treatment, and long-term care",
             "shortTitle": "CROSSCARE",
             "category": "Cross-border cooperation",
             "duration": "2024-2026",
             "call": "RORS00040",
             "callLabel": "Nr. proiect",
-            "overview": "Cross-border cooperation to foster the resilience of clinical management in cancer patients by establishing best practices in personalized molecular-based diagnostics, treatment, and long-term care (CROSSCARE).",
-            "objectives": [],
-            "results": [],
+            "coordinator": "Spitalul Clinic Județean de Urgență \"Pius Brînzeu\" Timișoara",
+            "coordinatorLabel": "Coordonator",
+            "financing": "Interreg VI-A, Romania-Serbia Programme",
+            "financingLabel": "Apel",
+            "overview": "CROSSCARE este un proiect de cooperare transfrontalieră care urmărește consolidarea rezilienței managementului clinic al pacienților oncologici prin stabilirea de bune practici în diagnosticul, tratamentul și îngrijirea pe termen lung, bazate pe medicina moleculară personalizată. Proiectul reunește Spitalul Clinic Județean de Urgență \"Pius Brînzeu\" Timișoara și General Hospital Đorđe Jovanović din Zrenjanin, Serbia, cu scopul de a îmbunătăți serviciile de sănătate oncologică în regiunea transfrontalieră româno-sârbă, contribuind la creșterea ratei de supraviețuire, a speranței de viață și a calității vieții pacienților cu cancer.",
+            "objectives": [
+                "Promovarea cooperării în domeniul oncologiei în regiunea transfrontalieră România – Serbia",
+                "Implementarea unor proceduri de diagnostic de precizie și terapii personalizate pentru pacienții oncologici",
+                "Îmbunătățirea serviciilor de sănătate oncologică în beneficiul supraviețuirii, speranței de viață și calității vieții pacienților"
+            ],
+            "results": [
+                "300 de pacienți din România și Serbia vor beneficia direct de diagnostic de precizie utilizând echipamente și metodologii avansate (NGS, citometrie în flux, qRT-PCR), precum și de tratament chirurgical în unități operatorii de ultimă generație",
+                "Elaborarea de ghiduri și implementarea unor proceduri standardizate de diagnostic molecular și terapii personalizate pentru pacienții oncologici din regiunea transfrontalieră",
+                "Interpretarea datelor clinice prin Expert System Software v2, un sistem expert bazat pe algoritmi care furnizează recomandări terapeutice pentru tumorile solide",
+                "Identificarea unei ținte comune pentru toate tumorile solide, valorificabilă în dezvoltarea de strategii terapeutice extinse la nivel european"
+            ],
             "keywords": [
                 "CROSSCARE",
                 "Personalized diagnostics",
@@ -473,13 +486,12 @@
                 "Identificarea factorilor de risc pentru alergii",
                 "Dezvoltarea strategiilor personalizate de prevenție",
                 "Eficientizarea managementului pacientului alergic"
-            ], 
+            ],
             "results": [
                 "Identificarea factorilor de risc pentru alergii",
                 "Dezvoltarea strategiilor personalizate de prevenție",
                 "Eficientizarea managementului pacientului alergic"
             ],
-
             "keywords": [
                 "Alergii",
                 "Prevenție",
@@ -492,7 +504,7 @@
                     "label": "Detalii proiect (PDF)",
                     "url": "https://oncogen.ro/wp-content/uploads/2023/08/DETALII-PROIECT-PREVALERG.pdf"
                 }
-            ],  
+            ],
             "relatedProjects": []
         },
         {
