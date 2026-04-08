@@ -112,7 +112,7 @@ const fullTeam = [
         role: 'Fizician Medical',
         details: '',
         avatar: '/images/profile-avatar.svg',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Furdui_Marieta.pdf'
     },
     {
         name: 'As. C.S. Fiz. Jucos Gianina',
