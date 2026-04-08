@@ -375,22 +375,37 @@
             "relatedProjects": []
         },
         {
-            "slug": "bioprintare",
+            "slug": "crosscare",
             "title": "Cross-border cooperation to foster the resilience of clinical management in cancer patients by establishing best practices in personalized molecular-based diagnostics, treatment, and long-term care",
             "shortTitle": "CROSSCARE",
             "category": "Cross-border cooperation",
             "duration": "2024-2026",
             "call": "RORS00040",
             "callLabel": "Nr. proiect",
-            "overview": "Cross-border cooperation to foster the resilience of clinical management in cancer patients by establishing best practices in personalized molecular-based diagnostics, treatment, and long-term care (CROSSCARE).",
-            "objectives": [],
-            "results": [],
+            "coordinator": "Spitalul Clinic Județean de Urgență \"Pius Brînzeu\" Timișoara",
+            "coordinatorLabel": "Coordonator",
+            "financing": "Interreg VI-A, Romania-Serbia Programme",
+            "financingLabel": "Apel",
+            "overview": "CROSSCARE este un proiect de cooperare transfrontalieră care urmărește consolidarea rezilienței managementului clinic al pacienților oncologici prin stabilirea de bune practici în diagnosticul, tratamentul și îngrijirea pe termen lung, bazate pe medicina moleculară personalizată. Proiectul reunește Spitalul Clinic Județean de Urgență \"Pius Brînzeu\" Timișoara și General Hospital Đorđe Jovanović din Zrenjanin, Serbia, cu scopul de a îmbunătăți serviciile de sănătate oncologică în regiunea transfrontalieră româno-sârbă, contribuind la creșterea ratei de supraviețuire, a speranței de viață și a calității vieții pacienților cu cancer.",
+            "objectives": [
+                "Promovarea cooperării în domeniul oncologiei în regiunea transfrontalieră România – Serbia",
+                "Implementarea unor proceduri de diagnostic de precizie și terapii personalizate pentru pacienții oncologici",
+                "Îmbunătățirea serviciilor de sănătate oncologică în beneficiul supraviețuirii, speranței de viață și calității vieții pacienților"
+            ],
+            "results": [
+                "300 de pacienți din România și Serbia vor beneficia direct de diagnostic de precizie utilizând echipamente și metodologii avansate (NGS, citometrie în flux, qRT-PCR), precum și de tratament chirurgical în unități operatorii de ultimă generație",
+                "Elaborarea de ghiduri și implementarea unor proceduri standardizate de diagnostic molecular și terapii personalizate pentru pacienții oncologici din regiunea transfrontalieră",
+                "Interpretarea datelor clinice prin Expert System Software v2, un sistem expert bazat pe algoritmi care furnizează recomandări terapeutice pentru tumorile solide",
+                "Identificarea unei ținte comune pentru toate tumorile solide, valorificabilă în dezvoltarea de strategii terapeutice extinse la nivel european"
+            ],
             "keywords": [
-                "CROSSCARE",
-                "Personalized diagnostics",
-                "Cancer clinical management",
-                "Cross-border cooperation",
-                "Long-term care"
+                "Oncologie",
+                "Diagnostic molecular",
+                "Medicină personalizată",
+                "Cooperare transfrontalieră",
+                "Next Generation Sequencing (NGS)",
+                "Citometrie în flux",
+                "Terapii de precizie"
             ],
             "relatedProjects": []
         },
@@ -422,11 +437,28 @@
             "shortTitle": "REBORNE",
             "category": "FP7",
             "duration": "2010-2014",
-            "call": "Contract nr. 241879",
+            "coordinator": "Institut National de la Santé et de la Recherche Médicale (INSERM), Franța",
+            "coordinatorLabel": "Coordonator",
+            "financing": "FP7-HEALTH – Programul Specific \"Cooperation\": Health",
+            "finaningLabel": "Apel",
+            "call": "Contract de finanțare nr. 241879",
             "callLabel": "Contract",
-            "overview": "Regenerating Bone defects using New biomedical Engineering approaches (REBORNE), program FP7, contract nr. 241879 (2010-2014).",
-            "objectives": [],
-            "results": [],
+            "overview": "REBORNE (Regenerating Bone defects using New biomedical Engineering approaches) este un proiect european de amploare, finanțat prin FP7, care propune alternative inovatoare la grefele osoase clasice prin utilizarea celulelor stem mezenchimale cultivate și a biomaterialelor avansate. Cu peste 1 milion de proceduri de transplant osos anual în Europa și o piață globală estimată la 5 miliarde de euro, necesitatea unor terapii mai sigure și mai eficiente este evidentă. Proiectul reunește un consorțiu internațional de top format din 24 de parteneri din 9 țări europene — universități, spitale, centre de cercetare și IMM-uri producătoare de biomateriale — și include Universitatea de Medicină și Farmacie \"Victor Babeș\" Timișoara ca partener român. Obiectivul central constă în desfășurarea de studii clinice de fază II folosind biomateriale avansate și celule stem pentru regenerarea osoasă la pacienți cu fracturi, osteonecroză, defecte maxilo-faciale și despicături palatine la copii.",
+            "objectives": [
+                "Dezvoltarea și validarea de biomateriale avansate (ceramici bifazice cu fosfat de calciu, substitute osoase injectabile și cimenturi cu proprietăți osteoinductive) pentru ingineria tisulară osoasă",
+                "Stabilirea protocoalelor GMP de producție și control al calității celulelor stem mezenchimale (MSC) din surse autologe și alogene, inclusiv protocoale de crioconservare și testare a potențialului osteogenic",
+                "Validarea preclinică a combinațiilor biomaterial–MSC, cu accent pe potențialul angiogenic și osteogenic în modele animale relevante pentru patologii osoase umane",
+                "Desfășurarea a cinci studii clinice de fază II în 12 centre clinice din 8 țări europene, vizând: fracturi diafizare cu consolidare întârziată, osteonecroză de cap femural la adulți și copii, augmentare osoasă pre-implant dentar și reconstrucția despicăturilor palatine la copii",
+                "Stabilirea cadrului etic și juridic pentru cercetarea și dezvoltarea produselor de medicină regenerativă bazate pe MSC și biomateriale",
+                "Diseminarea și valorificarea rezultatelor prin brevetarea de noi bioproduse cu marcaj CE în domeniul medicinei regenerative, consolidând competitivitatea Europei"
+            ],
+            "results": [
+                "Cinci studii clinice de fază II finalizate, cu câte 20 de pacienți fiecare, în domenii terapeutice distincte: ortopedie și chirurgie maxilo-facială",
+                "Protocoale GMP standardizate și validate pentru producția celulelor stem mezenchimale din surse multiple, utilizabile în studii clinice multicentrice",
+                "Noi combinații biomaterial–celule stem optimizate pentru regenerarea osoasă, evaluate prin radiografii, CT, RMN și histologie",
+                "Bioprodusse inovatoare brevetate și pregătite pentru certificare CE, cu aplicabilitate directă în medicina regenerativă ortopedică și maxilo-facială",
+                "Consolidarea unui consorțiu european de excelență în regenerarea osoasă, cu contribuție directă la creșterea competitivității cercetării biomedicale europene"
+            ],
             "keywords": [
                 "REBORNE",
                 "Bone regeneration",
@@ -441,14 +473,28 @@
             "title": "RBC-engager for NK and T cell activation in cancer immunotherapy",
             "shortTitle": "REAKT",
             "category": "PNRR",
-            "duration": "2023-2026",
-            "financing": "PNRR/2022/C9/MCID/I8",
+            "duration": "Martie 2024 – Iunie 2026",
+            "coordinator": "Universitatea de Medicină și Farmacie \"Victor Babeș\" Timișoara",
+            "coordinatorLabel": "Coordonator",
+            "financing": "PNRR/2022/C9/MCID/I8 – Atragerea resurselor umane înalt specializate din străinătate în activități de CDI",
             "financingLabel": "Apel",
-            "call": "Contract de finanțare 760103/23.05.2023",
+            "call": "Contract de finanțare CF 227/29.11.2022 / Nr. 760103/23.05.2023",
             "callLabel": "Contract",
-            "overview": "RBC-engager for NK and T cell activation in cancer immunotherapy (REAKT), PNRR/2022/C9/MCID/I8, contract de finanțare 760103/23.05.2023, cod proiect CF 227/29.11.2022 (2023-2026).",
-            "objectives": [],
-            "results": [],
+            "overview": "REAKT este un proiect inovator de imunoterapie oncologică care propune o abordare complet nouă: stimularea in vivo a celulelor imune ale pacientului prin injectarea de eritrocite modificate genetic, capabile să formeze complexe între celulele tumorale și celulele imune efectoare (NK și limfocite T), transmițând semnalele de activare necesare pentru inițierea distrucției tumorale. Proiectul urmărește dezvoltarea unui produs bazat pe eritrocite, disponibil \"off-the-shelf\" și universal compatibil, indiferent de grupa sanguină a pacientului, cu aplicabilitate directă în cancerele avansate care exprimă antigenul tumoral ErbB2 (mamar, ovarian, osos, cerebral).",
+            "objectives": [
+                "Dezvoltarea de terapii eficiente împotriva cancerului, răspunzând nevoilor medicale nesatisfăcute în cancerele avansate cu expresie ErbB2 din regiunea Banat și România",
+                "Demonstrarea potențialului eritrocitelor sanguine de a induce răspunsuri imune eficiente, atunci când sunt modificate pentru a exprima liganzi de activare ai sistemului imun",
+                "Transferul de know-how și excelență în cercetarea biomedicală de la TU Dresda către UMF \"Victor Babeș\" Timișoara",
+                "Sprijinirea cercetătorilor la început de carieră în desfășurarea proiectelor de cercetare și publicarea în reviste științifice de top",
+                "Solicitarea de brevete internaționale în imunoterapia cancerului, cu potențial de a genera un start-up biotehnologic în zona Banatului",
+                "Promovarea transpunerii terapiilor noi din imunoterapia tumorală în practica clinică"
+            ],
+            "results": [
+                "Obținerea unui produs imunoterapeutic bazat pe eritrocite, disponibil \"off-the-shelf\" și universal compatibil pentru orice pacient, indiferent de grupa sanguină",
+                "Validarea eritrocitelor ca platformă de activare a celulelor NK și limfocitelor T în modele preclinice de cancer ErbB2+",
+                "Transfer de cunoștințe și consolidarea capacității de cercetare biomedicală la UMF \"Victor Babeș\" Timișoara",
+                "Publicații științifice și brevete internaționale în domeniul imunoterapiei, cu potențial de finanțare ulterioară și comercializare"
+            ],
             "keywords": [
                 "REAKT",
                 "Cancer immunotherapy",
@@ -473,13 +519,12 @@
                 "Identificarea factorilor de risc pentru alergii",
                 "Dezvoltarea strategiilor personalizate de prevenție",
                 "Eficientizarea managementului pacientului alergic"
-            ], 
+            ],
             "results": [
                 "Identificarea factorilor de risc pentru alergii",
                 "Dezvoltarea strategiilor personalizate de prevenție",
                 "Eficientizarea managementului pacientului alergic"
             ],
-
             "keywords": [
                 "Alergii",
                 "Prevenție",
@@ -492,7 +537,7 @@
                     "label": "Detalii proiect (PDF)",
                     "url": "https://oncogen.ro/wp-content/uploads/2023/08/DETALII-PROIECT-PREVALERG.pdf"
                 }
-            ],  
+            ],
             "relatedProjects": []
         },
         {

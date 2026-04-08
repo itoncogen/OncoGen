@@ -119,19 +119,18 @@ export default function Home() {
                             const hasImage = Boolean(imagePath);
 
                             return (
-                            <article
-                                key={project.slug}
-                                className={`project-card featured-project-card${hasImage ? ' project-card-with-image' : ''}`}
-                                style={hasImage ? { backgroundImage: `url(${imagePath})` } : undefined}
-                            >
-                                <div className="project-header">
-                                    <span className="project-tag">{project.category}</span>
-                                    <span className="project-year">{project.duration || '-'}</span>
-                                </div>
-                                <h3>{project.shortTitle}</h3>
-                                {project.slug !== 'nanocel' && <p>{project.description}</p>}
-                                <Link href={`/proiecte/${project.slug}`} className="read-more">Vezi detalii →</Link>
-                            </article>
+                                <article
+                                    key={project.slug}
+                                    className={`project-card featured-project-card${hasImage ? ' project-card-with-image' : ''}`}
+                                    style={hasImage ? { backgroundImage: `url(${imagePath})` } : undefined}
+                                >
+                                    <div className="project-header">
+                                        <span className="project-year">{project.duration || '-'}</span>
+                                    </div>
+                                    <h3>{project.shortTitle}</h3>
+                                    {project.slug !== 'nanocel' && <p>{project.description}</p>}
+                                    <Link href={`/proiecte/${project.slug}`} className="read-more">Vezi detalii →</Link>
+                                </article>
                             );
                         })}
                     </div>

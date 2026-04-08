@@ -13,7 +13,7 @@ const projectCardImages = {
     fibroblastele: '/images/imagini-proiecte/proiect-fibroblastele.jpg',
     decode: '/images/imagini-proiecte/proiect-decode.jpg',
     biovea: '/images/imagini-proiecte/proiect-biovea.jpg',
-    bioprintare: '/images/imagini-proiecte/proiect-bioprintare.jpg',
+    crosscare: '/images/imagini-proiecte/proiect-bioprintare.jpg',
     biomarkeri: '/images/imagini-proiecte/proiect-biomarkeri.png',
     inspired: '/images/imagini-proiecte/proiect-inspired.jpg',
     'bio-amr': '/images/imagini-proiecte/proiect-bio-amr.jpg',
@@ -27,17 +27,15 @@ const projectCardImages = {
 export default function ProiectePage() {
     const [searchTerm, setSearchTerm] = useState('');
     const normalizeText = (value) =>
-    (value || '')
-        .toString()
-        .toLowerCase()
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .trim();
+        (value || '')
+            .toString()
+            .toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .trim();
     const filteredProjects = useMemo(() => {
         const query = normalizeText(searchTerm);
-        if (!query) return projects.projects;
-
-        return projects.projects.filter((project) => {
+        let result = query ? projects.projects.filter((project) => {
             const searchable = [
                 project.shortTitle,
                 project.title,
@@ -49,7 +47,15 @@ export default function ProiectePage() {
                 .join(' ');
 
             return searchable.includes(query);
-        });
+        }) : projects.projects;
+
+        // Sortare cronologică: extrage anul de start și sortează descrescător
+        const getStartYear = (duration) => {
+            const match = duration?.match(/(\d{4})/);
+            return match ? parseInt(match[1]) : 0;
+        };
+
+        return result.sort((a, b) => getStartYear(b.duration) - getStartYear(a.duration));
     }, [searchTerm]);
     return (
         <>
@@ -93,7 +99,6 @@ export default function ProiectePage() {
                                     className={`news-card project-card-listing${hasImage ? ' project-card-with-image' : ''}${slugClassName}`}
                                     style={hasImage ? { backgroundImage: `url(${imagePath})` } : undefined}
                                 >
-                                    <div className="card-tag">{project.category}</div>
                                     <h3>{project.shortTitle}</h3>
                                     <Link href={`/proiecte/${project.slug}`} className="read-more">
                                         Vezi detalii →

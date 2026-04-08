@@ -23,7 +23,7 @@ export default function ProjectDetail({ params }) {
     }
 
     const { title, shortTitle, description, category, duration, budget, coordinator, coordinatorLabel, call, callLabel, financing, financingLabel, overview, role, objectives, results, keywords, externalLinks, relatedProjects } = project;
-    const displayTitle = ['rosecan', 'nanocel', 'mountadapt', 'car-nk', 'adipogeneza', 'delimit', 'healthy-pregnancy', 'fibroblastele', 'decode', 'biovea', 'bioprintare', 'consens', 'reborne', 'reakt', 'prevalerg', 'biomarkeri', 'inspired', 'bio-amr'].includes(project.slug) ? shortTitle : title;
+    const displayTitle = ['rosecan', 'nanocel', 'mountadapt', 'car-nk', 'adipogeneza', 'delimit', 'healthy-pregnancy', 'fibroblastele', 'decode', 'biovea', 'crosscare', 'consens', 'reborne', 'reakt', 'prevalerg', 'biomarkeri', 'inspired', 'bio-amr'].includes(project.slug) ? shortTitle : title;
     const showHeroDescription = project.slug !== 'nanocel';
 
     const redesignedSlugs = new Set(projects.projects.map((item) => item.slug));
