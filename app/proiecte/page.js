@@ -93,7 +93,6 @@ export default function ProiectePage() {
                                     className={`news-card project-card-listing${hasImage ? ' project-card-with-image' : ''}${slugClassName}`}
                                     style={hasImage ? { backgroundImage: `url(${imagePath})` } : undefined}
                                 >
-                                    <div className="card-tag">{project.category}</div>
                                     <h3>{project.shortTitle}</h3>
                                     <Link href={`/proiecte/${project.slug}`} className="read-more">
                                         Vezi detalii →
