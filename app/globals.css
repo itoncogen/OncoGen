@@ -1034,6 +1034,10 @@ transform: translateY(-5px);
     margin-top: auto;
 }
 
+.project-card-listing .card-tag {
+    display: none;
+}
+
 .project-card-with-image {
     align-items: flex-start;
     justify-content: flex-start;
@@ -2253,7 +2257,6 @@ transform: translateY(-5px);
     padding: 30px;
     border-radius: 8px;
     transition: all 0.3s ease;
-    border-left: 4px solid var(--magenta);
 }
 
 .project-card:hover,
