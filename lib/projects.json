@@ -399,11 +399,13 @@
                 "Identificarea unei ținte comune pentru toate tumorile solide, valorificabilă în dezvoltarea de strategii terapeutice extinse la nivel european"
             ],
             "keywords": [
-                "CROSSCARE",
-                "Personalized diagnostics",
-                "Cancer clinical management",
-                "Cross-border cooperation",
-                "Long-term care"
+                "Oncologie",
+                "Diagnostic molecular",
+                "Medicină personalizată",
+                "Cooperare transfrontalieră",
+                "Next Generation Sequencing (NGS)",
+                "Citometrie în flux",
+                "Terapii de precizie"
             ],
             "relatedProjects": []
         },
@@ -454,14 +456,28 @@
             "title": "RBC-engager for NK and T cell activation in cancer immunotherapy",
             "shortTitle": "REAKT",
             "category": "PNRR",
-            "duration": "2023-2026",
-            "financing": "PNRR/2022/C9/MCID/I8",
+            "duration": "Martie 2024 – Iunie 2026",
+            "coordinator": "Universitatea de Medicină și Farmacie \"Victor Babeș\" Timișoara",
+            "coordinatorLabel": "Coordonator",
+            "financing": "PNRR/2022/C9/MCID/I8 – Atragerea resurselor umane înalt specializate din străinătate în activități de CDI",
             "financingLabel": "Apel",
-            "call": "Contract de finanțare 760103/23.05.2023",
+            "call": "Contract de finanțare CF 227/29.11.2022 / Nr. 760103/23.05.2023",
             "callLabel": "Contract",
-            "overview": "RBC-engager for NK and T cell activation in cancer immunotherapy (REAKT), PNRR/2022/C9/MCID/I8, contract de finanțare 760103/23.05.2023, cod proiect CF 227/29.11.2022 (2023-2026).",
-            "objectives": [],
-            "results": [],
+            "overview": "REAKT este un proiect inovator de imunoterapie oncologică care propune o abordare complet nouă: stimularea in vivo a celulelor imune ale pacientului prin injectarea de eritrocite modificate genetic, capabile să formeze complexe între celulele tumorale și celulele imune efectoare (NK și limfocite T), transmițând semnalele de activare necesare pentru inițierea distrucției tumorale. Proiectul urmărește dezvoltarea unui produs bazat pe eritrocite, disponibil \"off-the-shelf\" și universal compatibil, indiferent de grupa sanguină a pacientului, cu aplicabilitate directă în cancerele avansate care exprimă antigenul tumoral ErbB2 (mamar, ovarian, osos, cerebral).",
+            "objectives": [
+                "Dezvoltarea de terapii eficiente împotriva cancerului, răspunzând nevoilor medicale nesatisfăcute în cancerele avansate cu expresie ErbB2 din regiunea Banat și România",
+                "Demonstrarea potențialului eritrocitelor sanguine de a induce răspunsuri imune eficiente, atunci când sunt modificate pentru a exprima liganzi de activare ai sistemului imun",
+                "Transferul de know-how și excelență în cercetarea biomedicală de la TU Dresda către UMF \"Victor Babeș\" Timișoara",
+                "Sprijinirea cercetătorilor la început de carieră în desfășurarea proiectelor de cercetare și publicarea în reviste științifice de top",
+                "Solicitarea de brevete internaționale în imunoterapia cancerului, cu potențial de a genera un start-up biotehnologic în Zona Banatului",
+                "Promovarea transpunerii terapiilor noi din imunoterapia tumorală în practica clinică"
+            ],
+            "results": [
+                "Obținerea unui produs imunoterapeutic bazat pe eritrocite, disponibil \"off-the-shelf\" și universal compatibil pentru orice pacient, indiferent de grupa sanguină",
+                "Validarea eritrocitelor ca platformă de activare a celulelor NK și limfocitelor T în modele preclinice de cancer ErbB2+",
+                "Transfer de cunoștințe și consolidarea capacității de cercetare biomedicală la UMF \"Victor Babeș\" Timișoara",
+                "Publicații științifice și brevete internaționale în domeniul imunoterapiei, cu potențial de finanțare ulterioară și comercializare"
+            ],
             "keywords": [
                 "REAKT",
                 "Cancer immunotherapy",
