@@ -3313,10 +3313,11 @@ transform: translateY(-5px);
 
     /* Footer îmbunătățit cu gradient și contrast mai bun */
     .footer {
-        background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%);
-        color: var(--white);
-        padding: 80px 0 30px;
-        border-top: 3px solid var(--magenta);
+        background: #0a0a0a !important;
+        background: linear-gradient(135deg, #1a1a1a 0%, #0d0d0d 100%) !important;
+        color: #ffffff !important;
+        padding: 80px 0 30px !important;
+        border-top: 3px solid #e80071 !important;
     }
 
     .footer-content {
