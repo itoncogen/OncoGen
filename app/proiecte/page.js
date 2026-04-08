@@ -48,6 +48,15 @@ export default function ProiectePage() {
                 .map(normalizeText)
                 .join(' ');
 
+            // Sortare cronologică: extrage anul de start și sortează descrescător
+            const sortedProjects = filteredProjects.sort((a, b) => {
+                const getStartYear = (duration) => {
+                    const match = duration?.match(/(\d{4})/); // extrage primul an găsit
+                    return match ? parseInt(match[1]) : 0;
+                };
+                return getStartYear(b.duration) - getStartYear(a.duration); // descrescător (de la mai nou la mai vechi)
+            });
+
             return searchable.includes(query);
         });
     }, [searchTerm]);
@@ -82,7 +91,7 @@ export default function ProiectePage() {
             <section className="news-section">
                 <div className="container">
                     <div className="news-grid">
-                        {filteredProjects.map((project) => {
+                        {sortedProjects.map((project) => {
                             const imagePath = projectCardImages[project.slug];
                             const hasImage = Boolean(imagePath);
                             const slugClassName = hasImage ? ` project-card-${project.slug}` : '';
