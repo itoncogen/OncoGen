@@ -2,6 +2,7 @@ import '../app/globals.css';
 import Link from 'next/link';
 import NavCercetareDropdown from './components/NavCercetareDropdown';
 import NavNoutatiDropdown from './components/NavNoutatiDropdown';
+import MobileNav from './components/MobileNav';
 
 export const metadata = {
     title: 'OncoGen',
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
                                     </Link>
                                 </div>
                             </div>
+                            <MobileNav />
                         </div>
                     </div>
                 </header>
