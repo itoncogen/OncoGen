@@ -24,11 +24,8 @@ export default function Home() {
                 <div className="hero-content">
                     <div className="hero-text">
                         <h2>// CERCETARE</h2>
-                        <h1>OncoGen – Centrul de Terapii Genice și Celulare în Tratamentul Cancerului</h1>
-                        <p>Primul centru de cercetare din România și Europa de Est dotat cu echipamente de ultimă generație
-                            pentru cercetarea de bază și aplicativă în domeniul terapiilor genice. Cu o suprafață totală de 3000
-                            m², centrul are facilități de cercetare fundamentală și aplicativă, inclusiv 15 compartimente și
-                            laboratoare dotate cu echipamente de înaltă performanță.</p>
+                        <h1>OncoGen </h1>
+                        <p> Centrul de terapii genice și celulare în tratamentul cancerului, dotat cu echipamente de ultimă generație pentru a susține cercetări în domeniul cancerului. Cu o suprafață totală de 3000 m², centrul are facilități de cercetare fundamentală și aplicativă, inclusiv 15 compartimente și laboratoare dotate cu echipamente de înaltă performanță.</p>
                         <div className="hero-buttons">
                             <Link href="/despre" className="btn btn-primary">Despre noi</Link>
                             <Link href="/certificari" className="btn btn-secondary">Certificări și acreditări</Link>
