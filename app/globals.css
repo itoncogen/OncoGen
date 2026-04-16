@@ -3851,6 +3851,85 @@ transform: translateY(-5px);
 }
 
 /* ========================================
+   TEAM SECTION (Echipa Page)
+   ======================================== */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 280px));
+    gap: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.team-card {
+    background-color: var(--light-gray);
+    padding: 0;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 280px;
+    overflow: hidden;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.team-card-info {
+    padding: 16px 20px 20px;
+}
+
+.team-avatar {
+    margin-bottom: 0;
+    display: block;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    background-color: #c9e4f0;
+}
+
+.team-avatar img {
+    width: 280px !important;
+    height: 280px !important;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
+
+.team-card h3 {
+    color: var(--black);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.team-card p {
+    color: var(--dark-gray);
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.cv-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 7px 18px;
+    background-color: transparent;
+    color: var(--blue);
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cv-unavailable {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--dark-gray);
+    font-size: 14px;
+}
+
+/* ========================================
    FEATURED PROJECTS SECTION (Homepage)
    ======================================== */
 .featured-projects {
