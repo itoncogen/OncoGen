@@ -237,21 +237,23 @@ export default function EchipaCompletaPage() {
                                         height={280}
                                     />
                                 </div>
-                                <h3>{member.name}</h3>
-                                <p><strong>{member.role}</strong></p>
-                                <p>{member.details}</p>
-                                {member.cvFile ? (
-                                    <a
-                                        href={member.cvFile}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="cv-button"
-                                    >
-                                        Vezi CV
-                                    </a>
-                                ) : (
-                                    <span className="cv-unavailable">CV indisponibil</span>
-                                )}
+                                <div className="team-card-info">
+                                    <h3>{member.name}</h3>
+                                    <p><strong>{member.role}</strong></p>
+                                    <p>{member.details}</p>
+                                    {member.cvFile ? (
+                                        <a
+                                            href={member.cvFile}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="cv-button"
+                                        >
+                                            Vezi CV
+                                        </a>
+                                    ) : (
+                                        <span className="cv-unavailable">CV indisponibil</span>
+                                    )}
+                                </div>
                             </div>
                         ))}
                     </div>

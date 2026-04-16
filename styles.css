@@ -1153,11 +1153,12 @@ body {
 
 .team-card {
     background-color: var(--light-gray);
-    padding: 20px;
+    padding: 0;
     border-radius: 8px;
     text-align: center;
     transition: all 0.3s ease;
     width: 280px;
+    overflow: hidden;
 }
 
 .team-card:hover {
@@ -1165,19 +1166,24 @@ body {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
+.team-card-info {
+    padding: 16px 20px 20px;
+}
+
 .team-avatar {
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 0;
+    display: block;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
 }
 
 .team-avatar img {
-    width: 100%;
-    max-width: 280px;
-    height: auto;
+    width: 280px !important;
+    height: 280px !important;
+    object-fit: cover;
+    object-position: center top;
     display: block;
-    border-radius: 8px;
 }
 
 .team-card h3 {
