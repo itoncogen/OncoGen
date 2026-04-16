@@ -101,8 +101,8 @@ export default function DesprePage() {
                     <div className="team-grid">
                         <div className="team-card">
                             <div className="team-avatar">
-                                <Image 
-                                    src="/images/profile-avatar.svg" 
+                                <Image
+                                    src="/imagini-personal-oncogen/Virgil_Paunescu.jpg"
                                     alt="Prof. Dr. Virgil Păunescu"
                                     width={100}
                                     height={100}
@@ -114,8 +114,8 @@ export default function DesprePage() {
                         </div>
                         <div className="team-card">
                             <div className="team-avatar">
-                                <Image 
-                                    src="/images/profile-avatar.svg" 
+                                <Image
+                                    src="/imagini-personal-oncogen/Carmen_Bunu_Panaitescu.jpg"
                                     alt="Prof. Dr. Carmen Panaitescu"
                                     width={100}
                                     height={100}
@@ -127,8 +127,8 @@ export default function DesprePage() {
                         </div>
                         <div className="team-card">
                             <div className="team-avatar">
-                                <Image 
-                                    src="/images/profile-avatar.svg" 
+                                <Image
+                                    src="/imagini-personal-oncogen/Florina_Bojin.jpeg"
                                     alt="Conf. Dr. Florina Bojin"
                                     width={100}
                                     height={100}
@@ -140,8 +140,8 @@ export default function DesprePage() {
                         </div>
                         <div className="team-card">
                             <div className="team-avatar">
-                                <Image 
-                                    src="/images/profile-avatar.svg" 
+                                <Image
+                                    src="/imagini-personal-oncogen/Calin_Tatu.jpeg"
                                     alt="Conf. Dr. Călin Țațu"
                                     width={100}
                                     height={100}
@@ -230,35 +230,35 @@ export default function DesprePage() {
                         <div className="about-text">
                             <h2>DESPRE NOI</h2>
                             <p>
-                                OncoGen Timișoara este un centru de excelență în cercetarea biomedicală și terapiile 
-                                genice și celulare avansate. Reprezentând prima instituție de acest tip din România, 
-                                OncoGen se distinge prin infrastructura sa ultramodernă constituită din laboratoare de cercetare 
+                                OncoGen Timișoara este un centru de excelență în cercetarea biomedicală și terapiile
+                                genice și celulare avansate. Reprezentând prima instituție de acest tip din România,
+                                OncoGen se distinge prin infrastructura sa ultramodernă constituită din laboratoare de cercetare
                                 și facilități de producție GMP.
-                                
+
                             </p>
 
                             <p>
-                                Cu o suprafață de 3000 m², centrul reunește cercetători, echipamente de ultimă generație 
-                                și tehnologii inovatoare, promovând o abordare integrată, 
-                                de la cercetarea fundamentală la aplicabilitatea clinică. 
-                                Infrastructura OncoGen include facilități specializate pentru cercetare avansată 
-                                și dezvoltare biotehnologică, precum o unitate GMP pentru producția de biomolecule și vectori terapeutici, 
+                                Cu o suprafață de 3000 m², centrul reunește cercetători, echipamente de ultimă generație
+                                și tehnologii inovatoare, promovând o abordare integrată,
+                                de la cercetarea fundamentală la aplicabilitatea clinică.
+                                Infrastructura OncoGen include facilități specializate pentru cercetare avansată
+                                și dezvoltare biotehnologică, precum o unitate GMP pentru producția de biomolecule și vectori terapeutici,
                                 clean rooms, facilități BSL-2, precum și o bancă de celule și țesuturi și o biobază pentru studii preclinice.
-                                
+
                             </p>
 
                             <p>
-                                Construcția și dotarea centrului au avut loc între 2010 și 2015, 
-                                printr-un proiect de anvergură finanțat din Programul Operațional Sectorial „Creșterea Competitivității Economice”, 
-                                Axa prioritară 2: Competitivitate prin cercetare, dezvoltare economică și inovare, 
-                                Operațiunea 2.2.1. Proiectul a fost coordonat de Prof. Dr. Virgil Păunescu, având o valoare totală de 54.389.610 RON, 
+                                Construcția și dotarea centrului au avut loc între 2010 și 2015,
+                                printr-un proiect de anvergură finanțat din Programul Operațional Sectorial „Creșterea Competitivității Economice”,
+                                Axa prioritară 2: Competitivitate prin cercetare, dezvoltare economică și inovare,
+                                Operațiunea 2.2.1. Proiectul a fost coordonat de Prof. Dr. Virgil Păunescu, având o valoare totală de 54.389.610 RON,
                                 din care 38.909.200 RON provenind din Fondul European de Dezvoltare Regională și 5.090.800 RON de la bugetul național.
-                                
+
                             </p>
 
                             <p>
-                                Prin colaborări cu instituții academice de prestigiu, centre internaționale de cercetare și parteneri industriali de top, 
-                                OncoGen Timișoara se dorește a fi un reper de inovare și progres medical, dedicat nu doar descoperirilor științifice, 
+                                Prin colaborări cu instituții academice de prestigiu, centre internaționale de cercetare și parteneri industriali de top,
+                                OncoGen Timișoara se dorește a fi un reper de inovare și progres medical, dedicat nu doar descoperirilor științifice,
                                 ci și transformării acestora în beneficii reale pentru sănătatea pacienților.
                             </p>
                         </div>
