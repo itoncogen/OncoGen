@@ -233,9 +233,9 @@ export default function EchipaCompletaPage() {
                                     <Image
                                         src={member.avatar}
                                         alt={member.name}
-                                        width={200}
-                                        height={200}
-                                        style={{ objectFit: 'cover', objectPosition: 'center top' }}
+                                        width={300}
+                                        height={300}
+                                        style={{ width: '100%', height: 'auto' }}
                                     />
                                 </div>
                                 <h3>{member.name}</h3>
