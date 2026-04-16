@@ -1170,6 +1170,7 @@ body {
     overflow: hidden;
     border-radius: 8px;
     background-color: #c9e4f0;
+    position: relative;
 }
 
 .team-avatar img {
