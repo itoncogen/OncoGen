@@ -235,7 +235,7 @@ export default function EchipaCompletaPage() {
                                         alt={member.name}
                                         width={300}
                                         height={300}
-                                        style={{ width: '100%', height: 'auto' }}
+                                        style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 20%' }}
                                     />
                                 </div>
                                 <h3>{member.name}</h3>
