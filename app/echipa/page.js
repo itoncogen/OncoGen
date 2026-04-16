@@ -233,8 +233,8 @@ export default function EchipaCompletaPage() {
                                     <Image
                                         src={member.avatar}
                                         alt={member.name}
-                                        width={100}
-                                        height={100}
+                                        width={200}
+                                        height={200}
                                     />
                                 </div>
                                 <h3>{member.name}</h3>
