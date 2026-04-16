@@ -6,7 +6,7 @@ const fullTeam = [
         name: 'Prof. Dr. Păunescu Virgil',
         role: 'Coordonator OncoGen',
         details: 'Director științific și fondator al centrului',
-        avatar: '/images/profile-avatar.svg',
+        avatar: '/public/imagini-personal-oncogen/Virgil Păunescu.jpg',
         cvFile: '/CV-personal-oncogen/CV_Paunescu_Virgil.pdf'
     },
     {
@@ -230,8 +230,8 @@ export default function EchipaCompletaPage() {
                         {fullTeam.map((member) => (
                             <div key={member.name} className="team-card">
                                 <div className="team-avatar">
-                                    <Image 
-                                        src={member.avatar} 
+                                    <Image
+                                        src={member.avatar}
                                         alt={member.name}
                                         width={100}
                                         height={100}
