@@ -1165,20 +1165,17 @@ body {
 
 .team-avatar {
     margin-bottom: 15px;
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    overflow: hidden;
-    border-radius: 8px;
-    background-color: #c9e4f0;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-avatar img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center 20%;
+    max-width: 280px;
+    height: auto;
     display: block;
+    border-radius: 8px;
 }
 
 .team-card h3 {
