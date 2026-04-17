@@ -75,7 +75,6 @@ export default function RootLayout({ children }) {
                                     </a>
                                 </p>
                                 <p><a href="mailto:office@oncogen.ro">office@oncogen.ro</a></p>
-                                <p><a href="tel:+40256495050">+40 256 49 50 50</a></p>
                             </div>
                             <div className="footer-section">
                                 <h4>Navigare</h4>
