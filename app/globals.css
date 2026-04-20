@@ -1220,7 +1220,7 @@ body {
 }
 
 .project-card-listing .read-more {
-    margin-top: auto;
+    margin-top: 8px;
 }
 
 .project-card-listing .card-tag {
@@ -1228,12 +1228,14 @@ body {
 }
 
 .project-card-with-image {
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-left-width: 5px;
+    padding: 15% 18%;
 }
 
 .project-card-with-image::before {
@@ -1280,7 +1282,7 @@ body {
 }
 
 .featured-project-card .read-more {
-    margin-top: auto;
+    margin-top: 8px;
 }
 
 .featured-project-card.project-card-with-image {
