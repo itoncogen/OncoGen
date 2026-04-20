@@ -1203,6 +1203,7 @@ transform: translateY(-5px);
     overflow: hidden;
     position: relative;
     isolation: isolate;
+    border-radius: 24px;
 }
 
 .project-card-listing .card-tag,
@@ -1261,6 +1262,7 @@ transform: translateY(-5px);
     overflow: hidden;
     position: relative;
     isolation: isolate;
+    border-radius: 24px;
 }
 
 .featured-project-card .project-header,
@@ -2443,7 +2445,7 @@ transform: translateY(-5px);
 .news-card {
     background-color: var(--light-gray);
     padding: 30px;
-    border-radius: 8px;
+    border-radius: 24px;
     transition: all 0.3s ease;
 }
 
