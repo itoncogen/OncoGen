@@ -1203,7 +1203,7 @@ body {
     overflow: hidden;
     position: relative;
     isolation: isolate;
-    border-radius: 96px;
+    border-radius: 62% 38% 55% 45% / 48% 52% 48% 52%;
 }
 
 .project-card-listing .card-tag,
@@ -1262,7 +1262,7 @@ body {
     overflow: hidden;
     position: relative;
     isolation: isolate;
-    border-radius: 48px;
+    border-radius: 62% 38% 55% 45% / 48% 52% 48% 52%;
 }
 
 .featured-project-card .project-header,
@@ -2446,7 +2446,7 @@ body {
 .news-card {
     background-color: var(--light-gray);
     padding: 30px;
-    border-radius: 48px;
+    border-radius: 62% 38% 55% 45% / 48% 52% 48% 52%;
     transition: all 0.3s ease;
 }
 
