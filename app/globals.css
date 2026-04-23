@@ -1042,16 +1042,20 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(233, 30, 99, 0.7);
+    background: rgba(0, 0, 0, 0.35);
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.4s ease;
 }
 
 .video-card:hover .video-overlay {
     opacity: 1;
+}
+
+.video-card:hover .video-thumbnail img {
+    filter: brightness(0.75);
 }
 
 .play-button {
