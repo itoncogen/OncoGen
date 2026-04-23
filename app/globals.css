@@ -2448,8 +2448,7 @@ body {
     margin-bottom: 50px;
 }
 
-.project-card,
-.news-card {
+.project-card {
     background-color: var(--light-gray);
     padding: 20% 18%;
     border-radius: 62% 38% 55% 45% / 48% 52% 48% 52%;
@@ -2461,6 +2460,20 @@ body {
     justify-content: center;
     text-align: center;
     aspect-ratio: 1 / 1;
+}
+
+.news-card {
+    background-color: var(--white);
+    padding: 28px 24px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
 }
 
 .project-card:hover,
@@ -2483,11 +2496,11 @@ body {
     color: var(--white);
     padding: 5px 12px;
     border-radius: 20px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
-    white-space: normal;
-    text-align: center;
-    margin-bottom: 8px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .project-year {
