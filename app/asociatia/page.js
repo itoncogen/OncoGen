@@ -35,25 +35,22 @@ export default function AsociatiaPage() {
                         </div>
 
                         <p style={{ marginBottom: '15px', lineHeight: '1.8' }}>
-                            Asociația OncoGen sprijină cercetarea științifică românească și susține echipa OncoGen,
-                            ale cărui proiecte au contribuit la plasarea cercetării medicale românești alături de cea
-                            realizată de importante institute de cercetare și universități din Europa și din întreaga lume.
+                            Cancerul nu așteaptă! Dar nici noi!
+                            Asociația OncoGen susține Centrul de terapii genice și celulare, un loc unde știința de vârf se transformă în speranță reală pentru pacienți.
                         </p>
 
                         <p style={{ marginBottom: '15px', lineHeight: '1.8' }}>
-                            Datorăm o mare parte din ceea ce am realizat dedicării continue a celor care au susținut
-                            echipa OncoGen.
+                            Proiectele noastre au plasat cercetarea medicală românească pe harta mondială, alături de institute de renume din Germania, SUA și întreaga Europă.
+                            Dar descoperirile mărețe nu se fac singure!
                         </p>
 
                         <p style={{ marginBottom: '15px', lineHeight: '1.8' }}>
-                            Vă mulțumim, așadar, fiecăruia dintre dumneavoastră și vă asigurăm de recunoștința noastră
-                            de nezdruncinat pentru că sunteți alături de noi.
+                            Fiecare contribuție contează. Prin sprijinul tău, ajuți direct la finanțarea cercetărilor care nu pot aștepta, dezvoltarea de terapii personalizate pentru pacienți fără alte opțiuni, formarea noii generații de cercetători români, menținerea României în elita cercetării biomedicale mondiale.
                         </p>
 
                         <p style={{ lineHeight: '1.8' }}>
-                            Dacă doriți în continuare să sprijiniți echipa OncoGen în eforturile sale de a tinde spre
-                            excelență în cercetarea științifică medicală românească, puteți contribui la oricare dintre
-                            proiectele OncoGen.
+                            Oamenii din spatele acestor descoperiri sunt medici, biologi, ingineri și doctoranzi care au ales să rămână în România și să schimbe lumea de aici. Tu îi poți ajuta să continue!
+                            Alătură-te comunității OncoGen! Contribuția ta salvează vieți!
                         </p>
                     </div>
                 </div>
