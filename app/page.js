@@ -25,7 +25,7 @@ export default function Home() {
                     <div className="hero-text">
                         <h2>// CERCETARE</h2>
                         <h1>OncoGen </h1>
-                        <p><strong>Centrul de terapii genice și celulare în tratamentul cancerului</strong>, dotat cu echipamente de ultimă generație pentru a susține cercetări în domeniul cancerului. Cu o suprafață totală de 3000 m², centrul are facilități de cercetare fundamentală și aplicativă, inclusiv 15 compartimente și laboratoare dotate cu echipamente de înaltă performanță.</p>
+                        <p><strong>Transformăm știința în speranță!</strong> De la terapii genice celulare și imunoterapii anti-cancer, până la bioimprimarea 3D a țesuturilor tumorale, descoperirile echipei OncoGen sunt publicate în reviste internaționale de top și recunoscute în consorții europene finanțate de UE. Medicina viitorului se construiește în Timișoara!</p>
                         <div className="hero-buttons">
                             <Link href="/despre" className="btn btn-primary">Despre noi</Link>
                             <Link href="/certificari" className="btn btn-secondary">Certificări și acreditări</Link>
