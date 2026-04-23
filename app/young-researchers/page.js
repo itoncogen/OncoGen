@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const members = [
     { name: 'SERGIU MICORICI', role: 'PREȘEDINTE' },
@@ -114,7 +115,15 @@ export default function YoungResearchersPage() {
                     <div className="team-grid">
                         {members.map((member) => (
                             <div key={member.name} className="team-card">
-                                <div className="team-avatar">🧪</div>
+                                <div className="team-avatar">
+                                    <Image
+                                        src="/images/profile-avatar.svg"
+                                        alt={member.name}
+                                        width={280}
+                                        height={280}
+                                        style={{ width: '100%', height: 'auto' }}
+                                    />
+                                </div>
                                 <h3>{member.name}</h3>
                                 <p><strong>{member.role}</strong></p>
                             </div>
