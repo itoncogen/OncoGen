@@ -2451,9 +2451,16 @@ body {
 .project-card,
 .news-card {
     background-color: var(--light-gray);
-    padding: 30px;
+    padding: 20% 18%;
     border-radius: 62% 38% 55% 45% / 48% 52% 48% 52%;
     transition: all 0.3s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    aspect-ratio: 1 / 1;
 }
 
 .project-card:hover,
@@ -2476,9 +2483,11 @@ body {
     color: var(--white);
     padding: 5px 12px;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
-    white-space: nowrap;
+    white-space: normal;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .project-year {
