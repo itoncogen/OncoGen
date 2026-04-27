@@ -51,25 +51,19 @@ export default function BioPrintarePage() {
               <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', margin: '24px 0' }}>
                 <div style={{ flex: '1', minWidth: '280px', textAlign: 'center' }}>
                   <img
-                    src="https://oncogen.ro/wp-content/uploads/2021/03/figura1-bioprintare.png"
+                    src="/images/Figura_prototip_organoizi_tumorali1.png"
                     alt="Figura 1: Modelele digitale ale organizorilor tumorali biotipăriți"
                     className="car-nk-img"
                     onError={(e) => { e.target.style.display = 'none'; }}
                   />
-                  <p className="car-nk-figure-caption">
-                    Figura 1: Modelele digitale ale organizorilor tumorali biotipăriți. Miezul ambelor modele este reprezentat de celule primare de cancer mamar, înconjurate parțial (toroidal) sau total (triplu-stratificat) de un amestec de celule peritumorale, pentru a replica micromediul tumoral nativ.
-                  </p>
                 </div>
                 <div style={{ flex: '1', minWidth: '280px', textAlign: 'center' }}>
                   <img
-                    src="https://oncogen.ro/wp-content/uploads/2021/03/figura2-bioprintare.png"
+                    src="/images/Figura_prototip_organoizi_tumorali2.png"
                     alt="Figura 2: Organoizi tumorali biotipăriți la OncoGen"
                     className="car-nk-img"
                     onError={(e) => { e.target.style.display = 'none'; }}
                   />
-                  <p className="car-nk-figure-caption">
-                    Figura 2: Organoizi tumorali biotipăriți la OncoGen. Fotografii ale structurilor toroidale (a) și triplu-stratificate (b) tipărite pe plăci cu mai multe godeuri. Două structuri reprezentative ale modelului tumoral toroidal (c) sau triplu-stratificat (d) vizualizate prin microscopie optică.
-                  </p>
                 </div>
               </div>
 
