@@ -20,7 +20,7 @@ export default function BioPrintarePage() {
 
       {/* Main Section */}
       <section className="content-section">
-        <h1 className="car-nk-main-title" style={{ color: 'var(--magenta)' }}>
+        <h1 className="car-nk-main-title" style={{ color: 'var(--black)' }}>
           Dezvoltarea de pachete software pentru programarea bioimprimantelor în biotipărirea tridimensională
         </h1>
 
