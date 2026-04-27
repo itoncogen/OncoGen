@@ -10,16 +10,13 @@ export default function BioPrintarePage() {
 
   return (
     <div className="page-container">
-      {/* Breadcrumb */}
-      <nav className="breadcrumb" aria-label="Breadcrumb">
-        <Link href="/hub-biotech">Hub Biotehnologii</Link>
-        <span>&nbsp;/&nbsp;</span>
-        <Link href="/hub-biotech/transfer-tehnologic">Transfer Tehnologic</Link>
-        <span>&nbsp;/&nbsp;</span>
-        <Link href="/hub-biotech/transfer-tehnologic/prototipuri">Prototipuri</Link>
-        <span>&nbsp;/&nbsp;</span>
-        <span>BIOPRINTARE</span>
-      </nav>
+      <div className="breadcrumbs">
+        <div className="container">
+          <Link href="/">Acasă</Link> / <Link href="/hub-biotech">Hub Biotehnologii</Link> /{' '}
+          <Link href="/hub-biotech/transfer-tehnologic">Transfer Tehnologic</Link> /{' '}
+          <Link href="/hub-biotech/transfer-tehnologic/prototipuri">Prototipuri</Link> / <span>BIOPRINTARE</span>
+        </div>
+      </div>
 
       {/* Main Section */}
       <section className="content-section">
