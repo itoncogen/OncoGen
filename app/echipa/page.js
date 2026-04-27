@@ -213,8 +213,8 @@ const fullTeam = [
         cvFile: null
     },
     {
-        name: 'Flaviu Bob',
-        role: ' ',
+        name: 'Flaviu Pop',
+        role: 'Responsabil GDPR',
         details: ' ',
         avatar: '/imagini-personal-oncogen/Flaviu_Bob.jpeg',
         cvFile: null
