@@ -204,6 +204,27 @@ const fullTeam = [
         details: '',
         avatar: '/imagini-personal-oncogen/Carmen_Pitic.jpeg',
         cvFile: '/CV-personal-oncogen/CV_Pitic_Carmen.pdf'
+    },
+    {
+        name: 'Cosmin Stoin',
+        role: ' ',
+        details: ' ',
+        avatar: '/imagini-personal-oncogen/Cosmin_Stoin.jpeg',
+        cvFile: null
+    },
+    {
+        name: 'Flaviu Bob',
+        role: ' ',
+        details: ' ',
+        avatar: '/imagini-personal-oncogen/Flaviu_Bob.jpeg',
+        cvFile: null
+    },
+    {
+        name: 'Ioana Bindariu',
+        role: ' ',
+        details: ' ',
+        avatar: '/imagini-personal-oncogen/Ioana_Bindariu.jpeg',
+        cvFile: ' '
     }
     // Add all remaining organization members here
 ];
