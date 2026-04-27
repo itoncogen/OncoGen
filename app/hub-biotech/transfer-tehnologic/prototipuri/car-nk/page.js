@@ -136,7 +136,6 @@ export default function CarNkPage() {
               alt="Fig. 1 - Constructe CAR universale cu modul de legare de tip receptor Fc"
               className="car-nk-img"
             />
-            <p className="car-nk-figure-caption">Fig. 1</p>
           </div>
 
           <p className="car-nk-body-text">
