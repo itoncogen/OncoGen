@@ -83,10 +83,9 @@ export default function CarNkPage() {
 
           <div className="car-nk-figure">
             <img
-              src="https://oncogen.ro/wp-content/uploads/2021/03/vector-lentiviral.png"
+              src="/images/harta.png"
               alt="Harta unui vector lentiviral indicând regiunile funcționale ale vectorului și domeniile relevante ale constructului CAR"
               className="car-nk-img"
-              onError={(e) => { e.target.style.display = 'none'; }}
             />
             <p className="car-nk-figure-caption">Harta unui vector lentiviral indicând regiunile funcționale ale vectorului și domeniile relevante ale constructului CAR</p>
           </div>
@@ -97,10 +96,9 @@ export default function CarNkPage() {
 
           <div className="car-nk-figure">
             <img
-              src="https://oncogen.ro/wp-content/uploads/2021/03/citotoxicitate-CD19.png"
+              src="/images/grafic.png"
               alt="Teste de citotoxicitate cu celule NK-92 netransduse sau transduse cu CAR anti-CD19 față de celule țintă care exprimă sau nu antigenul CD19"
               className="car-nk-img"
-              onError={(e) => { e.target.style.display = 'none'; }}
             />
             <p className="car-nk-figure-caption">Teste de citotoxicitate cu celule NK-92 netransduse sau transduse cu CAR anti-CD19 față de celule țintă care exprimă sau nu antigenul CD19. În panelul superior este determinată expresia antigenului CD19 prin citometrie în flux.</p>
           </div>
@@ -134,10 +132,9 @@ export default function CarNkPage() {
 
           <div className="car-nk-figure">
             <img
-              src="https://oncogen.ro/wp-content/uploads/2021/03/fig1-CAR-universal.png"
-              alt="Fig. 1 - Constructe CAR universale"
+              src="/images/celule.png"
+              alt="Fig. 1 - Constructe CAR universale cu modul de legare de tip receptor Fc"
               className="car-nk-img"
-              onError={(e) => { e.target.style.display = 'none'; }}
             />
             <p className="car-nk-figure-caption">Fig. 1</p>
           </div>
