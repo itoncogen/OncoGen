@@ -195,9 +195,9 @@ export default function CarNkPage() {
         </div>
 
         {/* CTA Back Button */}
-        <div className="section-cta-buttons">
-          <Link href="/hub-biotech/transfer-tehnologic/prototipuri" className="btn btn-secondary">
-            &larr; Înapoi la Prototipuri
+        <div className="section-cta">
+          <Link href="/hub-biotech/transfer-tehnologic/prototipuri" className="btn btn-primary">
+            Înapoi la Prototipuri
           </Link>
         </div>
       </section>

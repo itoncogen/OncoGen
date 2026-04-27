@@ -174,9 +174,9 @@ export default function BioPrintarePage() {
           )}
         </div>
 
-        <div className="section-cta-buttons" style={{ marginTop: '40px' }}>
-          <Link href="/hub-biotech/transfer-tehnologic/prototipuri" className="btn btn-secondary">
-            ← Înapoi la Prototipuri
+        <div className="section-cta">
+          <Link href="/hub-biotech/transfer-tehnologic/prototipuri" className="btn btn-primary">
+            Înapoi la Prototipuri
           </Link>
         </div>
       </section>
