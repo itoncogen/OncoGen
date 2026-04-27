@@ -61,13 +61,13 @@ export default function YoungResearchersPage() {
                         <div className="content-card">
                             <h3>2011+ · Începuturile</h3>
                             <p>
-                                Activitățile de voluntariat și mentorat în cercetare au continuat eforturile cercetătorilor centrului sub forma unui cerc 
+                                Activitățile de voluntariat și mentorat în cercetare au continuat eforturile cercetătorilor centrului sub forma unui cerc
                                 științific orgnizat în cadrul Disciplinelor de Imunologie și Fiziologie a UMFT începând din anul 2011.
 
                             </p>
                             <p>
-                                Centrul OncoGen a sprijinit continuu educația în cercetarea fundamentală a studenților, inclusiv prin integrarea acestora în 
-                                programul VADA la Catedrele de Alergologie și Imunologie clinică, Biologie și Fiziologie din cadrul Universității de Medicină 
+                                Centrul OncoGen a sprijinit continuu educația în cercetarea fundamentală a studenților, inclusiv prin integrarea acestora în
+                                programul VADA la Catedrele de Alergologie și Imunologie clinică, Biologie și Fiziologie din cadrul Universității de Medicină
                                 și Farmacie „Victor Babeș” din Timișoara.
                             </p>
                         </div>
@@ -75,15 +75,15 @@ export default function YoungResearchersPage() {
                         <div className="content-card">
                             <h3>2017 · Promovarea cercetării biomedicale în rândul liceenilor</h3>
                             <p>
-                                Asociația OncoGen a inițiat programe dedicate stimulării interesului pentru cercetarea biomedicală în rândul elevilor 
-                                de liceu. În colaborare cu Inspectoratul Școlar Județean Timiș, elevi și cadre didactice din liceele din Timișoara au 
-                                fost invitați să viziteze Centrul OncoGen, descoperind astfel activitatea de cercetare de nivel internațional și tehnologiile 
+                                Asociația OncoGen a inițiat programe dedicate stimulării interesului pentru cercetarea biomedicală în rândul elevilor
+                                de liceu. În colaborare cu Inspectoratul Școlar Județean Timiș, elevi și cadre didactice din liceele din Timișoara au
+                                fost invitați să viziteze Centrul OncoGen, descoperind astfel activitatea de cercetare de nivel internațional și tehnologiile
                                 de ultimă generație.
 
                             </p>
                             <p>
-                                Printre realizările remarcabile ale acestor programe se numără participarea la ICCET 2019 – International Conference on Computing in Engineering 
-                                and Technology, a cărei finală s-a desfășurat la Moscova, cu proiecte pe teme de biologie moleculară, inginerie genetică și tehnologia CRISPR. 
+                                Printre realizările remarcabile ale acestor programe se numără participarea la ICCET 2019 – International Conference on Computing in Engineering
+                                and Technology, a cărei finală s-a desfășurat la Moscova, cu proiecte pe teme de biologie moleculară, inginerie genetică și tehnologia CRISPR.
                                 Această implicare oferă elevilor oportunitatea de a-și dezvolta competențe științifice și de a experimenta cercetarea la cel mai înalt nivel.
                             </p>
                         </div>
@@ -142,7 +142,7 @@ export default function YoungResearchersPage() {
                         </div>
                         <div className="committee-member">
                             <h4>AGENDA ROMÂNIA 4.0</h4>
-                            <p><a href="https://oncogen.ro/ro/agenda-romania-4-0/" target="_blank" rel="noreferrer">Deschide articolul</a></p>
+                            <p><a href="https://agendaromania.ro/" target="_blank" rel="noreferrer">Deschide articolul</a></p>
                         </div>
                     </div>
                     <div className="section-cta">
