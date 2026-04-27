@@ -138,7 +138,7 @@ export default function YoungResearchersPage() {
                     <div className="committee-list">
                         <div className="committee-member">
                             <h4>DIGIPEDIA: AI POATE SCHIMBA VIEȚI</h4>
-                            <p><a href="https://oncogen.ro/ro/digipedia-ai-poate-schimba-vieti/" target="_blank" rel="noreferrer">Deschide articolul</a></p>
+                            <p><a href="https://www.doctormit.ro/digipedia-ai-poate-schimba-vieti-tratament-parkinson/" target="_blank" rel="noreferrer">Deschide articolul</a></p>
                         </div>
                         <div className="committee-member">
                             <h4>AGENDA ROMÂNIA 4.0</h4>
