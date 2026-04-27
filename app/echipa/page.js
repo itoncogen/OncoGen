@@ -224,7 +224,7 @@ const fullTeam = [
         role: ' ',
         details: ' ',
         avatar: '/imagini-personal-oncogen/Ioana_Bindariu.jpeg',
-        cvFile: ' '
+        cvFile: null
     }
     // Add all remaining organization members here
 ];
