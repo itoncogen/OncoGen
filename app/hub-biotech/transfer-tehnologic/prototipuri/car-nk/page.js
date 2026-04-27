@@ -148,7 +148,7 @@ export default function CarNkPage() {
 
           <div className="car-nk-figure">
             <img
-              src="https://oncogen.ro/wp-content/uploads/2021/03/citotoxicitate-CAR-universal.png"
+              src="/images/tabel-citotoxicitate.png"
               alt="Test de citotoxicitate al constructelor CAR universale"
               className="car-nk-img"
               onError={(e) => { e.target.style.display = 'none'; }}
