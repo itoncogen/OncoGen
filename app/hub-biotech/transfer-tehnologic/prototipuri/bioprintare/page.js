@@ -134,15 +134,12 @@ export default function BioPrintarePage() {
 
               <div className="car-nk-figure">
                 <img
-                  src="https://oncogen.ro/wp-content/uploads/2021/03/figura3-vase-sange.png"
+                  src="/images/Figura_prototip_vase_de_sange.png"
                   alt="Figura 3: Biotipărirea de vase de sânge"
                   className="car-nk-img"
                   style={{ maxWidth: '500px' }}
                   onError={(e) => { e.target.style.display = 'none'; }}
                 />
-                <p className="car-nk-figure-caption">
-                  Figura 3: Biotipărirea de vase de sânge. (A) Modelul digital al unui vas de sânge vizualizat din mai multe perspective. (B) Vas biotipărit în timpul testării rezistenței mecanice de rupere. (C) Model de vas de sânge vizualizat sub microscop optic.
-                </p>
               </div>
 
               <p className="car-nk-body-text"><strong>Publicații:</strong> manuscris în curs de finalizare și publicare.</p>
