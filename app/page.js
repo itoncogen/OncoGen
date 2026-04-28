@@ -44,7 +44,9 @@ export default function Home() {
                             <div className="video-thumbnail">
                                 <img src="/images/poza-sequence-galerie-video-oncogen.jpg" alt="Video 1" />
                                 <div className="video-overlay">
-                                    <div className="play-button">▶</div>
+                                    <div className="play-button">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><polygon points="5,3 19,12 5,21" fill="currentColor"/></svg>
+                                    </div>
                                 </div>
                             </div>
                             <h3>Prezentarea OncoGen</h3>
@@ -56,7 +58,9 @@ export default function Home() {
                             <div className="video-thumbnail">
                                 <img src="/images/heart-decellularization-oncogen.jpg" alt="Video 2" />
                                 <div className="video-overlay">
-                                    <div className="play-button">▶</div>
+                                    <div className="play-button">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><polygon points="5,3 19,12 5,21" fill="currentColor"/></svg>
+                                    </div>
                                 </div>
                             </div>
                             <h3>Heart decellularization at OncoGen research centre</h3>
@@ -66,7 +70,9 @@ export default function Home() {
                             <div className="video-thumbnail">
                                 <img src="/images/3D-printing-blood-vessel.jpg" alt="Video 3" />
                                 <div className="video-overlay">
-                                    <div className="play-button">▶</div>
+                                    <div className="play-button">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><polygon points="5,3 19,12 5,21" fill="currentColor"/></svg>
+                                    </div>
                                 </div>
                             </div>
                             <h3>3D printing blood vessel at OncoGen research centre</h3>
@@ -76,7 +82,9 @@ export default function Home() {
                             <div className="video-thumbnail">
                                 <img src="/images/3D-printing-tumors-oncogen.jpg" alt="Video 4" />
                                 <div className="video-overlay">
-                                    <div className="play-button">▶</div>
+                                    <div className="play-button">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><polygon points="5,3 19,12 5,21" fill="currentColor"/></svg>
+                                    </div>
                                 </div>
                             </div>
                             <h3>3D printing tumors at OncoGen research centre</h3>
@@ -86,7 +94,9 @@ export default function Home() {
                             <div className="video-thumbnail">
                                 <img src="/images/s-a-terminat-pandemia.jpg" alt="Video 5" />
                                 <div className="video-overlay">
-                                    <div className="play-button">▶</div>
+                                    <div className="play-button">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><polygon points="5,3 19,12 5,21" fill="currentColor"/></svg>
+                                    </div>
                                 </div>
                             </div>
                             <h3>S-a terminat pandemia? Subestimăm virusul?</h3>
