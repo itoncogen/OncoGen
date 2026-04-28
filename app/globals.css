@@ -1473,7 +1473,8 @@ body {
     margin: 0;
     color: #000000;
     font-size: 42px;
-    font-weight: 800;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.4px;
     line-height: 1.15;
     text-transform: uppercase;
@@ -3948,11 +3949,11 @@ body {
 
 .car-nk-accordion-item {
     background-color: var(--white);
-    border: 1px solid rgba(0,0,0,0.08);
+    border: 1px solid rgba(0, 0, 0, 0.08);
     border-radius: 8px;
     margin-bottom: 16px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .car-nk-accordion-btn {
@@ -4037,7 +4038,7 @@ body {
 }
 
 .car-nk-table tr:nth-child(even) td {
-    background-color: rgba(0,0,0,0.02);
+    background-color: rgba(0, 0, 0, 0.02);
 }
 
 .car-nk-table-caption {
