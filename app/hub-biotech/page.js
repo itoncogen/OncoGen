@@ -49,7 +49,7 @@ export default function HubBiotechPage() {
                                     <img
                                         src={section.image}
                                         alt={section.alt}
-                                        style={{ maxWidth: '120px', maxHeight: '120px', width: '100%', height: 'auto', objectFit: 'contain' }}
+                                        className="hub-nav-card-image"
                                     />
                                 </div>
                                 <h2 className="hub-nav-card-title">{section.title}</h2>
