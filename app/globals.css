@@ -1440,7 +1440,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 320px;
-    padding: 52px 30px 40px;
+    padding: 52px 20px 40px;
     text-align: center;
     text-decoration: none;
     background-color: #f7f7f7;
@@ -1472,7 +1472,7 @@ body {
 .hub-nav-card-title {
     margin: 0;
     color: #000000;
-    font-size: 42px;
+    font-size: 28px;
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.4px;
