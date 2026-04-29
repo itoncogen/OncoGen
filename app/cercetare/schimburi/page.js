@@ -89,6 +89,33 @@ export default function SchimburiPage() {
 						</div>
 					</div>
 
+					<div className="content-card" style={{ marginTop: '24px' }}>
+						<h3 style={{ color: 'var(--magenta)' }}>Teodor Sefcovic</h3>
+						<p>
+							My name is Teodor Sefcovic and I am currently in my fifth year of medical school at Masaryk University of Brno,
+							Czech Republic. As an IFMSA student I was applying for Timisoara because I really liked the idea of project The
+							Impact Ragweed Pollen and Dust-mite Allergens Have on the Respiratory Mucosa because in Romania, ragweed is one
+							of the most important allergen sources with a strong impact on human health. I had some academic background to
+							become competent contributor for the research team in OncoGen center. This center for research is far and near
+							the most modern one I have seen. Moreover, assisting in this research in the medical domain of Immunology and
+							Allergology will directly complement my career as I might pursue a M.D. in this field in the future.
+						</p>
+						<p>
+							My laboratory skills were improving daily because my tutors were really helpful to show me as much as they could.
+							Under supervision I had a chance to work with E.coli, we also worked with the RBL cell line, we were preparing
+							growth media, we did a cell counting, we were adjusting the parameters (pH), our daily routine was using
+							ultracentrifuge and interpretation of data and so on. I had a chance to attend a clinical part in an Allergology
+							clinic, where I could see patients allergic to Ragweed and I could connect the laboratory work and the clinical
+							part of the medicine.
+						</p>
+						<p>
+							In conclusion, I would like to say huge thanks to my tutors and to OncoGen center, that I could be a part of the
+							team for this month. I am sure i learned a lot of knowledge which will help me to be a better professional in my
+							future career.
+						</p>
+						<p><strong>Teodor Sefcovic</strong></p>
+					</div>
+
 					<div className="section-cta">
 						<Link href="/young-researchers" className="btn btn-primary">Young Researchers →</Link>
 					</div>
