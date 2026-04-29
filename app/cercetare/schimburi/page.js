@@ -135,6 +135,11 @@ export default function SchimburiPage() {
 										team for this month. I am sure i learned a lot of knowledge which will help me to be a better professional in my
 										future career.
 									</p>
+									<div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', marginTop: '24px' }}>
+										<img src="/images/teodor-sefcovic-1.jpeg" alt="Teodor Sefcovic pipetând în laborator" style={{ width: '32%', minWidth: '200px', flex: '1', borderRadius: '8px', objectFit: 'cover', aspectRatio: '3/4' }} />
+										<img src="/images/teodor-sefcovic-2.jpg" alt="Teodor Sefcovic lucrând la bancul de laborator" style={{ width: '32%', minWidth: '200px', flex: '1', borderRadius: '8px', objectFit: 'cover', aspectRatio: '3/4' }} />
+										<img src="/images/teodor-sefcovic-3.jpg" alt="Teodor Sefcovic în laborator la OncoGen" style={{ width: '32%', minWidth: '200px', flex: '1', borderRadius: '8px', objectFit: 'cover', aspectRatio: '3/4' }} />
+									</div>
 								</div>
 							)}
 						</div>
