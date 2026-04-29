@@ -43,6 +43,11 @@ export default function DesprePage() {
             <section id="misiune" className="content-section">
                 <div className="container">
                     <h2>Misiune, Viziune și Direcții Strategice</h2>
+                    <img
+                        src="/images/misiune-viziune.jpg"
+                        alt="Cercetătoare lucrând în laborator OncoGen"
+                        style={{ width: '100%', maxHeight: '420px', objectFit: 'cover', borderRadius: '12px', margin: '24px 0 32px 0' }}
+                    />
                     <div className="content-grid">
                         <div className="content-card">
                             <h3>Misiune </h3>
