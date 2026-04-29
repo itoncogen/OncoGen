@@ -115,6 +115,28 @@ export default function SchimburiPage() {
 						</p>
 					</div>
 
+					<div className="content-card" style={{ marginTop: '24px' }}>
+						<h3>Jakub Michalak</h3>
+						<p>
+							Buna dimineața, salut!
+						</p>
+						<p>
+							My name is Jakub, I’m studying medicine in Opole, Poland. In august I had an opportunity to be a part of the OncoGen research team in the allergology department.
+						</p>
+						<p>
+							These few weeks have been wonderful and very motivating! We were treated like a family – we have experienced the research process together, from the experiment planning phase to analyzing the results. We helped in other projects but we also tried to do some work ourselves under supervision.
+						</p>
+						<p>
+							The laboratory is very well equipped and the researchers are very professional in everything they do – they are excellent in teaching and I feel very motivated to pursue this kind of career in the future thanks to them!
+						</p>
+						<p>
+							We are very grateful for the opportunity to discover the scientific process in the beautiful city of Timișoara. I’m looking forward to visiting Romania again in the future!
+						</p>
+						<p>
+							Mulțumesc, ciao!
+						</p>
+					</div>
+
 					<div className="section-cta">
 						<Link href="/young-researchers" className="btn btn-primary">Young Researchers →</Link>
 					</div>
