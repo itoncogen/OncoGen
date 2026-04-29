@@ -85,12 +85,12 @@ export default function SchimburiPage() {
 								Centrului OncoGen. Vă mulțumesc pentru că ați explicat întotdeauna totul cu răbdare și m-ați
 								încurajat să pun întrebări.
 							</p>
-							<p><strong>Mulțumesc!</strong></p>
+							<p>Mulțumesc!</p>
 						</div>
 					</div>
 
 					<div className="content-card" style={{ marginTop: '24px' }}>
-						<h3 style={{ color: 'var(--magenta)' }}>Teodor Sefcovic</h3>
+						<h3>Teodor Sefcovic</h3>
 						<p>
 							My name is Teodor Sefcovic and I am currently in my fifth year of medical school at Masaryk University of Brno,
 							Czech Republic. As an IFMSA student I was applying for Timisoara because I really liked the idea of project The
@@ -113,7 +113,6 @@ export default function SchimburiPage() {
 							team for this month. I am sure i learned a lot of knowledge which will help me to be a better professional in my
 							future career.
 						</p>
-						<p><strong>Teodor Sefcovic</strong></p>
 					</div>
 
 					<div className="section-cta">
