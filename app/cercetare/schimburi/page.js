@@ -165,6 +165,11 @@ export default function SchimburiPage() {
 										We are very grateful for the opportunity to discover the scientific process in the beautiful city of Timișoara. I&apos;m looking forward to visiting Romania again in the future!
 									</p>
 									<p>Mulțumesc, ciao!</p>
+									<div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', marginTop: '24px' }}>
+										<img src="/images/jakub-michalak-1.jpg" alt="Jakub Michalak lucrând cu instrumente de laborator" style={{ width: '32%', minWidth: '200px', flex: '1', borderRadius: '8px', objectFit: 'cover', aspectRatio: '3/4' }} />
+										<img src="/images/jakub-michalak-2.jpeg" alt="Jakub Michalak pipetând în laborator" style={{ width: '32%', minWidth: '200px', flex: '1', borderRadius: '8px', objectFit: 'cover', aspectRatio: '3/4' }} />
+										<img src="/images/jakub-michalak-3.jpeg" alt="Jakub Michalak și coleg la centrifugă" style={{ width: '32%', minWidth: '200px', flex: '1', borderRadius: '8px', objectFit: 'cover', aspectRatio: '3/4' }} />
+									</div>
 								</div>
 							)}
 						</div>
