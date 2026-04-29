@@ -76,6 +76,11 @@ export default function SchimburiPage() {
 						Iată impresiile acestora după ce au luat parte la activitățile științifice din cadrul laboratoarelor noastre:
 					</p>
 
+					<div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', marginTop: '24px', marginBottom: '32px' }}>
+						<img src="/images/studentii-stagii-practica-1.jpeg" alt="Studenți stagii de practică la OncoGen - grup în laborator" style={{ flex: '1', minWidth: '280px', borderRadius: '8px', objectFit: 'cover', maxHeight: '400px' }} />
+						<img src="/images/studentii-stagii-practica-2.jpeg" alt="Studenți stagii de practică la OncoGen - grup la recepție" style={{ flex: '1', minWidth: '280px', borderRadius: '8px', objectFit: 'cover', maxHeight: '400px' }} />
+					</div>
+
 					<div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '24px' }}>
 
 						<div className="car-nk-accordion-item">
