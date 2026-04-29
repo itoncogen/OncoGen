@@ -97,6 +97,11 @@ export default function SchimburiPage() {
 										încurajat să pun întrebări.
 									</p>
 									<p>Mulțumesc!</p>
+									<div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', marginTop: '24px' }}>
+										<img src="/images/ming-yi-tsai-1.jpg" alt="Ming-Yi Tsai în laborator la OncoGen" style={{ width: '32%', minWidth: '200px', flex: '1', borderRadius: '8px', objectFit: 'cover', aspectRatio: '3/4' }} />
+										<img src="/images/ming-yi-tsai-2.jpeg" alt="Ming-Yi Tsai lucrând la bancul de laborator" style={{ width: '32%', minWidth: '200px', flex: '1', borderRadius: '8px', objectFit: 'cover', aspectRatio: '3/4' }} />
+										<img src="/images/ming-yi-tsai-3.jpg" alt="Ming-Yi Tsai pipetând în laborator" style={{ width: '32%', minWidth: '200px', flex: '1', borderRadius: '8px', objectFit: 'cover', aspectRatio: '3/4' }} />
+									</div>
 								</div>
 							)}
 						</div>
