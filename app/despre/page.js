@@ -46,7 +46,7 @@ export default function DesprePage() {
                     <img
                         src="/images/misiune-viziune.jpg"
                         alt="Cercetătoare lucrând în laborator OncoGen"
-                        style={{ width: '100%', maxHeight: '420px', objectFit: 'cover', borderRadius: '12px', margin: '24px 0 32px 0' }}
+                        style={{ width: '100%', maxHeight: '620px', objectFit: 'cover', borderRadius: '12px', margin: '24px 0 32px 0' }}
                     />
                     <div className="content-grid">
                         <div className="content-card">
