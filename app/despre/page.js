@@ -278,6 +278,19 @@ export default function DesprePage() {
                         specialităților clinice din cadrul Spitalului Clinic Județean de Urgență "Pius Brînzeu" Timișoara:
                     </p>
 
+                    <div className="research-domains-images">
+                        <img
+                            src="/images/oncogen-outside.jpg"
+                            alt="Clădirea OncoGen Timișoara"
+                            className="research-img research-img-bottom"
+                        />
+                        <img
+                            src="/images/decode-poza.jpg"
+                            alt="Laborator clean room OncoGen"
+                            className="research-img research-img-top"
+                        />
+                    </div>
+
                     <div className="domains-grid">
                         <div className="domain-card">
                             <h4>Terapii Avansate în Cancer</h4>
