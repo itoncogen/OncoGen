@@ -14,6 +14,7 @@ const students = [
 export default function SchimburiPage() {
 	const [openIndex, setOpenIndex] = useState(null)
 	const toggle = (i) => setOpenIndex(openIndex === i ? null : i)
+
 	return (
 		<>
 			<div className="breadcrumbs">
@@ -75,7 +76,8 @@ export default function SchimburiPage() {
 						Iată impresiile acestora după ce au luat parte la activitățile științifice din cadrul laboratoarelor noastre:
 					</p>
 
-				<div className="content-grid" style={{ gridTemplateColumns: '1fr' }}>
+					<div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginTop: '24px' }}>
+
 						<div className="car-nk-accordion-item">
 							<button className="car-nk-accordion-btn" onClick={() => toggle(0)}>
 								Ming-Yi Tsai
@@ -157,57 +159,7 @@ export default function SchimburiPage() {
 								</div>
 							)}
 						</div>
-					</div>
-							)}
-						</div>
 
-						<div className="content-card" style={{ marginTop: '24px' }}>
-							<h3>Teodor Sefcovic</h3>
-							<p>
-								My name is Teodor Sefcovic and I am currently in my fifth year of medical school at Masaryk University of Brno,
-								Czech Republic. As an IFMSA student I was applying for Timisoara because I really liked the idea of project The
-								Impact Ragweed Pollen and Dust-mite Allergens Have on the Respiratory Mucosa because in Romania, ragweed is one
-								of the most important allergen sources with a strong impact on human health. I had some academic background to
-								become competent contributor for the research team in OncoGen center. This center for research is far and near
-								the most modern one I have seen. Moreover, assisting in this research in the medical domain of Immunology and
-								Allergology will directly complement my career as I might pursue a M.D. in this field in the future.
-							</p>
-							<p>
-								My laboratory skills were improving daily because my tutors were really helpful to show me as much as they could.
-								Under supervision I had a chance to work with E.coli, we also worked with the RBL cell line, we were preparing
-								growth media, we did a cell counting, we were adjusting the parameters (pH), our daily routine was using
-								ultracentrifuge and interpretation of data and so on. I had a chance to attend a clinical part in an Allergology
-								clinic, where I could see patients allergic to Ragweed and I could connect the laboratory work and the clinical
-								part of the medicine.
-							</p>
-							<p>
-								In conclusion, I would like to say huge thanks to my tutors and to OncoGen center, that I could be a part of the
-								team for this month. I am sure i learned a lot of knowledge which will help me to be a better professional in my
-								future career.
-							</p>
-						</div>
-
-						<div className="content-card" style={{ marginTop: '24px' }}>
-							<h3>Jakub Michalak</h3>
-							<p>
-								Buna dimineața, salut!
-							</p>
-							<p>
-								My name is Jakub, I’m studying medicine in Opole, Poland. In august I had an opportunity to be a part of the OncoGen research team in the allergology department.
-							</p>
-							<p>
-								These few weeks have been wonderful and very motivating! We were treated like a family – we have experienced the research process together, from the experiment planning phase to analyzing the results. We helped in other projects but we also tried to do some work ourselves under supervision.
-							</p>
-							<p>
-								The laboratory is very well equipped and the researchers are very professional in everything they do – they are excellent in teaching and I feel very motivated to pursue this kind of career in the future thanks to them!
-							</p>
-							<p>
-								We are very grateful for the opportunity to discover the scientific process in the beautiful city of Timișoara. I’m looking forward to visiting Romania again in the future!
-							</p>
-							<p>
-								Mulțumesc, ciao!
-							</p>
-						</div>
 					</div>
 
 					<div className="section-cta">
