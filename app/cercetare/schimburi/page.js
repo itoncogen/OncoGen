@@ -130,7 +130,6 @@ export default function SchimburiPage() {
 										team for this month. I am sure i learned a lot of knowledge which will help me to be a better professional in my
 										future career.
 									</p>
-									<p><strong>Teodor Sefcovic</strong></p>
 								</div>
 							)}
 						</div>
