@@ -43,6 +43,11 @@ export default function DesprePage() {
             <section id="misiune" className="content-section">
                 <div className="container">
                     <h2>Misiune, Viziune și Direcții Strategice</h2>
+                    <img
+                        src="/images/misiune-viziune.jpg"
+                        alt="Cercetătoare lucrând în laborator OncoGen"
+                        style={{ width: '100%', maxHeight: '620px', objectFit: 'cover', borderRadius: '12px', margin: '24px 0 32px 0' }}
+                    />
                     <div className="content-grid">
                         <div className="content-card">
                             <h3>Misiune </h3>
@@ -278,18 +283,55 @@ export default function DesprePage() {
                         specialităților clinice din cadrul Spitalului Clinic Județean de Urgență "Pius Brînzeu" Timișoara:
                     </p>
 
-                    <div className="domains-grid">
-                        <div className="domain-card">
-                            <h4>Terapii Avansate în Cancer</h4>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '48px', margin: '32px 0 60px 0', flexWrap: 'wrap' }}>
+                        {/* Imagini suprapuse - stânga */}
+                        <div style={{ position: 'relative', width: '420px', height: '380px', flexShrink: 0 }}>
+                            <img
+                                src="/images/decode-poza.jpg"
+                                alt="Laborator clean room OncoGen"
+                                style={{
+                                    position: 'absolute',
+                                    bottom: 0,
+                                    left: 0,
+                                    width: '280px',
+                                    height: '240px',
+                                    objectFit: 'cover',
+                                    borderRadius: '32px',
+                                    boxShadow: '0 8px 28px rgba(0,0,0,0.22)',
+                                    zIndex: 1
+                                }}
+                            />
+                            <img
+                                src="/images/oncogen-outside.jpg"
+                                alt="Clădirea OncoGen Timișoara"
+                                style={{
+                                    position: 'absolute',
+                                    top: 0,
+                                    right: 0,
+                                    width: '220px',
+                                    height: '185px',
+                                    objectFit: 'cover',
+                                    borderRadius: '32px',
+                                    boxShadow: '0 8px 28px rgba(0,0,0,0.22)',
+                                    zIndex: 2
+                                }}
+                            />
                         </div>
-                        <div className="domain-card">
-                            <h4>Medicină Regenerativă</h4>
-                        </div>
-                        <div className="domain-card">
-                            <h4>Sănătate și Factori de Mediu</h4>
-                        </div>
-                        <div className="domain-card">
-                            <h4>Imunoterapii</h4>
+
+                        {/* Domenii - dreapta, grid 2x2 */}
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', flex: 1, minWidth: '280px' }}>
+                            <div className="domain-card">
+                                <h4>Terapii Avansate în Cancer</h4>
+                            </div>
+                            <div className="domain-card">
+                                <h4>Medicină Regenerativă</h4>
+                            </div>
+                            <div className="domain-card">
+                                <h4>Sănătate și Factori de Mediu</h4>
+                            </div>
+                            <div className="domain-card">
+                                <h4>Imunoterapii</h4>
+                            </div>
                         </div>
                     </div>
                 </div>

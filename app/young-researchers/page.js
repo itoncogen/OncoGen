@@ -145,11 +145,6 @@ export default function YoungResearchersPage() {
                             <p><a href="https://agendaromania.ro/" target="_blank" rel="noreferrer">Deschide articolul</a></p>
                         </div>
                     </div>
-                    <div className="section-cta">
-                        <Link href="/young-researchers" className="btn btn-secondary">
-                            Sursa originală a informațiilor
-                        </Link>
-                    </div>
                 </div>
             </section>
         </>
