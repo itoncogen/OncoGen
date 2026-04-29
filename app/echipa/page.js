@@ -221,7 +221,7 @@ const fullTeam = [
     },
     {
         name: 'Ioana Bindariu',
-        role: ' ',
+        role: 'Asistent de cercetare în biologie',
         details: ' ',
         avatar: '/imagini-personal-oncogen/Ioana_Bindariu.jpeg',
         cvFile: null
