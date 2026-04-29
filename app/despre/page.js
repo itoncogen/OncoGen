@@ -280,8 +280,8 @@ export default function DesprePage() {
 
                     <div style={{ position: 'relative', width: '480px', height: '400px', margin: '32px 0 60px 0' }}>
                         <img
-                            src="/images/oncogen-outside.jpg"
-                            alt="Clădirea OncoGen Timișoara"
+                            src="/images/decode-poza.jpg"
+                            alt="Laborator clean room OncoGen"
                             style={{
                                 position: 'absolute',
                                 bottom: 0,
@@ -295,8 +295,8 @@ export default function DesprePage() {
                             }}
                         />
                         <img
-                            src="/images/decode-poza.jpg"
-                            alt="Laborator clean room OncoGen"
+                            src="/images/oncogen-outside.jpg"
+                            alt="Clădirea OncoGen Timișoara"
                             style={{
                                 position: 'absolute',
                                 top: 0,
