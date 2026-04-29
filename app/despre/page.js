@@ -278,16 +278,36 @@ export default function DesprePage() {
                         specialităților clinice din cadrul Spitalului Clinic Județean de Urgență "Pius Brînzeu" Timișoara:
                     </p>
 
-                    <div className="research-domains-images">
+                    <div style={{ position: 'relative', width: '480px', height: '400px', margin: '32px 0 60px 0' }}>
                         <img
                             src="/images/oncogen-outside.jpg"
                             alt="Clădirea OncoGen Timișoara"
-                            className="research-img research-img-bottom"
+                            style={{
+                                position: 'absolute',
+                                bottom: 0,
+                                left: 0,
+                                width: '300px',
+                                height: '260px',
+                                objectFit: 'cover',
+                                borderRadius: '32px',
+                                boxShadow: '0 8px 28px rgba(0,0,0,0.22)',
+                                zIndex: 1
+                            }}
                         />
                         <img
                             src="/images/decode-poza.jpg"
                             alt="Laborator clean room OncoGen"
-                            className="research-img research-img-top"
+                            style={{
+                                position: 'absolute',
+                                top: 0,
+                                right: 0,
+                                width: '240px',
+                                height: '200px',
+                                objectFit: 'cover',
+                                borderRadius: '32px',
+                                boxShadow: '0 8px 28px rgba(0,0,0,0.22)',
+                                zIndex: 2
+                            }}
                         />
                     </div>
 
