@@ -85,9 +85,9 @@ export default function ProiectePage() {
                 </div>
             </section>
 
-            <section className="news-section">
+            <section className="projects-section">
                 <div className="container">
-                    <div className="news-grid">
+                    <div className="projects-grid">
                         {filteredProjects.map((project) => {
                             const imagePath = projectCardImages[project.slug];
                             const hasImage = Boolean(imagePath);
@@ -96,9 +96,12 @@ export default function ProiectePage() {
                             return (
                                 <article
                                     key={project.slug}
-                                    className={`news-card project-card-listing${hasImage ? ' project-card-with-image' : ''}${slugClassName}`}
+                                    className={`project-card featured-project-card${hasImage ? ' project-card-with-image' : ''}${slugClassName}`}
                                     style={hasImage ? { backgroundImage: `url(${imagePath})` } : undefined}
                                 >
+                                    <div className="project-header">
+                                        <span className="project-year">{project.duration || ''}</span>
+                                    </div>
                                     <h3>{project.shortTitle}</h3>
                                     <Link href={`/proiecte/${project.slug}`} className="read-more">
                                         Vezi detalii →
@@ -112,6 +115,7 @@ export default function ProiectePage() {
                     </div>
                 </div>
             </section>
+
         </>
     );
 }
