@@ -133,7 +133,7 @@ const fullTeam = [
         role: 'Biotehnolog',
         details: '',
         avatar: '/images/profile-avatar.svg',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Simina_Alina_Georgiana.pdf'
     },
     {
         name: 'As.C.S. Dr. Farm. Oprean Camelia',
