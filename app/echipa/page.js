@@ -200,7 +200,7 @@ const fullTeam = [
     },
     {
         name: 'Reg. Med. Pitic Carmen',
-        role: 'Reglator Medical',
+        role: 'Registrator Medical',
         details: '',
         avatar: '/imagini-personal-oncogen/Carmen_Pitic.jpeg',
         cvFile: '/CV-personal-oncogen/CV_Pitic_Carmen.pdf'
