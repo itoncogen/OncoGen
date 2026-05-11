@@ -1308,10 +1308,14 @@ body {
 }
 
 .featured-project-card.project-card-with-image h3,
-.featured-project-card.project-card-with-image p,
+.featured-project-card.project-card-with-image p {
+    color: var(--white);
+}
+
 .featured-project-card.project-card-with-image .read-more,
 .featured-project-card.project-card-with-image .project-year {
     color: var(--white);
+    opacity: 0.65;
 }
 
 .project-card-mountadapt {
@@ -1370,6 +1374,8 @@ body {
     font-size: 48px;
     color: var(--black);
     margin-bottom: 15px;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .hero-secondary p {
@@ -3542,17 +3548,12 @@ body {
    ======================================== */
     @media (max-width: 768px) {
         .header-content {
-            flex-direction: column;
-            gap: 20px;
+            flex-direction: row;
+            gap: 0;
         }
 
         .header-cta-stack {
-            position: static;
-            transform: none;
-            width: 100%;
-            align-items: center;
-            flex-direction: column;
-            margin-left: 0;
+            display: none;
         }
 
         .nav ul {
@@ -4111,7 +4112,7 @@ body {
 .footer-wave-wrapper {
     display: block;
     line-height: 0;
-    background-color: var(--white);
+    background-color: transparent;
     margin-bottom: -2px;
 }
 
@@ -4369,4 +4370,106 @@ body {
     color: var(--black);
     margin-bottom: 20px;
     text-align: center;
+}
+
+/* ========================================
+   MOBILE FIXES
+   ======================================== */
+@media (max-width: 768px) {
+
+    /* --- Navbar: fixed on mobile --- */
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+    }
+
+    /* Push page content below fixed header */
+    body {
+        padding-top: 64px;
+    }
+
+    /* --- Page title: prevent horizontal overflow --- */
+    .hero-secondary h1 {
+        font-size: 26px;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        padding: 0 4px;
+    }
+
+    .hero-secondary p {
+        font-size: 15px;
+    }
+
+    /* --- Horizontal scroll carousel for cards on mobile --- */
+    .projects-grid,
+    .news-grid {
+        grid-template-columns: none;
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 16px;
+        padding-bottom: 12px;
+        /* Hide scrollbar but keep scroll functionality */
+        scrollbar-width: none;
+    }
+
+    .projects-grid::-webkit-scrollbar,
+    .news-grid::-webkit-scrollbar {
+        display: none;
+    }
+
+    .projects-grid > *,
+    .news-grid > * {
+        flex: 0 0 78vw;
+        max-width: 320px;
+        scroll-snap-align: start;
+    }
+
+    /* Project cells (circular) keep their aspect ratio */
+    .project-card {
+        aspect-ratio: 1 / 1;
+        padding: 16% 14%;
+    }
+
+    /* News cards consistent height */
+    .news-card {
+        min-height: 260px;
+    }
+
+    /* --- Team grid: 2 columns on mobile --- */
+    .team-grid {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 16px;
+        padding-bottom: 12px;
+        scrollbar-width: none;
+    }
+
+    .team-grid::-webkit-scrollbar {
+        display: none;
+    }
+
+    .team-grid > * {
+        flex: 0 0 72vw;
+        max-width: 260px;
+        scroll-snap-align: start;
+    }
+
+    /* --- Featured projects heading --- */
+    .featured-projects h2 {
+        font-size: 26px;
+    }
+
+    /* --- Container horizontal padding --- */
+    .container {
+        padding: 0 16px;
+    }
 }
