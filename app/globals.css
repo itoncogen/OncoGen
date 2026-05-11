@@ -4112,7 +4112,7 @@ body {
 .footer-wave-wrapper {
     display: block;
     line-height: 0;
-    background-color: var(--white);
+    background-color: transparent;
     margin-bottom: -2px;
 }
 
