@@ -1308,10 +1308,14 @@ body {
 }
 
 .featured-project-card.project-card-with-image h3,
-.featured-project-card.project-card-with-image p,
+.featured-project-card.project-card-with-image p {
+    color: var(--white);
+}
+
 .featured-project-card.project-card-with-image .read-more,
 .featured-project-card.project-card-with-image .project-year {
     color: var(--white);
+    opacity: 0.65;
 }
 
 .project-card-mountadapt {
