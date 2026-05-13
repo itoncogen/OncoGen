@@ -8,8 +8,11 @@ export const metadata = {
     title: 'OncoGen',
     description: 'Centrul de Cercetare și Microproducție',
     icons: {
-        icon: '/logo-oncogen.svg',
-        shortcut: '/logo-oncogen.svg',
+        icon: [
+            { url: '/logo-oncogen.png', type: 'image/png' },
+        ],
+        shortcut: '/logo-oncogen.png',
+        apple: '/logo-oncogen.png',
     },
 };
 
