@@ -7,6 +7,10 @@ import MobileNav from './components/MobileNav';
 export const metadata = {
     title: 'OncoGen',
     description: 'Centrul de Cercetare și Microproducție',
+    icons: {
+        icon: '/logo-oncogen.svg',
+        shortcut: '/logo-oncogen.svg',
+    },
 };
 
 export default function RootLayout({ children }) {
