@@ -4449,8 +4449,9 @@ body {
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         gap: 16px;
-        padding: 0 calc(50vw - 36vw) 12px;
+        padding: 0 16px 12px;
         scrollbar-width: none;
+        box-sizing: border-box;
     }
 
     .team-grid::-webkit-scrollbar {
@@ -4458,9 +4459,10 @@ body {
     }
 
     .team-grid > * {
-        flex: 0 0 72vw;
-        max-width: 320px;
+        flex: 0 0 85vw;
+        max-width: 340px;
         scroll-snap-align: center;
+        box-sizing: border-box;
     }
 
     /* --- Team card: fluid image on mobile --- */
