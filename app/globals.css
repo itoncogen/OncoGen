@@ -4441,27 +4441,21 @@ body {
         min-height: 260px;
     }
 
-    /* --- Team grid: centered carousel on mobile --- */
+    /* --- Team grid: vertical stack on mobile --- */
     .team-grid {
         display: flex;
-        flex-direction: row;
-        overflow-x: auto;
-        scroll-snap-type: x mandatory;
-        -webkit-overflow-scrolling: touch;
-        gap: 16px;
-        padding: 0 16px 12px;
-        scrollbar-width: none;
+        flex-direction: column;
+        overflow-x: visible;
+        scroll-snap-type: none;
+        gap: 24px;
+        padding: 0 16px;
         box-sizing: border-box;
     }
 
-    .team-grid::-webkit-scrollbar {
-        display: none;
-    }
-
     .team-grid > * {
-        flex: 0 0 85vw;
-        max-width: 340px;
-        scroll-snap-align: center;
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 100%;
         box-sizing: border-box;
     }
 
