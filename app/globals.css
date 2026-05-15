@@ -4403,8 +4403,43 @@ body {
         font-size: 15px;
     }
 
-    /* --- Horizontal scroll carousel for cards on mobile --- */
-    .projects-grid,
+    /* --- Allow container to not clip horizontal scroll --- */
+    .featured-projects .container,
+    .news .container {
+        overflow: visible;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* --- Horizontal scroll carousel for projects on mobile --- */
+    .projects-grid {
+        grid-template-columns: none;
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 16px;
+        padding: 0 16px 16px;
+        scrollbar-width: thin;
+        scrollbar-color: var(--primary) #e0e0e0;
+    }
+
+    .projects-grid::-webkit-scrollbar {
+        height: 5px;
+    }
+
+    .projects-grid::-webkit-scrollbar-track {
+        background: #e0e0e0;
+        border-radius: 4px;
+    }
+
+    .projects-grid::-webkit-scrollbar-thumb {
+        background-color: var(--primary);
+        border-radius: 4px;
+    }
+
+    /* --- Horizontal scroll carousel for news on mobile --- */
     .news-grid {
         grid-template-columns: none;
         display: flex;
@@ -4413,21 +4448,35 @@ body {
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         gap: 16px;
-        padding-bottom: 12px;
-        /* Hide scrollbar but keep scroll functionality */
-        scrollbar-width: none;
+        padding: 0 16px 16px;
+        scrollbar-width: thin;
+        scrollbar-color: var(--primary) #e0e0e0;
     }
 
-    .projects-grid::-webkit-scrollbar,
     .news-grid::-webkit-scrollbar {
-        display: none;
+        height: 5px;
     }
 
-    .projects-grid > *,
+    .news-grid::-webkit-scrollbar-track {
+        background: #e0e0e0;
+        border-radius: 4px;
+    }
+
+    .news-grid::-webkit-scrollbar-thumb {
+        background-color: var(--primary);
+        border-radius: 4px;
+    }
+
+    .projects-grid > * {
+        flex: 0 0 75vw;
+        max-width: 300px;
+        scroll-snap-align: center;
+    }
+
     .news-grid > * {
-        flex: 0 0 78vw;
+        flex: 0 0 80vw;
         max-width: 320px;
-        scroll-snap-align: start;
+        scroll-snap-align: center;
     }
 
     /* Project cells (circular) keep their aspect ratio */
