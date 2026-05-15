@@ -4441,7 +4441,7 @@ body {
         min-height: 260px;
     }
 
-    /* --- Team grid: 2 columns on mobile --- */
+    /* --- Team grid: centered carousel on mobile --- */
     .team-grid {
         display: flex;
         flex-direction: row;
@@ -4449,7 +4449,7 @@ body {
         scroll-snap-type: x mandatory;
         -webkit-overflow-scrolling: touch;
         gap: 16px;
-        padding-bottom: 12px;
+        padding: 0 calc(50vw - 36vw) 12px;
         scrollbar-width: none;
     }
 
@@ -4459,8 +4459,8 @@ body {
 
     .team-grid > * {
         flex: 0 0 72vw;
-        max-width: 260px;
-        scroll-snap-align: start;
+        max-width: 320px;
+        scroll-snap-align: center;
     }
 
     /* --- Featured projects heading --- */
