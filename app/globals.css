@@ -4623,7 +4623,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 40px 0;
+    padding: 16px 0 40px;
 }
 
 .news-article-item {
