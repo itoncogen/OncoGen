@@ -225,6 +225,13 @@ const fullTeam = [
         details: ' ',
         avatar: '/imagini-personal-oncogen/Ioana_Bindariu.jpeg',
         cvFile: null
+    },
+    {
+        name: 'Alin Mureșanu',
+        role: 'Asistent de cercetare în medicină veterinară',
+        details: ' ',
+        avatar: '/imagini-personal-oncogen/Alin_Muresanu.jpg',
+        cvFile: null
     }
     // Add all remaining organization members here
 ];
