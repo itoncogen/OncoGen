@@ -706,7 +706,6 @@ body {
     color: var(--gray);
     line-height: 1.8;
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 .about-images img {
@@ -4398,6 +4397,38 @@ body {
    MOBILE FIXES
    ======================================== */
 @media (max-width: 768px) {
+
+    /* --- About section: stacked layout on mobile --- */
+    .about-section {
+        padding: 40px 0;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr !important;
+        gap: 24px !important;
+    }
+
+    .about-images {
+        order: -1;
+        width: 100%;
+    }
+
+    .about-images img {
+        width: 100% !important;
+        height: 220px !important;
+        object-fit: cover;
+        border-radius: 8px;
+        display: block;
+    }
+
+    .about-text h2 {
+        font-size: 26px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        text-align: left;
+    }
 
     /* --- Navbar: fixed on mobile --- */
     .header {
