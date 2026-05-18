@@ -231,7 +231,7 @@ const fullTeam = [
         role: 'Asistent de cercetare în medicină veterinară',
         details: ' ',
         avatar: '/imagini-personal-oncogen/Alin_Muresanu.jpg',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Muresanu_Alin.pdf'
     }
     // Add all remaining organization members here
 ];
