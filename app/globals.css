@@ -4636,7 +4636,7 @@ body {
     font-size: 17px !important;
     font-weight: 700;
     color: var(--dark);
-    margin-bottom: 2px;
+    margin-bottom: 0;
     margin-top: 0;
     line-height: 1.4;
     text-align: left !important;
@@ -4650,7 +4650,8 @@ body {
 .news-article-desc {
     font-size: 15px;
     color: var(--gray);
-    line-height: 1.8;
+    line-height: 1.6;
+    margin-top: 4px;
     margin-bottom: 6px;
     font-weight: 400;
     text-align: left;
