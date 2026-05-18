@@ -30,6 +30,7 @@ export default function RootLayout({ children }) {
                                 <ul>
                                     <li><Link href="/">Acasă</Link></li>
                                     <li><Link href="/despre">Despre</Link></li>
+                                    <li><Link href="/specialisti">Specialiști</Link></li>
                                     <li><Link href="/stiri">Știri și Evenimente</Link></li>
                                     <li><Link href="/proiecte">Proiecte</Link></li>
                                     <NavCercetareDropdown />
