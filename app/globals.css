@@ -4629,18 +4629,20 @@ body {
 .news-article-item {
     border-left: 4px solid var(--primary);
     padding-left: 24px;
-}
-
-.news-article-title {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--dark);
-    margin-bottom: 12px;
-    line-height: 1.5;
     text-align: left;
 }
 
+.news-article-title {
+    font-size: 17px !important;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: left !important;
+}
+
 .news-article-title strong {
+    font-size: 17px;
     font-weight: 700;
 }
 
@@ -4657,6 +4659,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: flex-start;
 }
 
 .news-article-link {
