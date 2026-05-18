@@ -29,7 +29,7 @@ export default function NoutatiPage() {
                             <p>Comunicatele și anunțurile oficiale ale Centrului OncoGen.</p>
                         </Link>
                         <Link href="/noutati/articole" className="hub-card">
-                            <h3>Articole</h3>
+                            <h3>Noutăți științifice</h3>
                             <p>Articole și materiale publicate de echipa OncoGen.</p>
                         </Link>
                     </div>
