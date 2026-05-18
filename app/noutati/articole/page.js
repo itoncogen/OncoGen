@@ -11,13 +11,13 @@ export default function ArticolePage() {
             <div className="breadcrumbs">
                 <div className="container">
                     <Link href="/">Acasă</Link> / <Link href="/noutati">Noutăți</Link> /{' '}
-                    <span>Articole</span>
+                    <span>Noutăți științifice</span>
                 </div>
             </div>
 
             <section className="hero-secondary">
                 <div className="container">
-                    <h1>Articole</h1>
+                    <h1>Noutăți științifice</h1>
                     <p>Articole și materiale publicate de echipa OncoGen.</p>
                 </div>
             </section>
