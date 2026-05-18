@@ -746,7 +746,7 @@ body {
 
 .domains-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 20px;
 }
 
@@ -4398,25 +4398,21 @@ body {
    ======================================== */
 @media (max-width: 768px) {
 
-    /* --- Research / Content grids: single column on mobile --- */
-    .domains-grid,
-    .hub-grid,
-    .content-grid,
-    .faq-grid {
-        grid-template-columns: 1fr !important;
-    }
-
+    /* --- Research / Content grids: smaller font on mobile, 2 columns --- */
     .domain-card h4,
     .content-card h3,
     .hub-card h3 {
-        font-size: 16px;
-        word-break: break-word;
+        font-size: 13px;
+        line-height: 1.4;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: normal;
     }
 
     .domain-card,
     .content-card,
     .hub-card {
-        padding: 20px;
+        padding: 16px 12px;
     }
 
     /* --- About section: stacked layout on mobile --- */
