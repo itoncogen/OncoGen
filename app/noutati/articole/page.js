@@ -18,7 +18,6 @@ export default function ArticolePage() {
             <section className="hero-secondary">
                 <div className="container">
                     <h1>Noutăți științifice</h1>
-                    <p>Articole și materiale publicate de echipa OncoGen.</p>
                 </div>
             </section>
 
