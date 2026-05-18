@@ -108,7 +108,7 @@ export default function ArticolePage() {
                                             rel="noopener noreferrer"
                                             className="news-article-link"
                                         >
-                                            {link.label} &rarr;
+                                            Link &rarr;
                                         </a>
                                     ))}
                                 </div>
