@@ -13,7 +13,7 @@ const cercetareItems = [
 
 const noutatiItems = [
     { href: '/noutati/anunturi', label: 'Anunțuri' },
-    { href: '/noutati/articole', label: 'Articole' },
+    { href: '/noutati/articole', label: 'Noutăți științifice' },
 ];
 
 export default function MobileNav() {
