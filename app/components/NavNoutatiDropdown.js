@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const items = [
   { href: '/noutati/anunturi', label: 'Anunțuri' },
-  { href: '/noutati/articole', label: 'Articole' }
+  { href: '/noutati/articole', label: 'Noutăți științifice' }
 ];
 
 export default function NavNoutatiDropdown() {

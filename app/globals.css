@@ -706,7 +706,6 @@ body {
     color: var(--gray);
     line-height: 1.8;
     margin-bottom: 20px;
-    text-align: justify;
 }
 
 .about-images img {
@@ -747,7 +746,7 @@ body {
 
 .domains-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     gap: 20px;
 }
 
@@ -1366,7 +1365,7 @@ body {
    ======================================== */
 .hero-secondary {
     background: linear-gradient(135deg, var(--light-gray) 0%, var(--white) 100%);
-    padding: 60px 0;
+    padding: 60px 0 30px;
     text-align: center;
 }
 
@@ -3589,11 +3588,33 @@ body {
 
         .about-content {
             grid-template-columns: 1fr;
-            gap: 30px;
+            gap: 24px;
+        }
+
+        .about-images {
+            order: -1;
+            width: 100%;
+        }
+
+        .about-images img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 8px;
+            display: block;
         }
 
         .about-text h2 {
-            font-size: 32px;
+            font-size: 28px;
+        }
+
+        .about-text p {
+            text-align: left;
+            font-size: 15px;
+        }
+
+        .about-section {
+            padding: 40px 0;
         }
 
         .services h2,
@@ -4377,6 +4398,55 @@ body {
    ======================================== */
 @media (max-width: 768px) {
 
+    /* --- Research / Content grids: smaller font on mobile, 2 columns --- */
+    .domain-card h4,
+    .content-card h3,
+    .hub-card h3 {
+        font-size: 13px;
+        line-height: 1.4;
+        hyphens: none;
+        word-break: normal;
+        overflow-wrap: normal;
+    }
+
+    .domain-card,
+    .content-card,
+    .hub-card {
+        padding: 16px 12px;
+    }
+
+    /* --- About section: stacked layout on mobile --- */
+    .about-section {
+        padding: 40px 0;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr !important;
+        gap: 24px !important;
+    }
+
+    .about-images {
+        order: -1;
+        width: 100%;
+    }
+
+    .about-images img {
+        width: 100% !important;
+        height: 220px !important;
+        object-fit: cover;
+        border-radius: 8px;
+        display: block;
+    }
+
+    .about-text h2 {
+        font-size: 26px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        text-align: left;
+    }
+
     /* --- Navbar: fixed on mobile --- */
     .header {
         position: fixed;
@@ -4546,4 +4616,94 @@ body {
     .container {
         padding: 0 16px;
     }
+}
+
+/* ===== Ticker Bar ===== */
+.ticker-bar {
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.ticker-track {
+  display: inline-flex;
+  animation: ticker-scroll 30s linear infinite;
+}
+
+.ticker-text {
+  font-size: 13px;
+  padding: 0 60px;
+  letter-spacing: 0.03em;
+}
+
+@keyframes ticker-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+
+
+
+/* ===== News Articles List ===== */
+.news-articles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 8px 0 40px;
+}
+
+.news-article-item {
+    border-left: 4px solid var(--primary);
+    padding-left: 24px;
+    text-align: left;
+}
+
+.news-article-title {
+    font-size: 17px !important;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1.4;
+    text-align: left !important;
+}
+
+.news-article-title strong {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.news-article-desc {
+    font-size: 15px;
+    color: var(--gray);
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.news-article-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.news-article-link {
+    font-size: 13px;
+    color: var(--primary);
+    text-decoration: none;
+    border: 1px solid var(--primary);
+    padding: 4px 12px;
+    border-radius: 20px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.news-article-link:hover {
+    background-color: var(--primary);
+    color: var(--white);
 }
