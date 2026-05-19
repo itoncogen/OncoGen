@@ -4618,6 +4618,35 @@ body {
     }
 }
 
+/* ===== Ticker Bar ===== */
+.ticker-bar {
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.ticker-track {
+  display: inline-flex;
+  animation: ticker-scroll 30s linear infinite;
+}
+
+.ticker-text {
+  font-size: 13px;
+  padding: 0 60px;
+  letter-spacing: 0.03em;
+}
+
+@keyframes ticker-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+
+
+
 /* ===== News Articles List ===== */
 .news-articles-list {
     display: flex;

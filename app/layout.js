@@ -3,6 +3,7 @@ import Link from 'next/link';
 import NavCercetareDropdown from './components/NavCercetareDropdown';
 import NavNoutatiDropdown from './components/NavNoutatiDropdown';
 import MobileNav from './components/MobileNav';
+import TickerBar from './components/TickerBar';
 
 export const metadata = {
     title: 'OncoGen',
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="ro">
             <body>
+                <TickerBar />
                 <header className="header">
                     <div className="container">
                         <div className="header-content">
