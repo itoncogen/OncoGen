@@ -115,7 +115,7 @@ body {
 .nav ul {
     display: flex;
     list-style: none;
-    gap: 18px;
+    gap: 14px;
     align-items: center;
 }
 
@@ -129,9 +129,10 @@ body {
     color: var(--black);
     font-weight: 500;
     transition: color 0.3s ease;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1;
     pointer-events: auto;
+    white-space: nowrap;
 }
 
 .nav a:hover {
