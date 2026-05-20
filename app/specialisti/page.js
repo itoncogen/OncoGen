@@ -116,6 +116,69 @@ export default function SpecialistiPage() {
                     </div>
                 </div>
             </section>
+            <section className="content-section">
+                <div className="container">
+                    <div className="colaborator-card">
+                        <h2 className="colaborator-name">Prof. Dr. Carmen Bunu-Panaitescu</h2>
+                        <p className="colaborator-affiliation">
+                            <span style={{textTransform: 'uppercase'}}>Profesor Universitar &amp; Medic Primar</span> — Universitatea de Medicină și Farmacie &quot;Victor Babeș&quot; Timișoara
+                        </p>
+
+                        <p className="colaborator-bio">
+                            Prof. Dr. Carmen Bunu-Panaitescu este medic primar în Alergologie și Imunologie Clinică și în Explorări Funcționale, cu o vastă experiență în domeniul medical și în cercetare. Activează în cadrul Universității de Medicină și Farmacie &quot;Victor Babeș&quot; din Timișoara, unde coordonează lucrări de doctorat și programul rezidențial pentru specialitatea de Alergologie și Imunologie Clinică.
+                        </p>
+
+                        <div className="colaborator-grid">
+                            <div>
+                                <h3 className="colaborator-subtitle">Specialități</h3>
+                                <ul className="colaborator-list">
+                                    <li>Alergologie și Imunologie Clinică</li>
+                                    <li>Explorări Funcționale</li>
+                                    <li>Imunoterapie alergen-specifică</li>
+                                    <li>Terapie cu anticorpi monoclonali</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="colaborator-subtitle">Afecțiuni tratate</h3>
+                                <ul className="colaborator-list">
+                                    <li>Alergii respiratorii și cutanate</li>
+                                    <li>Rinită alergică și astm bronșic</li>
+                                    <li>Urticarie și angioedem</li>
+                                    <li>Alergii alimentare și la medicamente</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h3 className="colaborator-subtitle">Metode diagnostice</h3>
+                        <ul className="colaborator-list">
+                            <li>Teste cutanate (skin prick test) la pneumoalergeni și alimente</li>
+                            <li>Teste de provocare orală la aspirină, oculară și nazală la alergene</li>
+                            <li>Teste pentru evaluarea dermatitei de contact (patch) — metale, cosmetice, detergenți, antibiotice, materiale dentare</li>
+                            <li>Spirometrie, PEFmetrie, rinomanometrie computerizată</li>
+                            <li>Test de provocare bronșică la metacolină și test de bronhodilatație</li>
+                        </ul>
+
+                        <h3 className="colaborator-subtitle">Metode terapeutice</h3>
+                        <ul className="colaborator-list">
+                            <li>Terapie nemedicamentoasă și medicamentoasă</li>
+                            <li>Terapie cu anticorpi monoclonali în astmul sever și urticarie</li>
+                            <li>Imunoterapie alergen-specifică (desensibilizări) pentru rinită și astm alergic</li>
+                        </ul>
+
+                        <h3 className="colaborator-subtitle">Activitate de cercetare</h3>
+                        <p className="colaborator-bio">
+                            Prof. Dr. Panaitescu este lider de proiect în numeroase proiecte de cercetare naționale și internaționale. Cea mai importantă direcție de cercetare vizează studii legate de alergia la polenul de ambrozie, în cadrul proiectului INSPIRED derulat în parteneriat cu Universitatea de Medicină din Viena, având ca scop final obținerea unui vaccin împotriva acestei alergii.
+                        </p>
+
+                        <h3 className="colaborator-subtitle">Clinici de activitate</h3>
+                        <ul className="colaborator-list">
+                            <li>Medici&apos;s Clinics — str. Dimitrie Paciurea nr. 5, Timișoara</li>
+                            <li>MedLife Medici&apos;s Academica — Bul. Circumvalațiunii nr. 8-10, Timișoara</li>
+                            <li>Profilaxis — str. 1 Decembrie 1918 nr. 106, Timișoara</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }
