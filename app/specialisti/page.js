@@ -121,7 +121,7 @@ export default function SpecialistiPage() {
                     <div className="colaborator-card">
                         <h2 className="colaborator-name">Prof. Dr. Carmen Bunu-Panaitescu</h2>
                         <p className="colaborator-affiliation">
-                            <span style={{textTransform: 'uppercase'}}>Profesor Universitar &amp; Medic Primar</span> — Universitatea de Medicină și Farmacie &quot;Victor Babeș&quot; Timișoara
+                            <span style={{textTransform: 'uppercase'}}>Profesor Universitar &amp; Medic Primar Alergologie și Imunologie Clinică</span> — Universitatea de Medicină și Farmacie &quot;Victor Babeș&quot; Timișoara
                         </p>
 
                         <p className="colaborator-bio">
