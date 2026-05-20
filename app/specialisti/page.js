@@ -122,8 +122,7 @@ export default function SpecialistiPage() {
                         <h2 className="colaborator-name">Prof. Dr. Carmen Panaitescu</h2>
                         <p className="colaborator-affiliation">
                             <span style={{textTransform: 'uppercase'}}>Profesor Universitar &amp; Medic Primar</span> — Alergologie și Imunologie Clinică<br />
-                            Universitatea de Medicină și Farmacie &quot;Victor Babeș&quot; Timișoara<br />
-                            Spitalul Clinic Județean de Urgență &quot;Pius Brînzeu&quot; Timișoara
+                            Universitatea de Medicină și Farmacie &quot;Victor Babeș&quot; Timișoara, Spitalul Clinic Județean de Urgență &quot;Pius Brînzeu&quot; Timișoara
                         </p>
 
                         <p className="colaborator-bio">
