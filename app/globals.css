@@ -1365,7 +1365,7 @@ body {
    ======================================== */
 .hero-secondary {
     background: linear-gradient(135deg, var(--light-gray) 0%, var(--white) 100%);
-    padding: 60px 0 30px;
+    padding: 60px 0 16px;
     text-align: center;
 }
 
@@ -4719,7 +4719,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 8px 0 40px;
+    padding: 0 0 40px;
 }
 
 .news-article-item {
