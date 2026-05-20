@@ -8,7 +8,10 @@ export default function TickerBar() {
 
     return (
         <div className="ticker-bar">
-            <div className="ticker-label">OncoGen News |</div>
+            <div className="ticker-label">
+                <span className="ticker-label-full">OncoGen News |</span>
+                <span className="ticker-label-short">News |</span>
+            </div>
             <div className="ticker-wrapper">
                 <div className="ticker-track">
                     {[...items, ...items].map((item, idx) => (
