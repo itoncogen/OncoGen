@@ -133,10 +133,15 @@ export default function ArticolePage() {
                     <ul className="competitions-list">
                         {competitii.map((item) => (
                             <li key={item.id} className="competition-item">
-                                <strong>{item.id}. {item.titlu}</strong>
-                                <a href={item.url} target="_blank" rel="noopener noreferrer" className="news-article-link">
-                                    Link &rarr;
-                                </a>
+                                <div>
+                                    <strong>{item.id}. {item.titlu}</strong>
+                                    <p style={{ marginTop: '4px', fontSize: '13px', color: '#666' }}>
+                                        Link:{' '}
+                                        <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ color: '#e91e8c' }}>
+                                            {item.url}
+                                        </a>
+                                    </p>
+                                </div>
                             </li>
                         ))}
                     </ul>
