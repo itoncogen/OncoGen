@@ -69,23 +69,47 @@ export default function SpecialistiPage() {
                     <div className="colaborator-card">
                         <h2 className="colaborator-name">Dr. Michael Schenker</h2>
                         <p className="colaborator-affiliation">
-                            <span style={{textTransform: 'uppercase'}}>Medic Primar Oncolog</span> — Centrul Sf. Nectarie, Craiova &amp; Spitalul Clinic Județean de Urgență Craiova
+                            <span style={{textTransform: 'uppercase'}}>Director Medical &amp; Medic Primar Oncolog</span> — Centrul de Oncologie &quot;Sfântul Nectarie&quot;, Craiova &amp; Spitalul Clinic Județean de Urgență Craiova
                         </p>
 
                         <p className="colaborator-bio">
-                            Dr. Michael Schenker este unul dintre cei mai cunoscuți medici oncologi din România, al cărui nume a atras la Craiova pacienți cu cancer din toată țara. Este managerul Centrului Sf. Nectarie, unul dintre cele mai performante centre oncologice private din țară, construit de la zero în Craiova, unde pacienții nu plătesc nimic pentru tratamentul oncologic.
+                            Dr. Michael Schenker este unul dintre cei mai cunoscuți medici oncologi din România, al cărui nume a atras la Craiova pacienți cu cancer din toată țara. Este Directorul Medical al Centrului de Oncologie &quot;Sfântul Nectarie&quot;, unul dintre cele mai performante centre oncologice din țară, unde toate serviciile medicale prestate sunt gratuite pentru pacienți, centrul fiind contractat cu Casa Națională de Asigurări de Sănătate.
                         </p>
 
                         <div className="colaborator-grid">
                             <div>
                                 <h3 className="colaborator-subtitle">Funcții</h3>
                                 <ul className="colaborator-list">
+                                    <li>Director Medical — Centrul de Oncologie &quot;Sf. Nectarie&quot;, Craiova</li>
+                                    <li>Șef de secție — SCJU Craiova</li>
                                     <li>Președinte al Comisiei de Oncologie — Ministerul Sănătății</li>
                                     <li>Vicepreședinte al Societății Naționale de Oncologie</li>
-                                    <li>Manager — Centrul Sf. Nectarie, Craiova</li>
-                                    <li>Șef de secție — SCJU Craiova</li>
                                 </ul>
                             </div>
+                            <div>
+                                <h3 className="colaborator-subtitle">Specializare</h3>
+                                <ul className="colaborator-list">
+                                    <li>Oncologie medicală</li>
+                                    <li>Radioterapie avansată</li>
+                                    <li>Management oncologic multidisciplinar</li>
+                                    <li>Sinergii public-privat în oncologie</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h3 className="colaborator-subtitle">Centrul de Oncologie &quot;Sfântul Nectarie&quot;</h3>
+                        <p className="colaborator-bio">
+                            Centrul oferă servicii complete de oncologie — consultații, chimioterapie, radioterapie, investigații — toate gratuite pentru pacienți prin contractul cu CNAS. Dr. Schenker a construit centrul de la zero, cu scopul explicit de a pune la dispoziția pacienților oncologici din Oltenia și din întreaga țară servicii medicale de înaltă calitate, fără costuri suplimentare. Centrul dispune de aparatură de radioterapie de ultimă generație, complementară celei de la SCJU Craiova.
+                        </p>
+
+                        <h3 className="colaborator-subtitle">Viziune și activitate</h3>
+                        <p className="colaborator-bio">
+                            Dr. Schenker promovează un model de îngrijire integrată a pacientului oncologic, bazat pe interdisciplinaritate și pe colaborarea dintre sectorul public și cel privat. Subliniază că un pacient cu cancer are nevoie de mult mai mult decât un diagnostic și tratament — are nevoie de o echipă completă care să gestioneze toate complicațiile asociate, de la hepatită și diabet, până la tromboembolism sau infecții severe. Pacienții sunt îndrumați între cele două instituții în funcție de nevoile lor specifice, fără competiție între ele.
+                        </p>
+                        <p className="colaborator-bio">
+                            Aproximativ 60% dintre pacienții centrului provin din județele din jur și din București. Prezența sa a menținut în regiune mulți pacienți care anterior se deplasau la București sau Cluj. A susținut activ și reabilitarea Clinicii de Oncologie de la SCJU Craiova, modernizată cu lifturi dedicate pacienților și aparatură de ultimă generație.
+                        </p>
+                    </div>
                             <div>
                                 <h3 className="colaborator-subtitle">Specializare</h3>
                                 <ul className="colaborator-list">
