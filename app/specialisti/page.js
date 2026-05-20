@@ -11,7 +11,7 @@ export default function SpecialistiPage() {
                 <div className="container">
                     <div className="colaborator-card">
                         <h2 className="colaborator-name">Dr. Doru Paul, Ph.D.</h2>
-                        <p className="colaborator-affiliation">Associate Professor — Weill Cornell University, New York</p>
+                        <p className="colaborator-affiliation"><span style={{textTransform: 'uppercase'}}>Associate Professor</span> — Weill Cornell University, New York</p>
 
                         <p className="colaborator-bio">
                             Dr. Paul este un expert în tratamentul cancerului de sferă ORL, pulmonar și tiroidian, având o experiență îndelungată în dezvoltarea abordărilor multidisciplinare de succes pentru tratarea acestor afecțiuni. A avut, de asemenea, contribuții majore ca cercetător translațional și clinic. Demonstrând o prezență națională și internațională în domeniul oncologiei, el și-a prezentat pe larg cercetările care definesc ținte moleculare sau procese terapeutice specifice pentru îmbunătățirea tratamentului pacienților cu cancer.
