@@ -74,6 +74,20 @@ const noutati = [
     },
 ];
 
+const competitii = [
+    { id: 1, titlu: 'iGEM Competition 2026', url: 'https://competition.igem.org/' },
+    { id: 2, titlu: 'BISC-E 2026 (Bio-based Innovation Student Challenge Europe)', url: 'https://biconsortium.eu/about-bisc-e' },
+    { id: 3, titlu: 'EIT Health Innovation / Biotech Challenges', url: 'https://eithealth.eu/' },
+    { id: 4, titlu: 'BioHackathon Europe', url: 'https://biohackathon-europe.org/' },
+    { id: 5, titlu: 'SynBioBeta Global / Student Challenges', url: 'https://www.synbiobeta.com/' },
+    { id: 6, titlu: 'European Congress on Biotechnology (ECB) – Student Competitions', url: 'https://www.efbiotechnology.org/' },
+    { id: 7, titlu: 'EIC Pathfinder Challenges 2026', url: 'https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder_en' },
+    { id: 8, titlu: 'EIC Transition 2026', url: 'https://eic.ec.europa.eu/eic-funding-opportunities/eic-transition_en' },
+    { id: 9, titlu: 'EIC Accelerator 2026', url: 'https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en' },
+    { id: 10, titlu: 'Horizon Europe Health Cluster', url: 'https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/cluster-1-health_en' },
+    { id: 11, titlu: 'EIT Health Programs & Challenges', url: 'https://eithealth.eu/what-we-do/education/' },
+];
+
 export default function ArticolePage() {
     return (
         <>
@@ -115,6 +129,22 @@ export default function ArticolePage() {
                             </article>
                         ))}
                     </div>
+                    <h2 className="news-section-heading">Competiții internaționale / europene importante în Biotehnologii</h2>
+                    <ul className="competitions-list">
+                        {competitii.map((item) => (
+                            <li key={item.id} className="competition-item">
+                                <div>
+                                    <strong>{item.id}. {item.titlu}</strong>
+                                    <p style={{ marginTop: '4px', fontSize: '13px', color: '#666' }}>
+                                        Link:{' '}
+                                        <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ color: '#e91e8c' }}>
+                                            {item.url}
+                                        </a>
+                                    </p>
+                                </div>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
             </section>
         </>
