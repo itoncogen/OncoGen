@@ -11,7 +11,9 @@ export default function SpecialistiPage() {
                 <div className="container">
                     <div className="colaborator-card">
                         <h2 className="colaborator-name">Dr. Doru Paul, Ph.D.</h2>
-                        <p className="colaborator-affiliation"><span style={{textTransform: 'uppercase'}}>Associate Professor</span> — Weill Cornell University, New York</p>
+                        <p className="colaborator-affiliation">
+                            <span style={{textTransform: 'uppercase'}}>Associate Professor</span> — Weill Cornell University, New York
+                        </p>
 
                         <p className="colaborator-bio">
                             Dr. Paul este un expert în tratamentul cancerului de sferă ORL, pulmonar și tiroidian, având o experiență îndelungată în dezvoltarea abordărilor multidisciplinare de succes pentru tratarea acestor afecțiuni. A avut, de asemenea, contribuții majore ca cercetător translațional și clinic. Demonstrând o prezență națională și internațională în domeniul oncologiei, el și-a prezentat pe larg cercetările care definesc ținte moleculare sau procese terapeutice specifice pentru îmbunătățirea tratamentului pacienților cu cancer.
@@ -21,7 +23,9 @@ export default function SpecialistiPage() {
                             <strong>Post actual:</strong> Medic Specialist, Divizia de Hematologie și Oncologie Medicală, Weill Cornell, New York.
                         </p>
 
-                        <p className="colaborator-affiliation"><span style={{textTransform: 'uppercase'}}>Visiting Professor</span> - Universitatea de Medicină și Farmacie &quot;Victor Babeș&quot; Timișoara din anul 2019</p>
+                        <p className="colaborator-affiliation">
+                            <span style={{textTransform: 'uppercase'}}>Visiting Professor</span> - Universitatea de Medicină și Farmacie &quot;Victor Babeș&quot; Timișoara din anul 2019
+                        </p>
 
                         <div className="colaborator-grid">
                             <div>
@@ -108,30 +112,6 @@ export default function SpecialistiPage() {
                         </p>
                         <p className="colaborator-bio">
                             Aproximativ 60% dintre pacienții centrului provin din județele din jur și din București. Prezența sa a menținut în regiune mulți pacienți care anterior se deplasau la București sau Cluj. A susținut activ și reabilitarea Clinicii de Oncologie de la SCJU Craiova, modernizată cu lifturi dedicate pacienților și aparatură de ultimă generație.
-                        </p>
-                    </div>
-                            <div>
-                                <h3 className="colaborator-subtitle">Specializare</h3>
-                                <ul className="colaborator-list">
-                                    <li>Oncologie medicală</li>
-                                    <li>Management oncologic multidisciplinar</li>
-                                    <li>Radioterapie avansată</li>
-                                    <li>Sinergii public-privat în oncologie</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <h3 className="colaborator-subtitle">Viziune și activitate</h3>
-                        <p className="colaborator-bio">
-                            Dr. Schenker promovează un model de îngrijire integrată a pacientului oncologic, bazat pe interdisciplinaritate și pe colaborarea dintre sectorul public și cel privat. Subliniază că un pacient cu cancer are nevoie de mult mai mult decât un diagnostic și tratament oncologic — are nevoie de o echipă completă care să gestioneze toate complicațiile asociate, de la hepatită și diabet, până la tromboembolism sau infecții severe.
-                        </p>
-                        <p className="colaborator-bio">
-                            Sub conducerea sa, Centrul Sf. Nectarie dispune de două aparate de radioterapie de înaltă performanță, complementare celor de la SCJU Craiova. Pacienții sunt îndrumați în funcție de nevoile lor specifice, fără competiție între cele două instituții. Aproximativ 60% dintre pacienții centrului privat provin din județele din jur și din București, iar prezența sa a menținut în regiune mulți pacienți care anterior se deplasau la București sau Cluj.
-                        </p>
-
-                        <h3 className="colaborator-subtitle">Infrastructură și dezvoltare</h3>
-                        <p className="colaborator-bio">
-                            Dr. Schenker a susținut activ reabilitarea Clinicii de Oncologie de la SCJU Craiova, care a beneficiat de o amplă modernizare, inclusiv două lifturi dedicate pacienților și dotarea cu aparatură de radioterapie de ultimă generație. Totodată, a inițiat extinderea echipei de medici oncologi la Spitalul Județean și crearea unor condiții optime de pregătire pentru rezidenți, cu scopul de a crește accesibilitatea pacienților cu cancer la terapii moderne.
                         </p>
                     </div>
                 </div>
