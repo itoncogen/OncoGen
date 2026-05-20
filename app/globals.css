@@ -4447,16 +4447,27 @@ body {
         text-align: left;
     }
 
-    /* --- Navbar: fixed on mobile --- */
+    /* --- Ticker bar: smaller font on mobile --- */
+    .ticker-label {
+        font-size: 11px;
+        padding: 0 10px;
+    }
+
+    .ticker-text {
+        font-size: 11px;
+        padding: 0 20px;
+    }
+
+    /* --- Navbar: fixed on mobile, below ticker --- */
     .header {
         position: fixed;
-        top: 0;
+        top: 38px;
         left: 0;
         right: 0;
         z-index: 9999;
     }
 
-    /* Push page content below fixed header */
+    /* Push page content below fixed ticker + header */
     body {
         padding-top: 118px;
     }
