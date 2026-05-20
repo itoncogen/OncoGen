@@ -21,7 +21,7 @@ export default function SpecialistiPage() {
                             <strong>Post actual:</strong> Medic Specialist, Divizia de Hematologie și Oncologie Medicală, Weill Cornell, New York.
                         </p>
 
-                        <p className="colaborator-affiliation">Visiting Professor - Universitatea de Medicină și Farmacie "Victor Babeș" Timișoara din anul 2019</p>
+                        <p className="colaborator-affiliation"><span style={{textTransform: 'uppercase'}}>Visiting Professor</span> - Universitatea de Medicină și Farmacie &quot;Victor Babeș&quot; Timișoara din anul 2019</p>
 
                         <div className="colaborator-grid">
                             <div>

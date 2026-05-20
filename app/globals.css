@@ -4729,8 +4729,7 @@ body {
     font-weight: 600;
     color: var(--primary);
     margin: 0 0 14px 0;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
 }
 
 .colaborator-bio {
