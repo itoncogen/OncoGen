@@ -63,6 +63,55 @@ export default function SpecialistiPage() {
                     </div>
                 </div>
             </section>
+
+            <section className="content-section">
+                <div className="container">
+                    <div className="colaborator-card">
+                        <h2 className="colaborator-name">Dr. Michael Schenker</h2>
+                        <p className="colaborator-affiliation">
+                            <span style={{textTransform: 'uppercase'}}>Medic Primar Oncolog</span> — Centrul Sf. Nectarie, Craiova &amp; Spitalul Clinic Județean de Urgență Craiova
+                        </p>
+
+                        <p className="colaborator-bio">
+                            Dr. Michael Schenker este unul dintre cei mai cunoscuți medici oncologi din România, al cărui nume a atras la Craiova pacienți cu cancer din toată țara. Este managerul Centrului Sf. Nectarie, unul dintre cele mai performante centre oncologice private din țară, construit de la zero în Craiova, unde pacienții nu plătesc nimic pentru tratamentul oncologic.
+                        </p>
+
+                        <div className="colaborator-grid">
+                            <div>
+                                <h3 className="colaborator-subtitle">Funcții</h3>
+                                <ul className="colaborator-list">
+                                    <li>Președinte al Comisiei de Oncologie — Ministerul Sănătății</li>
+                                    <li>Vicepreședinte al Societății Naționale de Oncologie</li>
+                                    <li>Manager — Centrul Sf. Nectarie, Craiova</li>
+                                    <li>Șef de secție — SCJU Craiova</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="colaborator-subtitle">Specializare</h3>
+                                <ul className="colaborator-list">
+                                    <li>Oncologie medicală</li>
+                                    <li>Management oncologic multidisciplinar</li>
+                                    <li>Radioterapie avansată</li>
+                                    <li>Sinergii public-privat în oncologie</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h3 className="colaborator-subtitle">Viziune și activitate</h3>
+                        <p className="colaborator-bio">
+                            Dr. Schenker promovează un model de îngrijire integrată a pacientului oncologic, bazat pe interdisciplinaritate și pe colaborarea dintre sectorul public și cel privat. Subliniază că un pacient cu cancer are nevoie de mult mai mult decât un diagnostic și tratament oncologic — are nevoie de o echipă completă care să gestioneze toate complicațiile asociate, de la hepatită și diabet, până la tromboembolism sau infecții severe.
+                        </p>
+                        <p className="colaborator-bio">
+                            Sub conducerea sa, Centrul Sf. Nectarie dispune de două aparate de radioterapie de înaltă performanță, complementare celor de la SCJU Craiova. Pacienții sunt îndrumați în funcție de nevoile lor specifice, fără competiție între cele două instituții. Aproximativ 60% dintre pacienții centrului privat provin din județele din jur și din București, iar prezența sa a menținut în regiune mulți pacienți care anterior se deplasau la București sau Cluj.
+                        </p>
+
+                        <h3 className="colaborator-subtitle">Infrastructură și dezvoltare</h3>
+                        <p className="colaborator-bio">
+                            Dr. Schenker a susținut activ reabilitarea Clinicii de Oncologie de la SCJU Craiova, care a beneficiat de o amplă modernizare, inclusiv două lifturi dedicate pacienților și dotarea cu aparatură de radioterapie de ultimă generație. Totodată, a inițiat extinderea echipei de medici oncologi la Spitalul Județean și crearea unor condiții optime de pregătire pentru rezidenți, cu scopul de a crește accesibilitatea pacienților cu cancer la terapii moderne.
+                        </p>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }
