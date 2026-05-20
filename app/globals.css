@@ -4737,7 +4737,51 @@ body {
     font-size: 15px;
     color: var(--gray);
     line-height: 1.7;
-    margin: 0;
+    margin: 0 0 12px 0;
+}
+
+.colaborator-subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dark);
+    margin: 20px 0 8px 0;
+}
+
+.colaborator-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin: 16px 0;
+}
+
+.colaborator-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.colaborator-list li {
+    font-size: 14px;
+    color: var(--gray);
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.6;
+}
+
+.colaborator-list li::before {
+    content: '•';
+    color: var(--magenta);
+    position: absolute;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .colaborator-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 @keyframes ticker-scroll {
