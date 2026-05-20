@@ -43,7 +43,7 @@ body {
     background-color: var(--white);
     border-bottom: 1px solid var(--light-gray);
     position: sticky;
-    top: 0;
+    top: 38px;
     z-index: 9999;
     pointer-events: auto;
 }
@@ -4458,7 +4458,7 @@ body {
 
     /* Push page content below fixed header */
     body {
-        padding-top: 64px;
+        padding-top: 118px;
     }
 
     /* --- Page title: prevent horizontal overflow --- */
@@ -4627,6 +4627,14 @@ body {
   height: 38px;
   display: flex;
   align-items: center;
+}
+
+.ticker-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;  /* peste navbar */
 }
 
 .ticker-label {
