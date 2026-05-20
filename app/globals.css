@@ -4708,6 +4708,38 @@ body {
   display: inline;
 }
 
+/* ===== Colaboratori ===== */
+.colaborator-card {
+    border-left: 4px solid var(--primary);
+    padding: 24px 28px;
+    margin-top: 32px;
+    background: var(--light-gray);
+    border-radius: 4px;
+}
+
+.colaborator-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--dark);
+    margin: 0 0 4px 0;
+}
+
+.colaborator-affiliation {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--primary);
+    margin: 0 0 14px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.colaborator-bio {
+    font-size: 15px;
+    color: var(--gray);
+    line-height: 1.7;
+    margin: 0;
+}
+
 @keyframes ticker-scroll {
   0%   { transform: translateX(0); }
   100% { transform: translateX(-50%); }
