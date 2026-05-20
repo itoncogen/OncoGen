@@ -1,5 +1,5 @@
 export default function TickerBar() {
-    const text = "OncoGen este un centru de excelență în cercetare cu preocupări în cancer, alergii și medicina regenerativă.";
+    const text = "Diferențierea in vitro a celulelor stem mezenchimale";
 
     return (
         <div className="ticker-bar">
