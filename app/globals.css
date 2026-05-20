@@ -4454,11 +4454,11 @@ body {
     }
 
     .ticker-label-full {
-        display: none;
+        display: none !important;
     }
 
     .ticker-label-short {
-        display: inline;
+        display: inline !important;
     }
 
     .ticker-text {
