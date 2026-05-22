@@ -28,6 +28,7 @@ body {
     color: var(--black);
     background-color: var(--white);
     line-height: 1.6;
+    padding-top: 118px; /* ticker (38px) + header (~80px) */
 }
 
 .container {
