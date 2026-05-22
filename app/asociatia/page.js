@@ -5,6 +5,21 @@ export default function AsociatiaPage() {
   return (
     <main className="asoc-page">
 
+      {/* ── BREADCRUMB ── */}
+      <nav className="breadcrumb" aria-label="Breadcrumb">
+        <div className="container">
+          <ol className="breadcrumb-list">
+            <li className="breadcrumb-item">
+              <Link href="/">Acasă</Link>
+            </li>
+            <li className="breadcrumb-separator" aria-hidden="true">/</li>
+            <li className="breadcrumb-item breadcrumb-current" aria-current="page">
+              Asociația OncoGen
+            </li>
+          </ol>
+        </div>
+      </nav>
+
       {/* ── HERO ── */}
       <section className="asoc-hero">
         <Image
