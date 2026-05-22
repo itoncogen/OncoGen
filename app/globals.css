@@ -28,6 +28,7 @@ body {
     color: var(--black);
     background-color: var(--white);
     line-height: 1.6;
+    padding-top: 118px; /* ticker (38px) + header (~80px) */
 }
 
 .container {
@@ -4880,4 +4881,41 @@ body {
     color: var(--dark);
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
+}
+
+/* ===== Breadcrumb ===== */
+.breadcrumb {
+    background: var(--light-gray);
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0;
+}
+
+.breadcrumb-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+.breadcrumb-item a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-separator {
+    color: var(--gray);
+    font-size: 12px;
+}
+
+.breadcrumb-current {
+    color: var(--gray);
+    font-weight: 400;
 }
