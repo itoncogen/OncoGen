@@ -1,6 +1,14 @@
+import Link from 'next/link';
+
 export default function SpecialistiPage() {
     return (
         <main>
+            <div className="breadcrumbs">
+                <div className="container">
+                    <Link href="/">Acasă</Link> / <span>Colaborări</span>
+                </div>
+            </div>
+
             <section className="hero-secondary">
                 <div className="container">
                     <h1>Colaborări</h1>
