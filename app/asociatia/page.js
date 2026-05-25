@@ -103,7 +103,7 @@ export default function AsociatiaPage() {
         /* HERO */
         .asoc-hero {
           position: relative;
-          height: 340px;
+          height: 500px;
           overflow: hidden;
           display: flex;
           align-items: flex-end;
