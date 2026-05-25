@@ -103,14 +103,14 @@ export default function AsociatiaPage() {
         /* HERO */
         .asoc-hero {
           position: relative;
-          height: 340px;
+          height: 500px;
           overflow: hidden;
           display: flex;
           align-items: flex-end;
         }
         .asoc-hero-img {
           object-fit: cover;
-          object-position: center;
+          object-position: bottom 60%;
         }
         .asoc-hero-overlay {
           position: absolute;
