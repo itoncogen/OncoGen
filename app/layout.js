@@ -65,9 +65,8 @@ export default function RootLayout({ children }) {
                 <main>{children}</main>
 
                 <div className="footer-wave-wrapper" aria-hidden="true">
-                    <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" className="footer-wave-svg">
-                        <path d="M0,40 C240,90 480,0 720,40 C960,80 1200,10 1440,40 L1440,80 L0,80 Z" fill="#111111"/>
-                        <path d="M0,40 C240,90 480,0 720,40 C960,80 1200,10 1440,40" fill="none" stroke="var(--magenta)" strokeWidth="4"/>
+                    <svg viewBox="0 0 1440 8" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" className="footer-wave-svg" style={{height: '8px'}}>
+                        <line x1="0" y1="4" x2="1440" y2="4" stroke="var(--magenta)" strokeWidth="4"/>
                     </svg>
                 </div>
                 <footer className="footer">
