@@ -110,7 +110,7 @@ export default function AsociatiaPage() {
         }
         .asoc-hero-img {
           object-fit: cover;
-          object-position: center 40%;
+          object-position: bottom;
         }
         .asoc-hero-overlay {
           position: absolute;
