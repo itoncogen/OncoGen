@@ -15,7 +15,7 @@ export default function AsociatiaPage() {
       {/* ── HERO ── */}
       <section className="asoc-hero">
         <Image
-          src="/images/centruoncogen.jpeg"
+          src="/images/asociatia_OncoGen.JPG"
           alt="Clădirea OncoGen"
           fill
           className="asoc-hero-img"
