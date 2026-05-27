@@ -132,7 +132,7 @@ const fullTeam = [
         name: 'As. C.S. Ing. Bioteh. Simina Alina',
         role: 'Biotehnolog',
         details: '',
-        avatar: '/images/profile-avatar.svg',
+        avatar: '/images/Simina_Alina-Georgiana.jpg',
         cvFile: '/CV-personal-oncogen/CV_Simina_Alina_Georgiana.pdf'
     },
     {
@@ -154,7 +154,7 @@ const fullTeam = [
         role: 'Biolog',
         details: '',
         avatar: '/imagini-personal-oncogen/Elena_Gai.jpeg',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Gai_Elena.pdf'
     },
     {
         name: 'Dr. Istodor Loredana',
