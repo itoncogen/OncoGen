@@ -86,6 +86,8 @@ const competitii = [
     { id: 9, titlu: 'EIC Accelerator 2026', url: 'https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en' },
     { id: 10, titlu: 'Horizon Europe Health Cluster', url: 'https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/cluster-1-health_en' },
     { id: 11, titlu: 'EIT Health Programs & Challenges', url: 'https://eithealth.eu/what-we-do/education/' },
+    { id: 12, titlu: 'Apel european 2026 pentru imunologie tumorală și imunoterapie.Pragmatic clinical trials to optimise immunotherapeutic interventions for patients with refractory cancers. Cod: HORIZON-MISS-2026-02-CANCER-03', url: 'https://www.euro-access.eu/en/calls/2674/Pragmatic-clinical-trials-to-optimise-immunotherapeutic-interventions-for-patients-with-refractory-cancers'},
+    { id: 13, titlu: 'Virtual Human Twin (VHT) Models for Cancer Research. Cod: HORIZON-MISS-2026-02-CANCER-01', url: 'https://cordis.europa.eu/programme/id/HORIZON_HORIZON-MISS-2026-02-CANCER-01'},
 ];
 
 export default function ArticolePage() {
