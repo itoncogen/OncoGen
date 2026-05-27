@@ -132,7 +132,7 @@ const fullTeam = [
         name: 'As. C.S. Ing. Bioteh. Simina Alina',
         role: 'Biotehnolog',
         details: '',
-        avatar: '/images/Simina_Alina-Georgiana.jpg',
+        avatar: '/imagini-personal-oncogen/Simina_Alina-Georgiana.jpg',
         cvFile: '/CV-personal-oncogen/CV_Simina_Alina_Georgiana.pdf'
     },
     {
