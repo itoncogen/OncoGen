@@ -116,14 +116,17 @@ export default function ArticolePage() {
                                 </h2>
                                 <p className="news-article-desc">{item.descriere}</p>
                                 <div className="news-article-links">
-                                    {item.linkuri.map((link, idx) => (
-                                        <p key={idx} style={{ marginTop: '4px', fontSize: '13px', color: '#666' }}>
-                                            Link:{' '}
-                                            <a href={link.url} target="_blank" rel="noopener noreferrer" style={{ color: '#e91e8c' }}>
-                                                {link.url}
-                                            </a>
-                                        </p>
-                                    ))}
+                                    <p style={{ marginTop: '4px', fontSize: '13px', color: '#666' }}>
+                                        Link:{' '}
+                                        {item.linkuri.map((link, idx) => (
+                                            <span key={idx}>
+                                                <a href={link.url} target="_blank" rel="noopener noreferrer" style={{ color: '#e91e8c' }}>
+                                                    {link.url}
+                                                </a>
+                                                {idx < item.linkuri.length - 1 && ' | '}
+                                            </span>
+                                        ))}
+                                    </p>
                                 </div>
                             </article>
                         ))}
