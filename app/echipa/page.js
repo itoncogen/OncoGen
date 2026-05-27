@@ -210,7 +210,7 @@ const fullTeam = [
         role: ' ',
         details: ' ',
         avatar: '/imagini-personal-oncogen/Cosmin_Stoin.jpeg',
-        cvFile: null
+        cvFile: '/CV-personal-oncogen/CV_Stoin_Cosmin_Adrian.pdf'
     },
     {
         name: 'Flaviu Pop',
