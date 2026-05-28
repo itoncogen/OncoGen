@@ -76,7 +76,7 @@ const fullTeam = [
         name: 'C.S. Dr. Ing. Bioteh. Telea Ada',
         role: 'Biotehnolog',
         details: '',
-        avatar: '/images/profile-avatar.svg',
+        avatar: '/imagini-personal-oncogen/Telea_Ada.jpg',
         cvFile: '/CV-personal-oncogen/CV_Telea_Ada.pdf'
     },
     {
