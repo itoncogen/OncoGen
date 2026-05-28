@@ -125,7 +125,7 @@ const fullTeam = [
         name: 'As. C.S. Chim. Pricop Alexandra',
         role: 'Chimist',
         details: '',
-        avatar: '/images/profile-avatar.svg',
+        avatar: '/imagini-personal-oncogen/Pricop_Maria_Alexandra.jpg',
         cvFile: '/CV-personal-oncogen/CV_Pricop_Alexandra.pdf'
     },
     {
