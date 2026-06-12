@@ -86,6 +86,12 @@ export default function SpecialistiPage() {
                             <li>Rezidență în medicină internă — Albert Einstein College of Medicine, Bronx, New York, 1996–99</li>
                             <li>Fellowship, Hematologie și Oncologie — Montefiore Hospital, New York, 1999–2002</li>
                         </ul>
+
+                        <p className="colaborator-bio" style={{ marginTop: '16px' }}>
+                            <a href="https://www.asociatiaheal.ro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)' }}>
+                                www.asociatiaheal.ro
+                            </a>{' '}— site îndrumător pentru consiliere oncologică
+                        </p>
                     </div>
                 </div>
             </section>
@@ -199,6 +205,51 @@ export default function SpecialistiPage() {
                             <li>MedLife Medici&apos;s Academica — Bul. Circumvalațiunii nr. 8-10, Timișoara</li>
                             <li>Profilaxis — str. 1 Decembrie 1918 nr. 106, Timișoara</li>
                         </ul>
+                    </div>
+                </div>
+            </section>
+            <section className="content-section">
+                <div className="container">
+                    <div className="colaborator-card">
+                        <h2 className="colaborator-name">Asociația Heal — Navigare, Second Opinion și Tumor Board</h2>
+                        <p className="colaborator-affiliation">
+                            <a href="https://www.asociatiaheal.ro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)' }}>
+                                www.asociatiaheal.ro
+                            </a>
+                        </p>
+
+                        <p className="colaborator-bio">
+                            Asociația Heal îmbunătățește accesul la expertiză medicală adecvată și la o asistență colaborativă și coordonată. Ghidează pașii pacienților diagnosticați cu cancer de la diagnostic, la terapie, la reabilitarea după tratament — alături de ei, de medicii lor și de familiile lor, la fiecare pas și cu fiecare nevoie.
+                        </p>
+
+                        <p className="colaborator-bio">
+                            Asociația Heal a fost înființată de către un grup de medici și pasionați ai sănătății digitale, dornici să schimbe sistemul de îngrijire și calitatea vieții bolnavilor de cancer din România. Prin proiectele sale și prin dezvoltarea unei rețele internaționale de tele-expertiză oncologică, toți pacienții români pot avea acces la un diagnostic precis și la cel mai potrivit tratament, cât mai aproape de locul în care trăiesc.
+                        </p>
+
+                        <div className="colaborator-grid">
+                            <div>
+                                <h3 className="colaborator-subtitle">Navigare și Consiliere</h3>
+                                <p className="colaborator-bio">
+                                    Serviciul de navigare oferă suport personalizat și sprijin în problemele practice, fizice și emoționale care pot apărea atunci când cineva se confruntă cu un diagnostic de cancer. Ajută pacientul să navigheze sistemul de sănătate prin identificarea resurselor adecvate pentru diagnosticul său, coordonează serviciile de care are nevoie și îl învață să comunice eficient cu echipa medicală.
+                                </p>
+                            </div>
+                            <div>
+                                <h3 className="colaborator-subtitle">Second Opinion</h3>
+                                <p className="colaborator-bio">
+                                    Serviciul de Second Opinion facilitează persoanelor care au primit deja un diagnostic oncologic accesul la o echipă de experți din țară și străinătate pentru a obține o a doua opinie independentă. Evaluările pot aduce deseori o perspectivă nouă asupra situației medicale, utile atât pacienților, cât și medicilor curanți.
+                                </p>
+                            </div>
+                        </div>
+
+                        <h3 className="colaborator-subtitle">Tumor Board</h3>
+                        <p className="colaborator-bio">
+                            Serviciul Tumor Board este instrumentul dezvoltat pentru crearea unei rețele de asistență medicală colaborativă multi-disciplinară și schimb transfrontalier de experiență profesională. Abordarea colaborativă pune pacientul în centrul procesului de îngrijire, astfel încât acesta să poată lua cele mai bune decizii în ceea ce privește sănătatea sa. Serviciul oferă toate avantajele unei a doua opinii, asigurând în același timp că medicii unui consiliu multidisciplinar sunt în consens, reducând erorile și rezolvând orice potențial conflict privind diagnosticul și planul de tratament.
+                        </p>
+
+                        <h3 className="colaborator-subtitle">Misiune</h3>
+                        <p className="colaborator-bio">
+                            Este timpul să găsim soluții și să depășim obstacolele pe care bolnavii de cancer le întâmpină zi de zi într-un sistem sanitar haotic. Asociația Heal dorește ca sutele de mii de pacienți oncologici din țară, indiferent de zona în care locuiesc sau de situația lor financiară, să aibă acces la informare corectă, resurse adecvate și opțiuni terapeutice conforme protocoalelor la nivel mondial.
+                        </p>
                     </div>
                 </div>
             </section>
