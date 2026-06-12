@@ -253,6 +253,41 @@ export default function SpecialistiPage() {
                     </div>
                 </div>
             </section>
+
+            <section className="content-section">
+                <div className="container">
+                    <div className="colaborator-card">
+                        <h2 className="colaborator-name">Centrul de Sănătate „Sfântul Nectarie"</h2>
+                        <p className="colaborator-affiliation">
+                            <a href="https://www.nectarie6.ro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)' }}>
+                                www.nectarie6.ro
+                            </a>
+                            {' '}— Centru în subordinea Primăriei Sectorului 6
+                        </p>
+
+                        <p className="colaborator-bio">
+                            Centrul de Sănătate „Sfântul Nectarie", aflat în subordinea Primăriei Sectorului 6, este situat în zona Lujerului, cartier Militari. Este singura clinică de stat din Sectorul 6 dotată cu aparatură de specialitate, pregătită să stabilească un diagnostic prin intermediul celor mai noi metode de investigație, în sistem ambulatoriu.
+                        </p>
+
+                        <p className="colaborator-bio">
+                            Motto-ul clinicii — <em>„Oamenii sunt grija noastră"</em> — reflectă valorile care ghidează misiunea de a oferi tuturor un act medical complet, performant și accesibil, inclusiv persoanelor cu situație materială dificilă din Sectorul 6.
+                        </p>
+
+                        <h3 className="colaborator-subtitle">Specialități medicale</h3>
+                        <p className="colaborator-bio">
+                            Stomatologie, oftalmologie, medicină internă, ortopedie, gastroenterologie, recuperare medicală, ginecologie, ORL, chirurgie generală, psihiatrie, pediatrie, cardiologie, dermatologie, endocrinologie, pneumologie, neurochirurgie, urologie, psihologie clinică, chirurgie cardio-vasculară, medicină a muncii, diabet zaharat, nutriție și boli metabolice, radiologie și imagistică medicală.
+                        </p>
+
+                        <h3 className="colaborator-subtitle">Servicii disponibile</h3>
+                        <ul className="colaborator-list">
+                            <li>Servicii de diagnostic și terapie în sistem ambulatoriu</li>
+                            <li>Laborator de analize medicale complete</li>
+                            <li>Serviciu de salinoterapie în incinta salinei</li>
+                            <li>Pachete medicale personalizate pentru toți membrii comunității</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }
