@@ -4789,6 +4789,61 @@ body {
   100% { transform: translateX(-50%); }
 }
 
+/* ===== Consiliere Oncologica ===== */
+.consiliere-section {
+    background-color: var(--light-gray);
+    border-bottom: 3px solid var(--magenta);
+    padding: 36px 0;
+}
+
+.consiliere-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--dark-gray);
+    margin-bottom: 14px;
+    padding-left: 16px;
+    border-left: 4px solid var(--magenta);
+}
+
+.consiliere-desc {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.consiliere-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.consiliere-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.consiliere-label {
+    font-weight: 600;
+    color: var(--dark-gray);
+    min-width: 80px;
+}
+
+.consiliere-value {
+    color: #333;
+}
+
+.consiliere-link {
+    color: var(--magenta);
+    text-decoration: none;
+}
+
+.consiliere-link:hover {
+    text-decoration: underline;
+}
+
 
 
 /* ===== News Articles List ===== */

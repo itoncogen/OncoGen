@@ -15,6 +15,20 @@ export default function SpecialistiPage() {
                 </div>
             </section>
 
+            <section className="consiliere-section">
+                <div className="container">
+                    <h2 className="consiliere-title">Consiliere oncologică online</h2>
+                    <div className="consiliere-content">
+                        <p className="consiliere-desc">
+                            Pentru programări și informații legate de consilierea oncologică online, puteți contacta specialiștii noștri la:
+                        </p>
+                        <div className="consiliere-contacts">
+                            {/* Adaugă aici numerele de telefon și adresele de email */}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="content-section">
                 <div className="container">
                     <div className="colaborator-card">
