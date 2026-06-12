@@ -15,6 +15,20 @@ export default function SpecialistiPage() {
                 </div>
             </section>
 
+            <section className="consiliere-section">
+                <div className="container">
+                    <h2 className="consiliere-title">Consiliere oncologică online</h2>
+                    <div className="consiliere-content">
+                        <p className="consiliere-desc">
+                            Pentru programări și informații legate de consilierea oncologică online, puteți contacta specialiștii noștri la:
+                        </p>
+                        <div className="consiliere-contacts">
+                            {/* Adaugă aici numerele de telefon și adresele de email */}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section className="content-section">
                 <div className="container">
                     <div className="colaborator-card">
@@ -72,6 +86,12 @@ export default function SpecialistiPage() {
                             <li>Rezidență în medicină internă — Albert Einstein College of Medicine, Bronx, New York, 1996–99</li>
                             <li>Fellowship, Hematologie și Oncologie — Montefiore Hospital, New York, 1999–2002</li>
                         </ul>
+
+                        <p className="colaborator-bio" style={{ marginTop: '16px' }}>
+                            <a href="https://www.asociatiaheal.ro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)' }}>
+                                www.asociatiaheal.ro
+                            </a>{' '}— site îndrumător pentru consiliere oncologică
+                        </p>
                     </div>
                 </div>
             </section>
@@ -184,6 +204,86 @@ export default function SpecialistiPage() {
                             <li>Medici&apos;s Clinics — str. Dimitrie Paciurea nr. 5, Timișoara</li>
                             <li>MedLife Medici&apos;s Academica — Bul. Circumvalațiunii nr. 8-10, Timișoara</li>
                             <li>Profilaxis — str. 1 Decembrie 1918 nr. 106, Timișoara</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section className="content-section">
+                <div className="container">
+                    <div className="colaborator-card">
+                        <h2 className="colaborator-name">Asociația Heal — Navigare, Second Opinion și Tumor Board</h2>
+                        <p className="colaborator-affiliation">
+                            <a href="https://www.asociatiaheal.ro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)' }}>
+                                www.asociatiaheal.ro
+                            </a>
+                        </p>
+
+                        <p className="colaborator-bio">
+                            Asociația Heal îmbunătățește accesul la expertiză medicală adecvată și la o asistență colaborativă și coordonată. Ghidează pașii pacienților diagnosticați cu cancer de la diagnostic, la terapie, la reabilitarea după tratament, alături de ei, de medicii lor și de familiile lor, la fiecare pas și cu fiecare nevoie.
+                        </p>
+
+                        <p className="colaborator-bio">
+                            Asociația Heal a fost înființată de către un grup de medici și pasionați ai sănătății digitale, dornici să schimbe sistemul de îngrijire și calitatea vieții bolnavilor de cancer din România. Prin proiectele sale și prin dezvoltarea unei rețele internaționale de tele-expertiză oncologică, toți pacienții români pot avea acces la un diagnostic precis și la cel mai potrivit tratament, cât mai aproape de locul în care trăiesc.
+                        </p>
+
+                        <div className="colaborator-grid">
+                            <div>
+                                <h3 className="colaborator-subtitle">Navigare și Consiliere</h3>
+                                <p className="colaborator-bio">
+                                    Serviciul de navigare oferă suport personalizat și sprijin în problemele practice, fizice și emoționale care pot apărea atunci când cineva se confruntă cu un diagnostic de cancer. Ajută pacientul să navigheze sistemul de sănătate prin identificarea resurselor adecvate pentru diagnosticul său, coordonează serviciile de care are nevoie și îl învață să comunice eficient cu echipa medicală.
+                                </p>
+                            </div>
+                            <div>
+                                <h3 className="colaborator-subtitle">Second Opinion</h3>
+                                <p className="colaborator-bio">
+                                    Serviciul de Second Opinion facilitează persoanelor care au primit deja un diagnostic oncologic accesul la o echipă de experți din țară și străinătate pentru a obține o a doua opinie independentă. Evaluările pot aduce deseori o perspectivă nouă asupra situației medicale, utile atât pacienților, cât și medicilor curanți.
+                                </p>
+                            </div>
+                        </div>
+
+                        <h3 className="colaborator-subtitle">Tumor Board</h3>
+                        <p className="colaborator-bio">
+                            Serviciul Tumor Board este instrumentul dezvoltat pentru crearea unei rețele de asistență medicală colaborativă multi-disciplinară și schimb transfrontalier de experiență profesională. Abordarea colaborativă pune pacientul în centrul procesului de îngrijire, astfel încât acesta să poată lua cele mai bune decizii în ceea ce privește sănătatea sa. Serviciul oferă toate avantajele unei a doua opinii, asigurând în același timp că medicii unui consiliu multidisciplinar sunt în consens, reducând erorile și rezolvând orice potențial conflict privind diagnosticul și planul de tratament.
+                        </p>
+
+                        <h3 className="colaborator-subtitle">Misiune</h3>
+                        <p className="colaborator-bio">
+                            Este timpul să găsim soluții și să depășim obstacolele pe care bolnavii de cancer le întâmpină zi de zi într-un sistem sanitar haotic. Asociația Heal dorește ca sutele de mii de pacienți oncologici din țară, indiferent de zona în care locuiesc sau de situația lor financiară, să aibă acces la informare corectă, resurse adecvate și opțiuni terapeutice conforme protocoalelor la nivel mondial.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section className="content-section">
+                <div className="container">
+                    <div className="colaborator-card">
+                        <h2 className="colaborator-name">Centrul de Sănătate „Sfântul Nectarie"</h2>
+                        <p className="colaborator-affiliation">
+                            <a href="https://www.nectarie6.ro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)' }}>
+                                www.nectarie6.ro
+                            </a>
+                            {' '}— Centru în subordinea Primăriei Sectorului 6
+                        </p>
+
+                        <p className="colaborator-bio">
+                            Centrul de Sănătate „Sfântul Nectarie", aflat în subordinea Primăriei Sectorului 6, este situat în zona Lujerului, cartier Militari. Este singura clinică de stat din Sectorul 6 dotată cu aparatură de specialitate, pregătită să stabilească un diagnostic prin intermediul celor mai noi metode de investigație, în sistem ambulatoriu.
+                        </p>
+
+                        <p className="colaborator-bio">
+                            Motto-ul clinicii — <em>„Oamenii sunt grija noastră"</em> — reflectă valorile care ghidează misiunea de a oferi tuturor un act medical complet, performant și accesibil, inclusiv persoanelor cu situație materială dificilă din Sectorul 6.
+                        </p>
+
+                        <h3 className="colaborator-subtitle">Specialități medicale</h3>
+                        <p className="colaborator-bio">
+                            Stomatologie, oftalmologie, medicină internă, ortopedie, gastroenterologie, recuperare medicală, ginecologie, ORL, chirurgie generală, psihiatrie, pediatrie, cardiologie, dermatologie, endocrinologie, pneumologie, neurochirurgie, urologie, psihologie clinică, chirurgie cardio-vasculară, medicină a muncii, diabet zaharat, nutriție și boli metabolice, radiologie și imagistică medicală.
+                        </p>
+
+                        <h3 className="colaborator-subtitle">Servicii disponibile</h3>
+                        <ul className="colaborator-list">
+                            <li>Servicii de diagnostic și terapie în sistem ambulatoriu</li>
+                            <li>Laborator de analize medicale complete</li>
+                            <li>Serviciu de salinoterapie în incinta salinei</li>
+                            <li>Pachete medicale personalizate pentru toți membrii comunității</li>
                         </ul>
                     </div>
                 </div>

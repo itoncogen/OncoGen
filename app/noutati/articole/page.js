@@ -89,6 +89,10 @@ const competitii = [
     { id: 12, titlu: 'Apel european 2026 pentru imunologie tumorală și imunoterapie.Pragmatic clinical trials to optimise immunotherapeutic interventions for patients with refractory cancers. Cod: HORIZON-MISS-2026-02-CANCER-03', url: 'https://www.euro-access.eu/en/calls/2674/Pragmatic-clinical-trials-to-optimise-immunotherapeutic-interventions-for-patients-with-refractory-cancers'},
     { id: 13, titlu: 'Virtual Human Twin (VHT) Models for Cancer Research. Cod: HORIZON-MISS-2026-02-CANCER-01', url: 'https://cordis.europa.eu/programme/id/HORIZON_HORIZON-MISS-2026-02-CANCER-01'},
     { id: 14, titlu: 'Microbiome for early cancer prediction before the onset of disease. Cod: HORIZON-MISS-2026-02-CANCER-02', url: 'https://www.horizon-europe.gouv.fr/microbiome-early-cancer-prediction-onset-disease-41628', url2: 'https://23ebfcf9.streak-link.com/C6juHPjZmfHAEAWIAAqnVf8G/https%3A%2F%2Fwww.horizon-europe.gouv.fr%2Fmicrobiome-early-cancer-prediction-onset-disease-41628'},
+    { id: 15, titlu: 'PCE 2026 (Proiecte de Cercetare Exploratorie)', url: 'https://uefiscdi.gov.ro/'},
+    { id: 16, titlu: 'TE 2026 (Proiecte de Cercetare pentru Stimularea Tinerelor Echipe Independente)', url: 'https://uefiscdi.gov.ro/'},
+    { id: 17, titlu: 'CLS 2026 (Organizare și Dezvoltare Cluster Inovativ)', url: 'https://uefiscdi.gov.ro/'},
+    { id: 18, titlu: 'UNITE Agile Piloting 2026 – European Digital Health Valleys', url: 'https://uefiscdi-direct.ro/'}
 ];
 
 export default function ArticolePage() {
