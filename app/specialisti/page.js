@@ -219,7 +219,7 @@ export default function SpecialistiPage() {
                         </p>
 
                         <p className="colaborator-bio">
-                            Asociația Heal îmbunătățește accesul la expertiză medicală adecvată și la o asistență colaborativă și coordonată. Ghidează pașii pacienților diagnosticați cu cancer de la diagnostic, la terapie, la reabilitarea după tratament — alături de ei, de medicii lor și de familiile lor, la fiecare pas și cu fiecare nevoie.
+                            Asociația Heal îmbunătățește accesul la expertiză medicală adecvată și la o asistență colaborativă și coordonată. Ghidează pașii pacienților diagnosticați cu cancer de la diagnostic, la terapie, la reabilitarea după tratament, alături de ei, de medicii lor și de familiile lor, la fiecare pas și cu fiecare nevoie.
                         </p>
 
                         <p className="colaborator-bio">
