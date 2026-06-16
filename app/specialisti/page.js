@@ -205,6 +205,11 @@ export default function SpecialistiPage() {
                             <li>MedLife Medici&apos;s Academica — Bul. Circumvalațiunii nr. 8-10, Timișoara</li>
                             <li>Profilaxis — str. 1 Decembrie 1918 nr. 106, Timișoara</li>
                         </ul>
+
+                        <h3 className="colaborator-subtitle">Programari online:</h3>
+                        <p claasName="cloaborator-bio">
+                            https://programari.hosptm.ro/
+                        </p>
                     </div>
                 </div>
             </section>
