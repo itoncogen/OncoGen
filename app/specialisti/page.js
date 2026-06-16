@@ -208,7 +208,7 @@ export default function SpecialistiPage() {
 
                         <h3 className="colaborator-subtitle">Programări online:</h3>
                         <p className="colaborator-bio">
-                            <a href="https://programari.hosptm.ro/" target="_blank" rel="noopener noreferrer" style={{ color: 'var (--magenta)'}}>
+                            <a href="https://programari.hosptm.ro/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)'}}>
                                 programari.hosptm.ro
                             </a>
                         </p>
