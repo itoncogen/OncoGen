@@ -220,7 +220,7 @@ export default function SpecialistiPage() {
                     <div className="colaborator-card">
                         <h2 className="colaborator-name">Asociația Heal — Navigare, Second Opinion și Tumor Board</h2>
                         <p className="colaborator-affiliation">
-                            <a href="https://www.asociatiaheal.ro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)' }}>
+                            <a href="https://www.asociatiaheal.ro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)'}}>
                                 www.asociatiaheal.ro
                             </a>
                         </p>
