@@ -207,7 +207,7 @@ const fullTeam = [
     },
     {
         name: 'Cosmin Stoin',
-        role: ' ',
+        role: 'Administrator ',
         details: ' ',
         avatar: '/imagini-personal-oncogen/Cosmin_Stoin.jpeg',
         cvFile: '/CV-personal-oncogen/CV_Stoin_Cosmin_Adrian.pdf'

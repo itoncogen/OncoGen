@@ -205,6 +205,13 @@ export default function SpecialistiPage() {
                             <li>MedLife Medici&apos;s Academica — Bul. Circumvalațiunii nr. 8-10, Timișoara</li>
                             <li>Profilaxis — str. 1 Decembrie 1918 nr. 106, Timișoara</li>
                         </ul>
+
+                        <h3 className="colaborator-subtitle">Programări online:</h3>
+                        <p className="colaborator-bio">
+                            <a href="https://programari.hosptm.ro/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)'}}>
+                                programari.hosptm.ro
+                            </a>
+                        </p>
                     </div>
                 </div>
             </section>
@@ -213,7 +220,7 @@ export default function SpecialistiPage() {
                     <div className="colaborator-card">
                         <h2 className="colaborator-name">Asociația Heal — Navigare, Second Opinion și Tumor Board</h2>
                         <p className="colaborator-affiliation">
-                            <a href="https://www.asociatiaheal.ro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)' }}>
+                            <a href="https://www.asociatiaheal.ro" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--magenta)'}}>
                                 www.asociatiaheal.ro
                             </a>
                         </p>
