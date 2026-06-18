@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-    title: 'Noutăți științifice din domeniile: imunologie în cancer, medicină regenerativă, alergologie | OncoGen',
+    title: 'Noutăți științifice | OncoGen',
     description: 'Cele mai recente noutăți științifice din domeniul oncologiei și terapiilor celulare.',
 };
 
