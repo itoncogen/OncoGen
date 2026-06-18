@@ -30,7 +30,7 @@ export default function DesprePage() {
                         </a>
                         <a href="#comitet" className="hub-card">
                             <h3>Comitet Științific</h3>
-                            <p>Membri și structura comitetului de supraveghere științifică</p>
+                            <p>Membrii și structura comitetului de supraveghere științifică</p>
                         </a>
                         <a href="#infrastructura" className="hub-card">
                             <h3>Infrastructură &amp; Facilități</h3>
