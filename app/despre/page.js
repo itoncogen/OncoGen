@@ -211,7 +211,7 @@ export default function DesprePage() {
                         </div>
                         <div className="infra-card">
                             <h3>Echipamente Avansate</h3>
-                            <p>Secvențializator ADN, citometru de flux, microscoape confocale, PCR în timp real și altele.</p>
+                            <p>Secvențializator ADN, flowcitometre, microscoape confocale, real-time PCR și altele.</p>
                         </div>
                         <div className="infra-card">
                             <h3>Bioinformatică</h3>
