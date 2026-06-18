@@ -107,7 +107,7 @@ export default function ArticolePage() {
 
             <section className="hero-secondary">
                 <div className="container">
-                    <h1>Noutăți științifice din domeniile: imunologie în cancer, medicină regenerativă, alergologie</h1>
+                    <h1 style={{ fontSize: '32px' }}>Noutăți științifice din domeniile: imunologie în cancer, medicină regenerativă, alergologie</h1>
                 </div>
             </section>
 
