@@ -30,7 +30,7 @@ export default function DesprePage() {
                         </a>
                         <a href="#comitet" className="hub-card">
                             <h3>Comitet Științific</h3>
-                            <p>Membri și structura comitetului de supraveghere științifică</p>
+                            <p>Membrii și structura comitetului de supraveghere științifică</p>
                         </a>
                         <a href="#infrastructura" className="hub-card">
                             <h3>Infrastructură &amp; Facilități</h3>
@@ -211,7 +211,7 @@ export default function DesprePage() {
                         </div>
                         <div className="infra-card">
                             <h3>Echipamente Avansate</h3>
-                            <p>Secvențializator ADN, citometru de flux, microscoape confocale, PCR în timp real și altele.</p>
+                            <p>Secvențializator ADN, flowcitometre, microscoape confocale, real-time PCR și altele.</p>
                         </div>
                         <div className="infra-card">
                             <h3>Bioinformatică</h3>
