@@ -4844,7 +4844,72 @@ body {
     text-decoration: underline;
 }
 
+/* ===== Anunt Card ===== */
+.anunt-card {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 28px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
 
+.anunt-card-media {
+    flex: 0 0 280px;
+    max-width: 280px;
+}
+
+.anunt-card-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+}
+
+.anunt-card-caption {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    text-align: center;
+}
+
+.anunt-card-caption strong {
+    color: var(--dark-gray);
+    font-size: 16px;
+}
+
+.anunt-card-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.anunt-card-body p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 16px;
+}
+
+.anunt-card-body p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .anunt-card {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .anunt-card-media {
+        flex: 0 0 auto;
+        max-width: 100%;
+        align-self: center;
+    }
+}
 
 /* ===== News Articles List ===== */
 .news-articles-list {
