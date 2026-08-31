@@ -3,7 +3,7 @@ export default function TickerBar() {
         "Diferențierea in vitro a celulelor stem mezenchimale",
         "Fibroblastele peri-tumorale",
         "Biomarkeri și strategii terapeutice",
-        "OncoGen este un centru de excelență în cercetare cu preocupări în cancer, alergii și medicina regenerativă.",
+        "OncoGen este un centru de excelență specializat în cancer, alergii și medicină regenerativă.",
     ];
 
     return (
