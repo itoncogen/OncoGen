@@ -53,11 +53,6 @@ export default function DesprePage() {
                             <h3>Misiune </h3>
                             <ul>
                                 <li>
-                                    Misiunea OncoGen Timișoara este să devină un centru de excelență în cercetarea și dezvoltarea terapiilor genice și celulare,
-                                    dedicat transformării cunoștințelor științifice de vârf în soluții clinice concrete. Centrul urmărește să redefinească standardele
-                                    tratamentelor personalizate, printr-o abordare interdisciplinară, integrând cercetarea fundamentală, translatională și aplicativă.
-                                </li>
-                                <li>
                                     OncoGen iși dorește să ofere pacienților opțiuni terapeutice inovatoare, precise și sigure, sprijinind progresul medical prin colaborări
                                     cu instituții academice de prestigiu, centre internaționale de cercetare și parteneri industriali. Prin excelență științifică, inovare tehnologică
                                     și dedicare față de pacient, centrul aspiră să fie un reper în domeniul terapiilor avansate, transformând descoperirile științifice în beneficii reale
@@ -69,12 +64,6 @@ export default function DesprePage() {
                             <h3>Viziune </h3>
                             <ul>
                                 <li>
-                                    OncoGen Timisoara își dorește să devină un lider recunoscut la nivel internațional
-                                    în dezvoltarea terapiilor genice și celulare, unde cercetarea științifică de excelență se transformă în soluții medicale
-                                    tangibile. Ne dorim ca inovația și expertiza noastră să contribuie la schimbarea paradigmei în tratamentul cancerului și al bolilor
-                                    cronice degenerative cu morbiditate crescută și opțiuni terapeutice limitate, oferind pacienților acces la cele mai avansate și eficiente terapii.
-                                </li>
-                                <li>
                                     Centrul aspiră să fie un punct de referință pentru colaborări științifice și clinice,
                                     un loc în care excelența, etica și inovația se întâlnesc pentru a aduce beneficii reale pentru sănătatea pacienților.
                                 </li>
@@ -83,12 +72,12 @@ export default function DesprePage() {
                         <div className="content-card">
                             <h3>Direcții Strategice</h3>
                             <ul>
-                                <li>Promovarea unui program științific bine definit care asigură continuitatea între cercetarea fundamentală și cea clinică</li>
-                                <li>Formarea și menținerea unui nucleu de cercetători înalt calificați</li>
-                                <li>Promovarea unui mediu academic și științific de înaltă calitate</li>
-                                <li>Promovarea unei culturi organizaționale bazate pe inovare și performanță</li>
-                                <li>Sprijinirea personalului prin acces la cele mai performante și moderne tehnologii</li>
-                                <li>Creșterea gradului de personalizare a îngrijirii sănătății prin adaptarea terapiilor la nevoile individuale</li>
+                                <li>Promovarea unui program științific bine definit, care asigură continuitatea între cercetarea fundamentală, translatarea rezultatelor și aplicarea clinică</li>
+                                <li>Dezvoltarea cercetării translaționale pentru transformarea rezultatelor științifice în soluții cu potențial de utilizare în practica medicală</li>
+                                <li>Dezvoltarea capacităților de microproducție pentru susținerea activităților de cercetare, validare și transfer tehnologic</li>
+                                <li>Formarea și menținerea unui nucleu de cercetători înalt calificați, într-un mediu academic și științific performant</li>
+                                <li>Promovarea unei culturi organizaționale bazate pe inovare, colaborare interdisciplinară și performanță</li>
+                                <li>Sprijinirea personalului prin acces la tehnologii moderne și dezvoltarea unor soluții terapeutice personalizate</li>
                             </ul>
                         </div>
                     </div>
