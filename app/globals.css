@@ -1208,14 +1208,15 @@ body {
 }
 
 .project-card-listing {
-    min-height: 220px;
+    min-height: 0;
+    aspect-ratio: 1 / 1;
     display: flex;
     flex-direction: column;
     gap: 16px;
     overflow: hidden;
     position: relative;
     isolation: isolate;
-    border-radius: 62% 38% 55% 45% / 48% 52% 48% 52%;
+    border-radius: 0;
 }
 
 .project-card-listing .card-tag,
@@ -1269,14 +1270,15 @@ body {
 }
 
 .featured-project-card {
-    min-height: 220px;
+    min-height: 0;
+    aspect-ratio: 1 / 1;
     display: flex;
     flex-direction: column;
     gap: 16px;
     overflow: hidden;
     position: relative;
     isolation: isolate;
-    border-radius: 62% 38% 55% 45% / 48% 52% 48% 52%;
+    border-radius: 0;
 }
 
 .featured-project-card .project-header,
@@ -2466,7 +2468,7 @@ body {
 .project-card {
     background-color: var(--light-gray);
     padding: 16% 14%;
-    border-radius: 62% 38% 55% 45% / 48% 52% 48% 52%;
+    border-radius: 0;
     transition: all 0.3s ease;
     overflow: hidden;
     display: flex;
