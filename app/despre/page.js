@@ -53,11 +53,6 @@ export default function DesprePage() {
                             <h3>Misiune </h3>
                             <ul>
                                 <li>
-                                    Misiunea OncoGen Timișoara este să devină un centru de excelență în cercetarea și dezvoltarea terapiilor genice și celulare,
-                                    dedicat transformării cunoștințelor științifice de vârf în soluții clinice concrete. Centrul urmărește să redefinească standardele
-                                    tratamentelor personalizate, printr-o abordare interdisciplinară, integrând cercetarea fundamentală, translatională și aplicativă.
-                                </li>
-                                <li>
                                     OncoGen iși dorește să ofere pacienților opțiuni terapeutice inovatoare, precise și sigure, sprijinind progresul medical prin colaborări
                                     cu instituții academice de prestigiu, centre internaționale de cercetare și parteneri industriali. Prin excelență științifică, inovare tehnologică
                                     și dedicare față de pacient, centrul aspiră să fie un reper în domeniul terapiilor avansate, transformând descoperirile științifice în beneficii reale
@@ -69,12 +64,6 @@ export default function DesprePage() {
                             <h3>Viziune </h3>
                             <ul>
                                 <li>
-                                    OncoGen Timisoara își dorește să devină un lider recunoscut la nivel internațional
-                                    în dezvoltarea terapiilor genice și celulare, unde cercetarea științifică de excelență se transformă în soluții medicale
-                                    tangibile. Ne dorim ca inovația și expertiza noastră să contribuie la schimbarea paradigmei în tratamentul cancerului și al bolilor
-                                    cronice degenerative cu morbiditate crescută și opțiuni terapeutice limitate, oferind pacienților acces la cele mai avansate și eficiente terapii.
-                                </li>
-                                <li>
                                     Centrul aspiră să fie un punct de referință pentru colaborări științifice și clinice,
                                     un loc în care excelența, etica și inovația se întâlnesc pentru a aduce beneficii reale pentru sănătatea pacienților.
                                 </li>
@@ -83,12 +72,12 @@ export default function DesprePage() {
                         <div className="content-card">
                             <h3>Direcții Strategice</h3>
                             <ul>
-                                <li>Promovarea unui program științific bine definit care asigură continuitatea între cercetarea fundamentală și cea clinică</li>
-                                <li>Formarea și menținerea unui nucleu de cercetători înalt calificați</li>
-                                <li>Promovarea unui mediu academic și științific de înaltă calitate</li>
-                                <li>Promovarea unei culturi organizaționale bazate pe inovare și performanță</li>
-                                <li>Sprijinirea personalului prin acces la cele mai performante și moderne tehnologii</li>
-                                <li>Creșterea gradului de personalizare a îngrijirii sănătății prin adaptarea terapiilor la nevoile individuale</li>
+                                <li>Promovarea unui program științific bine definit, care asigură continuitatea între cercetarea fundamentală, translatarea rezultatelor și aplicarea clinică</li>
+                                <li>Dezvoltarea cercetării translaționale pentru transformarea rezultatelor științifice în soluții cu potențial de utilizare în practica medicală</li>
+                                <li>Dezvoltarea capacităților de microproducție pentru susținerea activităților de cercetare, validare și transfer tehnologic</li>
+                                <li>Formarea și menținerea unui nucleu de cercetători înalt calificați, într-un mediu academic și științific performant</li>
+                                <li>Promovarea unei culturi organizaționale bazate pe inovare, colaborare interdisciplinară și performanță</li>
+                                <li>Sprijinirea personalului prin acces la tehnologii moderne și dezvoltarea unor soluții terapeutice personalizate</li>
                             </ul>
                         </div>
                     </div>
@@ -178,8 +167,9 @@ export default function DesprePage() {
                     </p>
                     <div className="committee-list">
                         <div className="committee-member">
-                            <h4>Prof. Dr. Erhard Seifried, MD</h4>
-                            <p>Executive Director, Transfusion Center of the Red Cross, Frankfurt/Main, Germany</p>
+                            <h4>Adrian Salic, Ph.D.</h4>
+                            <p>Professor of Cell Biology, Harvard Medical School
+                            Principal Investigator, Salic Lab</p>
                         </div>
                         <div className="committee-member">
                             <h4>Prof. Dr. Torsten Tonn, MD</h4>
@@ -269,69 +259,6 @@ export default function DesprePage() {
                         </div>
                         <div className="about-images">
                             <img src="/images/slide01_v6_A2.jpg" alt="OncoGen Facility 1" />
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="research-domains">
-                <div className="container">
-                    <h3>// DOMENII</h3>
-                    <h2>Cercetare de Ultimă Generație</h2>
-                    <p className="domains-intro">
-                        OncoGen este primul centru de terapii genice din România, dedicat cercetării în domenii conexe
-                        specialităților clinice din cadrul Spitalului Clinic Județean de Urgență "Pius Brînzeu" Timișoara:
-                    </p>
-
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '48px', margin: '32px 0 60px 0', flexWrap: 'wrap' }}>
-                        {/* Imagini suprapuse - stânga */}
-                        <div style={{ position: 'relative', width: '420px', height: '380px', flexShrink: 0 }}>
-                            <img
-                                src="/images/decode-poza.jpg"
-                                alt="Laborator clean room OncoGen"
-                                style={{
-                                    position: 'absolute',
-                                    bottom: 0,
-                                    left: 0,
-                                    width: '280px',
-                                    height: '240px',
-                                    objectFit: 'cover',
-                                    borderRadius: '32px',
-                                    boxShadow: '0 8px 28px rgba(0,0,0,0.22)',
-                                    zIndex: 1
-                                }}
-                            />
-                            <img
-                                src="/images/oncogen-outside.jpg"
-                                alt="Clădirea OncoGen Timișoara"
-                                style={{
-                                    position: 'absolute',
-                                    top: 0,
-                                    right: 0,
-                                    width: '220px',
-                                    height: '185px',
-                                    objectFit: 'cover',
-                                    borderRadius: '32px',
-                                    boxShadow: '0 8px 28px rgba(0,0,0,0.22)',
-                                    zIndex: 2
-                                }}
-                            />
-                        </div>
-
-                        {/* Domenii - dreapta, grid 2x2 */}
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', flex: 1, minWidth: '280px' }}>
-                            <div className="domain-card">
-                                <h4>Terapii Avansate în Cancer</h4>
-                            </div>
-                            <div className="domain-card">
-                                <h4>Medicină Regenerativă</h4>
-                            </div>
-                            <div className="domain-card">
-                                <h4>Sănătate și Factori de Mediu</h4>
-                            </div>
-                            <div className="domain-card">
-                                <h4>Imunoterapii</h4>
-                            </div>
                         </div>
                     </div>
                 </div>

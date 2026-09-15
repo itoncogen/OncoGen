@@ -94,13 +94,6 @@ const fullTeam = [
         cvFile: '/CV-personal-oncogen/CV_Stanciu_Claudia.pdf'
     },
     {
-        name: 'C.S. Med.Vet. Dr. Zambori Csilla',
-        role: 'Medic Veterinar',
-        details: '',
-        avatar: '/images/profile-avatar.svg',
-        cvFile: null
-    },
-    {
         name: 'As. C.S. Biolog Buzan Roxana',
         role: 'Biolog',
         details: '',
@@ -211,13 +204,6 @@ const fullTeam = [
         details: ' ',
         avatar: '/imagini-personal-oncogen/Cosmin_Stoin.jpeg',
         cvFile: '/CV-personal-oncogen/CV_Stoin_Cosmin_Adrian.pdf'
-    },
-    {
-        name: 'Flaviu Pop',
-        role: 'Responsabil GDPR',
-        details: ' ',
-        avatar: '/imagini-personal-oncogen/Flaviu_Bob.jpeg',
-        cvFile: null
     },
     {
         name: 'Ioana Bindariu',
