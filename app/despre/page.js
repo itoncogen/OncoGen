@@ -167,8 +167,9 @@ export default function DesprePage() {
                     </p>
                     <div className="committee-list">
                         <div className="committee-member">
-                            <h4>Prof. Dr. Erhard Seifried, MD</h4>
-                            <p>Executive Director, Transfusion Center of the Red Cross, Frankfurt/Main, Germany</p>
+                            <h4>Adrian Salic, Ph.D.</h4>
+                            <p>Professor of Cell Biology, Harvard Medical School
+                            Principal Investigator, Salic Lab</p>
                         </div>
                         <div className="committee-member">
                             <h4>Prof. Dr. Torsten Tonn, MD</h4>
