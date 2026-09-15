@@ -21,7 +21,7 @@ export default function ImunoterapiiPage() {
 					<h2>Obiective</h2>
 					<p className="section-intro">
 						Prin dezvoltarea metodelor avansate de prevenție și terapie – imunoterapii, care sunt extrem de eficiente
-						în tratamentul cancerului, alergiilor și bolilor cronice degenerative (boala Alzheimer), ne propunem să
+						în tratamentul cancerului, alergiilor și bolilor cronice degenerative (boala Alzheimer), ne-am propus să
 						îmbunătățim semnificativ sănătatea populației, îmbunătățind astfel calitatea vieții și reducând totodată
 						costurile serviciilor medicale în anumite boli.
 					</p>
@@ -48,7 +48,7 @@ export default function ImunoterapiiPage() {
 								prealabilă și fără a fi nevoie de compatibilitatea antigenilor leucocitelor umane.
 							</p>
 							<p>
-								Obiectivul principal este de a dezvolta noi CAR-uri adecvate în special în terapiile cu celule NK,
+								Obiectivul principal a fost de a dezvolta noi CAR-uri adecvate în special în terapiile cu celule NK,
 								reprezentând cea mai recentă terapie personalizată anti-tumorală. Tehnologia poate fi extinsă la
 								antigene tumorale pentru cancerul ovarian, de colon, de sân și cel pulmonar.
 							</p>
@@ -59,9 +59,9 @@ export default function ImunoterapiiPage() {
 							<h3>b) INSPIRED</h3>
 							<p><strong>Strategii inovatoare pentru prevenția, diagnosticarea și terapia bolilor respiratorii induse de polenul de ambrozie</strong></p>
 							<p>
-								Obiectivul principal al proiectului INSPIRED este dezvoltarea unui nou kit de diagnostic bazat pe
-								utilizarea de alergeni recombinați, specific pentru pacienții alergici la ambrozie, care va ținti
-								mai bine terapia bolii și va crea o excelență științifică de nivel înalt în aplicarea tehnologiilor
+								Obiectivul principal al proiectului INSPIRED a fost dezvoltarea unui nou kit de diagnostic bazat pe
+								utilizarea de alergeni recombinați, specific pentru pacienții alergici la ambrozie, care a țintit
+								mai bine terapia bolii și a creat o excelență științifică de nivel înalt în aplicarea tehnologiilor
 								avansate bazate pe alergeni recombinanți.
 							</p>
 							<p>

@@ -263,69 +263,6 @@ export default function DesprePage() {
                     </div>
                 </div>
             </section>
-
-            <section className="research-domains">
-                <div className="container">
-                    <h3>// DOMENII</h3>
-                    <h2>Cercetare de Ultimă Generație</h2>
-                    <p className="domains-intro">
-                        OncoGen este primul centru de terapii genice din România, dedicat cercetării în domenii conexe
-                        specialităților clinice din cadrul Spitalului Clinic Județean de Urgență "Pius Brînzeu" Timișoara:
-                    </p>
-
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '48px', margin: '32px 0 60px 0', flexWrap: 'wrap' }}>
-                        {/* Imagini suprapuse - stânga */}
-                        <div style={{ position: 'relative', width: '420px', height: '380px', flexShrink: 0 }}>
-                            <img
-                                src="/images/decode-poza.jpg"
-                                alt="Laborator clean room OncoGen"
-                                style={{
-                                    position: 'absolute',
-                                    bottom: 0,
-                                    left: 0,
-                                    width: '280px',
-                                    height: '240px',
-                                    objectFit: 'cover',
-                                    borderRadius: '32px',
-                                    boxShadow: '0 8px 28px rgba(0,0,0,0.22)',
-                                    zIndex: 1
-                                }}
-                            />
-                            <img
-                                src="/images/oncogen-outside.jpg"
-                                alt="Clădirea OncoGen Timișoara"
-                                style={{
-                                    position: 'absolute',
-                                    top: 0,
-                                    right: 0,
-                                    width: '220px',
-                                    height: '185px',
-                                    objectFit: 'cover',
-                                    borderRadius: '32px',
-                                    boxShadow: '0 8px 28px rgba(0,0,0,0.22)',
-                                    zIndex: 2
-                                }}
-                            />
-                        </div>
-
-                        {/* Domenii - dreapta, grid 2x2 */}
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', flex: 1, minWidth: '280px' }}>
-                            <div className="domain-card">
-                                <h4>Terapii Avansate în Cancer</h4>
-                            </div>
-                            <div className="domain-card">
-                                <h4>Medicină Regenerativă</h4>
-                            </div>
-                            <div className="domain-card">
-                                <h4>Sănătate și Factori de Mediu</h4>
-                            </div>
-                            <div className="domain-card">
-                                <h4>Imunoterapii</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </>
     );
 }
