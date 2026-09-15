@@ -40,7 +40,7 @@ export default function Home() {
                     <p className="gallery-intro">Explorați prezentări, conferințe și documentare despre cercetarea noastră</p>
 
                     <div className="videos-grid">
-                        <a className="video-card" href="https://www.youtube.com/results?search_query=OncoGen+Prezentarea+OncoGen" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul Prezentarea OncoGen">
+                        <a className="video-card" href="https://www.youtube.com/watch?v=Ury5JBCnwL8" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul Prezentarea OncoGen">
                             <div className="video-thumbnail">
                                 <img src="/images/poza-sequence-galerie-video-oncogen.jpg" alt="Video 1" />
                                 <div className="video-overlay">
@@ -53,7 +53,7 @@ export default function Home() {
                             <p>Descoperă centrul de cercetare și facilități</p>
                         </a>
 
-                        <a className="video-card" href="https://www.youtube.com/results?search_query=OncoGen+heart+decellularization" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul Heart decellularization at OncoGen research centre">
+                        <a className="video-card" href="https://www.youtube.com/watch?v=JiYW1SC2UvE" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul Heart decellularization at OncoGen research centre">
                             <div className="video-thumbnail">
                                 <img src="/images/heart-decellularization-oncogen.jpg" alt="Video 2" />
                                 <div className="video-overlay">
@@ -65,7 +65,7 @@ export default function Home() {
                             <h3>Heart decellularization at OncoGen research centre</h3>
                         </a>
 
-                        <a className="video-card" href="https://www.youtube.com/results?search_query=OncoGen+3D+printing+blood+vessel" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul 3D printing blood vessel at OncoGen research centre">
+                        <a className="video-card" href="https://www.youtube.com/watch?v=V4EeNSoO0NQ" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul 3D printing blood vessel at OncoGen research centre">
                             <div className="video-thumbnail">
                                 <img src="/images/3D-printing-blood-vessel.jpg" alt="Video 3" />
                                 <div className="video-overlay">
@@ -77,7 +77,7 @@ export default function Home() {
                             <h3>3D printing blood vessel at OncoGen research centre</h3>
                         </a>
 
-                        <a className="video-card" href="https://www.youtube.com/results?search_query=OncoGen+3D+printing+tumors" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul 3D printing tumors at OncoGen research centre">
+                        <a className="video-card" href="https://www.youtube.com/watch?v=JWiJf6_SyiE&t=24s" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul 3D printing tumors at OncoGen research centre">
                             <div className="video-thumbnail">
                                 <img src="/images/3D-printing-tumors-oncogen.jpg" alt="Video 4" />
                                 <div className="video-overlay">
@@ -89,7 +89,7 @@ export default function Home() {
                             <h3>3D printing tumors at OncoGen research centre</h3>
                         </a>
 
-                        <a className="video-card" href="https://www.youtube.com/results?search_query=%22S-a+terminat+pandemia%22+Virgil+Paunescu" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul S-a terminat pandemia">
+                        <a className="video-card" href="https://www.youtube.com/watch?v=1mwXgdd3SEk&t=10s" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul S-a terminat pandemia">
                             <div className="video-thumbnail">
                                 <img src="/images/s-a-terminat-pandemia.jpg" alt="Video 5" />
                                 <div className="video-overlay">
