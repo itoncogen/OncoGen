@@ -87,7 +87,7 @@ export default function ImunoterapiiPage() {
 							<p><strong>Noi biomarkeri și strategii terapeutice în imunosenescență și imunosenescența asociată bolii Alzheimer</strong></p>
 							<p>
 								Imunosenescența este definită ca o modificare progresivă a aspectului morfologic și funcțional care
-								apare în sistemul imunitar în timpul procesului de îmbătrânire. Obiectivele specifice includ:
+								apare în sistemul imunitar în timpul procesului de îmbătrânire. Obiectivele specifice au inclus:
 							</p>
 							<ul>
 								<li>Definirea stării imunosenescenței prin introducerea de noi biomarkeri celulari</li>
