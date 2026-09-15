@@ -40,7 +40,7 @@ export default function Home() {
                     <p className="gallery-intro">Explorați prezentări, conferințe și documentare despre cercetarea noastră</p>
 
                     <div className="videos-grid">
-                        <div className="video-card" >
+                        <a className="video-card" href="https://www.youtube.com/results?search_query=OncoGen+Prezentarea+OncoGen" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul Prezentarea OncoGen">
                             <div className="video-thumbnail">
                                 <img src="/images/poza-sequence-galerie-video-oncogen.jpg" alt="Video 1" />
                                 <div className="video-overlay">
@@ -51,10 +51,9 @@ export default function Home() {
                             </div>
                             <h3>Prezentarea OncoGen</h3>
                             <p>Descoperă centrul de cercetare și facilități</p>
-                        </div>
+                        </a>
 
-                        <div className="video-card"
-                        >
+                        <a className="video-card" href="https://www.youtube.com/results?search_query=OncoGen+heart+decellularization" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul Heart decellularization at OncoGen research centre">
                             <div className="video-thumbnail">
                                 <img src="/images/heart-decellularization-oncogen.jpg" alt="Video 2" />
                                 <div className="video-overlay">
@@ -64,9 +63,9 @@ export default function Home() {
                                 </div>
                             </div>
                             <h3>Heart decellularization at OncoGen research centre</h3>
-                        </div>
+                        </a>
 
-                        <div className="video-card" >
+                        <a className="video-card" href="https://www.youtube.com/results?search_query=OncoGen+3D+printing+blood+vessel" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul 3D printing blood vessel at OncoGen research centre">
                             <div className="video-thumbnail">
                                 <img src="/images/3D-printing-blood-vessel.jpg" alt="Video 3" />
                                 <div className="video-overlay">
@@ -76,9 +75,9 @@ export default function Home() {
                                 </div>
                             </div>
                             <h3>3D printing blood vessel at OncoGen research centre</h3>
-                        </div>
+                        </a>
 
-                        <div className="video-card" >
+                        <a className="video-card" href="https://www.youtube.com/results?search_query=OncoGen+3D+printing+tumors" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul 3D printing tumors at OncoGen research centre">
                             <div className="video-thumbnail">
                                 <img src="/images/3D-printing-tumors-oncogen.jpg" alt="Video 4" />
                                 <div className="video-overlay">
@@ -88,9 +87,9 @@ export default function Home() {
                                 </div>
                             </div>
                             <h3>3D printing tumors at OncoGen research centre</h3>
-                        </div>
+                        </a>
 
-                        <div className="video-card" >
+                        <a className="video-card" href="https://www.youtube.com/results?search_query=%22S-a+terminat+pandemia%22+Virgil+Paunescu" target="_blank" rel="noopener noreferrer" aria-label="Vezi videoclipul S-a terminat pandemia">
                             <div className="video-thumbnail">
                                 <img src="/images/s-a-terminat-pandemia.jpg" alt="Video 5" />
                                 <div className="video-overlay">
@@ -101,7 +100,7 @@ export default function Home() {
                             </div>
                             <h3>S-a terminat pandemia? Subestimăm virusul?</h3>
                             <p>Concluziile după doi ani | prof. Virgil Păunescu, OncoGen</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </section>
