@@ -25,7 +25,10 @@ export default function Home() {
                     <div className="hero-text">
                         <h2>// CERCETARE</h2>
                         <h1>OncoGen </h1>
-                        <p><strong>OncoGen este un centru de excelență în cercetare cu preocupări în cancer, alergii și medicină regenerativă.</strong> De la terapii genice celulare și imunoterapii anti-cancer, până la bioimprimarea 3D a țesuturilor tumorale, descoperirile echipei OncoGen sunt publicate în reviste internaționale de top și recunoscute în consorții europene finanțate de UE. Medicina viitorului se construiește în Timișoara!</p>
+                        <p>OncoGen este un centru de excelență în cercetare și microproducție cu preocupări prioritare în cancer.</p>
+                        <p>De la terapii genice celulare și imunoterapii anti-cancer, până la bioimprimarea 3D a țesuturilor tumorale, cercetările echipei OncoGen sunt publicate în reviste internaționale.</p>
+                        <p>Centrul OncoGen este finanțat prin proiecte europene, cât și prin proiecte naționale.</p>
+                        <p>Centrul OncoGen este parte a Spitalului Clinic Județean de Urgență Pius Brînzeu Timișoara.</p>
                         <div className="hero-buttons">
                             <Link href="/despre" className="btn btn-primary">Despre noi</Link>
                             <Link href="/certificari" className="btn btn-secondary">Certificări și acreditări</Link>
