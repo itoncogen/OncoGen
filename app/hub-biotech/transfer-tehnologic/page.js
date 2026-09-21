@@ -13,7 +13,7 @@ export default function TransferTehnologicPage() {
                 <div className="container">
                     <h1>Transfer Tehnologic</h1>
                     <p>
-                        De la cercetare fundamentală la prototipuri și producție în standard GMP.
+                        De la cercetare fundamentală la prototipuri și producție în condiții GMP.
                     </p>
                 </div>
             </section>
@@ -22,7 +22,7 @@ export default function TransferTehnologicPage() {
                 <div className="container">
                     <p className="section-intro">
                         Obiectivul principal este tranziția rezultatelor din cercetarea fundamentală și dezvoltare
-                        experimentală către prototipuri și ulterior către producție în standard GMP.
+                        experimentală către prototipuri și ulterior către producție în condiții GMP.
                     </p>
                     <div className="content-grid">
                         <div className="content-card">
