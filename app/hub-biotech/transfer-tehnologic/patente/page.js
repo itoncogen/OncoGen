@@ -205,10 +205,6 @@ export default function PatentePage() {
 
             <section className="content-section">
                 <div className="container">
-                    <p className="section-intro">
-                        Lista de mai jos include patentele prezentate în pagina oficială OncoGen pentru Transfer
-                        Tehnologic.
-                    </p>
 
                     <div className="patents-accordion">
                         {patents.map((patent) => (

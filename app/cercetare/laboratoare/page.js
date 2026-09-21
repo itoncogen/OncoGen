@@ -5,13 +5,13 @@ export default function LaboratoarePage() {
 		<>
 			<div className="breadcrumbs">
 				<div className="container">
-					<Link href="/">Acasă</Link> / <Link href="/cercetare">Cercetare</Link> / <span>Laboratoare și departamente</span>
+					<Link href="/">Acasă</Link> / <Link href="/cercetare">Cercetare</Link> / <span>Compartimente și laboratoare</span>
 				</div>
 			</div>
 
 			<section className="hero-secondary">
 				<div className="container">
-					<h1>Laboratoare și Departamente</h1>
+					<h1>Compartimente și laboratoare</h1>
 					<p>Infrastructura de cercetare OncoGen – compartimente specializate și laboratoare de ultimă generație</p>
 				</div>
 			</section>
