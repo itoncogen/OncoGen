@@ -96,7 +96,7 @@ export default function DesprePage() {
                         <div className="team-card">
                             <div className="team-avatar">
                                 <Image
-                                    src="/imagini-personal-oncogen/Virgil_Paunescu.jpg"
+                                    src="/imagini-personal-oncogen/Virgil_Paunescu.jpeg"
                                     alt="Prof. Dr. Virgil Păunescu"
                                     width={100}
                                     height={100}
