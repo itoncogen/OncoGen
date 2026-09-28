@@ -6,7 +6,7 @@ const fullTeam = [
         name: 'Prof. Dr. Păunescu Virgil',
         role: 'Coordonator OncoGen',
         details: 'Director științific și fondator al centrului',
-        avatar: '/imagini-personal-oncogen/Virgil_Paunescu.jpg',
+        avatar: '/imagini-personal-oncogen/Virgil_Paunescu.jpeg',
         cvFile: '/CV-personal-oncogen/CV_Paunescu_Virgil.pdf'
     },
     {
