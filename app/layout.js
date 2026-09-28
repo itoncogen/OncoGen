@@ -31,8 +31,7 @@ export default function RootLayout({ children }) {
                             <nav className="nav">
                                 <ul>
                                     <li><Link href="/">Acasă</Link></li>
-                                    <li><Link href="/despre">Despre</Link></li>
-                                    <li><Link href="/specialisti">Colaborări</Link></li>
+                                                                      <li><Link href="/specialisti">Colaborări</Link></li>
                                     <li><Link href="/stiri">Știri și Evenimente</Link></li>
                                     <li><Link href="/proiecte">Proiecte</Link></li>
                                     <NavCercetareDropdown />
@@ -165,8 +164,7 @@ export default function RootLayout({ children }) {
                                 <h4>Navigare</h4>
                                 <ul>
                                     <li><Link href="/">Acasă</Link></li>
-                                    <li><Link href="/despre">Despre</Link></li>
-                                    <li><Link href="/proiecte">Proiecte</Link></li>
+                                                                      <li><Link href="/proiecte">Proiecte</Link></li>
                                     <li><Link href="/cercetare">Cercetare</Link></li>
                                     <li><Link href="/hub-biotech">Hub Biotehnologii</Link></li>
                                     <li><Link href="/contact">Contact</Link></li>

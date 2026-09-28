@@ -49,8 +49,7 @@ export default function MobileNav() {
             <nav className={`mobile-nav ${isOpen ? 'mobile-nav--open' : ''}`} aria-label="Meniu mobil">
                 <ul className="mobile-nav-list">
                     <li><Link href="/" onClick={close}>Acasă</Link></li>
-                    <li><Link href="/despre" onClick={close}>Despre</Link></li>
-                    <li><Link href="/specialisti" onClick={close}>Specialiști</Link></li>
+                                      <li><Link href="/specialisti" onClick={close}>Specialiști</Link></li>
                     <li><Link href="/stiri" onClick={close}>Știri și Evenimente</Link></li>
                     <li><Link href="/proiecte" onClick={close}>Proiecte</Link></li>
 
