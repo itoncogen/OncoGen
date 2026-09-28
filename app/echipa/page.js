@@ -6,7 +6,7 @@ const fullTeam = [
         name: 'Prof. Dr. Păunescu Virgil',
         role: 'Coordonator OncoGen',
         details: 'Director științific și fondator al centrului',
-        avatar: '/imagini-personal-oncogen/Virgil_Paunescu.jpg',
+        avatar: '/imagini-personal-oncogen/Virgil_Paunescu.jpeg',
         cvFile: '/CV-personal-oncogen/CV_Paunescu_Virgil.pdf'
     },
     {
@@ -212,13 +212,6 @@ const fullTeam = [
         avatar: '/imagini-personal-oncogen/Ioana_Bindariu.jpeg',
         cvFile: null
     },
-    {
-        name: 'Alin Mureșanu',
-        role: 'Asistent de cercetare în medicină veterinară',
-        details: ' ',
-        avatar: '/imagini-personal-oncogen/Alin_Muresanu.jpg',
-        cvFile: '/CV-personal-oncogen/CV_Muresanu_Alin.pdf'
-    }
     // Add all remaining organization members here
 ];
 

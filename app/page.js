@@ -1,21 +1,7 @@
 import Link from 'next/link';
-import projects from '../lib/projects.json';
-
-const featuredProjectOrder = ['car-nk', 'decode', 'inspired', 'rosecan', 'delimit', 'nanocel'];
-const featuredProjectImages = {
-    'car-nk': '/images/imagini-proiecte/proiect-car-nk.jpg',
-    decode: '/images/imagini-proiecte/proiect-decode.jpg',
-    inspired: '/images/imagini-proiecte/proiect-inspired.jpg',
-    rosecan: '/images/imagini-proiecte/proiect-rosecan.png',
-    delimit: '/images/imagini-proiecte/proiect-delimit.png',
-    nanocel: '/images/imagini-proiecte/proiect-nanocel.jpg'
-};
+import DesprePage from './despre/page';
 
 export default function Home() {
-    const featuredProjects = featuredProjectOrder
-        .map((slug) => projects.projects.find((project) => project.slug === slug))
-        .filter(Boolean);
-
     return (
         <>
 
@@ -30,7 +16,7 @@ export default function Home() {
                         <p>Centrul OncoGen este finanțat prin proiecte europene, cât și prin proiecte naționale.</p>
                         <p>Centrul OncoGen este parte a Spitalului Clinic Județean de Urgență Pius Brînzeu Timișoara.</p>
                         <div className="hero-buttons">
-                            <Link href="/despre" className="btn btn-primary">Despre noi</Link>
+                            <Link href="#about" className="btn btn-primary">Despre noi</Link>
                             <Link href="/certificari" className="btn btn-secondary">Certificări și acreditări</Link>
                         </div>
                     </div>
@@ -116,39 +102,6 @@ export default function Home() {
             </div>
 
 
-            <section className="featured-projects">
-                <div className="container">
-                    <h2>Principalele proiecte de cercetare dezvoltate la OncoGen</h2>
-                    <p className="gallery-intro">Explorați selecta noastră de proiecte finanțate de Uniunea Europeană și instituții
-                        internaționale</p>
-
-                    <div className="projects-grid">
-                        {featuredProjects.map((project) => {
-                            const imagePath = featuredProjectImages[project.slug];
-                            const hasImage = Boolean(imagePath);
-
-                            return (
-                                <article
-                                    key={project.slug}
-                                    className={`project-card featured-project-card${hasImage ? ' project-card-with-image' : ''}`}
-                                    style={hasImage ? { backgroundImage: `url(${imagePath})` } : undefined}
-                                >
-                                    <div className="project-header">
-                                        <span className="project-year">{project.duration || '-'}</span>
-                                    </div>
-                                    <h3>{project.shortTitle}</h3>
-                                    {project.slug !== 'nanocel' && <p>{project.description}</p>}
-                                    <Link href={`/proiecte/${project.slug}`} className="read-more">Vezi detalii →</Link>
-                                </article>
-                            );
-                        })}
-                    </div>
-
-                    <div className="section-cta">
-                        <Link href="/proiecte" className="btn btn-primary">Vezi toate proiectele</Link>
-                    </div>
-                </div>
-            </section>
 
 
             <section id="events" className="news">
@@ -184,6 +137,7 @@ export default function Home() {
                 </div>
             </section>
 
+            <DesprePage />
         </>
 
     );
