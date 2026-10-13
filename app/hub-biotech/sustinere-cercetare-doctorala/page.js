@@ -4,39 +4,42 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const doctoranziInCurs = [
-    { id: 1, name: 'Petra CURESCU', email: 'petcurescu@gmail.com' },
-    { id: 2, name: 'Flavia Anne-Elise SZEKELY', email: 'flavia_anelise@yahoo.com' },
-    { id: 3, name: 'Alexandru TÎRZIU', email: 'alex.tirziu@gmail.com' },
-    { id: 4, name: 'Cristian-Horia CONSTANTIN', email: 'cristian.constantin@oncogen.ro' },
-    { id: 5, name: 'Alexandra IVAN', email: 'ivan.alexandra@umft.ro' },
-    { id: 6, name: 'Leonard MADA', email: 'leo.mada@syonic.eu' },
-    { id: 7, name: 'Daniela-Vasilica ȘERBAN', email: 'sdv.serban@gmail.com' },
+    { id: 1, name: 'Alexandra IVAN', email: 'ivan.alexandra@umft.ro' },
+    { id: 2, name: 'Daniela-Vasilica ȘERBAN', email: 'sdv.serban@gmail.com' },
+    { id: 3, name: 'Leonard MADA', email: 'leo.mada@syonic.eu' },
+    { id: 4, name: 'Camelia Felicia PALEA', email: '-' },
+    { id: 5, name: 'Ioan Octavian BOROGHINA', email: '-' },
 ];
 
 const doctoranziAbsolventi = [
     {
-        id: 8,
+        id: 6,
         name: 'Maria Cristiana MABDA',
         email: 'proks.maria@yahoo.ro',
         teza: 'BIOSINTEZA ȘI FORMULĂRILE PE BAZĂ DE EXTRACT DE THYMUS VULGARIS ÎN ABORDAREA CANCERULUI MAMAR: STUDII EXPERIMENTALE IN VITRO',
     },
     {
-        id: 9,
+        id: 7,
         name: 'Lavinia Paula DRĂGHIA',
         email: 'draghia_lavinia@yahoo.com',
         teza: 'ROLUL FACTORILOR DE MEDIU IMPLICAȚI ÎN ETIOLOGIA MULTIFACTORIALĂ A BOLILOR CRONICE DE RINICHI',
     },
     {
-        id: 10,
+        id: 8,
         name: 'Gheorghe Emilian OLTEANU',
         email: 'olteanugheorgheemilian@gmail.com',
         teza: 'DEVELOPMENT, ANALYSIS, AND EVOLUTION OF MULTISPECIFIC CAR-T LYMPHOCYTES IN THE IMMUNOTHERAPY OF CANCER',
     },
     {
-        id: 11,
+        id: 9,
         name: 'Greta Ionela BĂRBULESCU',
         email: 'greta.barbulescu@gmail.com',
         teza: 'INNOVATIVE BIOTECHNOLOGY FOR GENERATION OF CARDIAC TISSUE USING ANIMAL MODEL',
+    },
+    {
+        id: 10,
+        name: 'Alexandru TÎRZIU',
+        email: 'alex.tirziu@gmail.com',
     },
 ];
 
