@@ -16,7 +16,7 @@ export default function Home() {
                         <p>Centrul OncoGen este finanțat prin proiecte europene, cât și prin proiecte naționale.</p>
                         <p>Centrul OncoGen este parte a Spitalului Clinic Județean de Urgență Pius Brînzeu Timișoara.</p>
                         <div className="hero-buttons">
-                            <Link href="#about" className="btn btn-primary">Despre noi</Link>
+                            <a href="/#about" className="btn btn-primary">Despre noi</a>
                             <Link href="/certificari" className="btn btn-secondary">Certificări și acreditări</Link>
                         </div>
                     </div>
