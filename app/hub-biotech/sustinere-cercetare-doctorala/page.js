@@ -7,8 +7,8 @@ const doctoranziInCurs = [
     { id: 1, name: 'Alexandra IVAN', email: 'ivan.alexandra@umft.ro' },
     { id: 2, name: 'Daniela-Vasilica ȘERBAN', email: 'sdv.serban@gmail.com' },
     { id: 3, name: 'Leonard MADA', email: 'leo.mada@syonic.eu' },
-    { id: 4, name: 'Camelia Felicia PALEA', email: '-' },
-    { id: 5, name: 'Ioan Octavian BOROGHINA', email: '-' },
+    { id: 4, name: 'Camelia Felicia PALEA', email: 'felicia.palea@yahoo.ro' },
+    { id: 5, name: 'Ioan Octavian BOROGHINA', email: 'ioan.boroghina@umft.ro' },
 ];
 
 const doctoranziAbsolventi = [
@@ -40,6 +40,7 @@ const doctoranziAbsolventi = [
         id: 10,
         name: 'Alexandru TÎRZIU',
         email: 'alex.tirziu@gmail.com',
+        teza: 'INVESTIGAREA MECANISMELOR CITOTOXICE ANTI-TUMORALE MEDIATE DE EXOZOMII PROVENIȚI DE LA LIMFOCITE T ȘI CELULE NK CU RECEPTORI CHIMERICI DE ANTIGEN (INTERLINK)',
     },
 ];
 
