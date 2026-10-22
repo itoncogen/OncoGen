@@ -5044,3 +5044,12 @@ body {
     color: var(--gray);
     font-weight: 400;
 }
+
+.about-home-section {
+    display: none;
+}
+
+.about-home-section:target,
+.about-home-section:has(.content-section:target) {
+    display: block;
+}
