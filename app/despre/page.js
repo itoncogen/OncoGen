@@ -214,7 +214,7 @@ export default function DesprePage() {
                   </div>
               </section>
               
-              <section id="about" className="about-section">
+              <section className="about-section">
                   <div className="container">
                       <div className="about-content">
                           <div className="about-text">
