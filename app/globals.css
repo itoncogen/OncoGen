@@ -5049,6 +5049,7 @@ body {
     display: none;
 }
 
-.about-home-section:target {
+.about-home-section:target,
+.about-home-section:has(.content-section:target) {
     display: block;
 }
